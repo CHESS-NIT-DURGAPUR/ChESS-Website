@@ -1,0 +1,56 @@
+*::selection {
+  background: rgb(248, 253, 255);
+  color: #3644ff;
+}
+.footer__outer {
+  background: rgb(8, 61, 84);
+}
+.chess__logo {
+  object-fit: cover;
+}
+.footer__para {
+  color: white;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.footer__heading {
+  color: #fff !important;
+}
+.footer__mail {
+  color: inherit;
+}
+input.footer__subscribe {
+  background-color: #fff !important;
+  border: 1px solid #39393e !important;
+}
+.footer__signUp {
+  background-color: rgb(0 34 70) !important;
+  font-size: 3rem !important;
+  border: none !important;
+  color: white;
+}
+.footer__signUp:hover {
+  font-size: 3.5rem !important;
+  background-color: #fff !important;
+  color: #007bff !important;
+  border: 0.01px solid rgb(0 34 70) !important;
+}
+.footer__under__para {
+  color: inherit;
+  margin-top: 6%;
+}
+a.socialLink__a {
+  font-size: 2rem;
+}
+a.socialLink__a:hover {
+  cursor: pointer;
+  font-size: 3rem;
+}
+@media only screen and (max-width: 575px) {
+  .footer__outer {
+    text-align: center;
+  }
+  .text-left {
+    text-align: center !important;
+  }
+}

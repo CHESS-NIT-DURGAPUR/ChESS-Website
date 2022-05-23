@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap");
+* {
+  font-family: "Montserrat", sans-serif !important;
+}
+h2 {
+  word-wrap: break-word;
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
+h6 {
+  word-wrap: break-word;
+  font-size: 14px !important;
+}
+h3,
+h4 {
+  word-wrap: break-word;
+}
+.faculty__containar {
+  margin-top: 5rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+i {
+  font-size: 2.5rem;
+}

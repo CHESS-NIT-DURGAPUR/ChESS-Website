@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.about__heading {
+  color: #0b55a4;
+  font-weight: bold;
+}
+.about__image {
+  border-radius: 7rem;
+  object-fit: cover;
+}
+.about__image_outer {
+  padding-top: 12.5rem;
+}
+.main__teamButton {
+  background-color: #007bff !important;
+  font-size: 1.1rem !important;
+  border: none !important;
+  color: white;
+}
+.main__teamButton:hover {
+  font-size: 1.15rem !important;
+  background-color: #fff !important;
+  color: #007bff !important;
+  border: 1px solid rgba(0, 34, 70, 0.5) !important;
+}
+.after__blendMode {
+  background-blend-mode: darken;
+  border-radius: 6rem;
+}
+.hod__opinion {
+  box-shadow: 6px 6px 20px rgba(81, 161, 247, 0.4);
+  border: 1px solid #0b55a4;
+  margin-top: 10%;
+  margin-bottom: 4%;
+  border-radius: 2.5rem 2.5rem 0.5rem 0.5rem;
+}
+.hod__text {
+  text-align: center;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+  line-height: 2;
+  font-size: 2rem;
+}
+div.image__hover {
+  background: url("../images/wp5330256.png");
+}
+div.image__hover:hover {
+  background: url("../images/R.jfif");
+}

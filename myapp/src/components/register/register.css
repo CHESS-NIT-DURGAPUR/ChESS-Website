@@ -1,0 +1,27 @@
+.form__contact {
+  padding: 26px;
+  margin: 10rem 0 !important;
+  background: rgb(0, 45, 102) !important;
+  background: linear-gradient(
+    150deg,
+    rgba(0, 45, 102, 1) 0%,
+    rgba(52, 150, 209, 1) 100%
+  ) !important;
+  border-radius: 4rem;
+}
+.form__heading1 {
+  color: #b6ffff;
+  text-align: center;
+  font-size: 22px;
+}
+.form__heading2 {
+  color: #73e1ff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.button__footer {
+  font-size: 1.3rem !important;
+  padding: 10px !important;
+  color: #fff !important;
+  width: 75%;
+}
