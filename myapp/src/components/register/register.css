@@ -1,3 +1,30 @@
+.custom-btn {
+  font-size: 1.3rem !important;
+  width: 85%;
+  color: #fff !important;
+  border-radius: 2rem !important;
+  padding: 1.2rem 2rem !important;
+  font-weight: bold !important;
+  background: transparent !important;
+  position: relative !important;
+  box-shadow: 1px 1px 6px rgba(2, 126, 251, 0.6) !important;
+  outline: none !important;
+}
+.btn-1 {
+  background: linear-gradient(
+    0deg,
+    rgba(6, 14, 131, 1) 0%,
+    rgba(12, 25, 180, 1) 100%
+  ) !important;
+  border: none !important;
+}
+.btn-1:hover {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 3, 255, 1) 0%,
+    rgba(2, 126, 251, 1) 100%
+  ) !important;
+}
 .form__contact {
   padding: 26px;
   margin: 10rem 0 !important;
@@ -18,10 +45,4 @@
   color: #73e1ff;
   text-align: center;
   text-transform: uppercase;
-}
-.button__footer {
-  font-size: 1.3rem !important;
-  padding: 10px !important;
-  color: #fff !important;
-  width: 75%;
 }

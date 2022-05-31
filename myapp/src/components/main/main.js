@@ -8,6 +8,16 @@ import ChemInsider1 from '../../images/ChemInsider 1.jpg'
 import ChemInsider2 from '../../images/ChemInsider 2.jpg'
 import pic from "../images/wp5330256.png"
 import wall from "../images/Why Join Us.jpg"
+import img1 from "../images/1.jpg"
+import img2 from "../images/2.jpg"
+import img3 from "../images/3.jpg"
+import img4 from "../images/4.jpg"
+import img5 from "../images/5.jpg"
+import img6 from "../images/6.jpg"
+import img7 from "../images/7.jpg"
+import img8 from "../images/8.jpg"
+import img9 from "../images/9.jpg"
+import img10 from "../images/10.jpg"
 import { allnews } from '../actions/recordactions'
 import "./bootstrap.css"
 import "./js/script"
@@ -15,6 +25,7 @@ import "./fonts.css"
 import "./style.css"
 import "./n.css"
 import "./main.css"
+import ReadMore from './ReadMore';
 class Main extends Component {
 
   state = {
@@ -71,28 +82,33 @@ class Main extends Component {
                 <div className="item active" >
                   <img src={cfd} alt="chess" id="win" loading="lazy" />
                   <div className="carousel-caption">
+                    <h2 className='carousel__text-black'>Computational Fluid Dynamics(CFD)</h2>
                   </div>
                 </div>
 
                 <div className="item"  >
                   <img src={five} alt="chess" id="win" loading="lazy" />
                   <div className="carousel-caption">
+                    <h2 className='carousel__text-black'>Interactive Session</h2>
                   </div>
                 </div>
 
                 <div className="item" >
                   <img src={six} alt="chess" id="win" loading="lazy" />
                   <div className="carousel-caption">
+                    <h2 className='carousel__text-black'>Interactive Session</h2>
                   </div>
                 </div>
                 <div className="item" >
                   <img src={ChemInsider1} alt="chess" id="win" loading="lazy" />
                   <div className="carousel-caption">
+                    <h2 className="carousel__text-black">Distillation Column</h2>
                   </div>
                 </div>
                 <div className="item" >
                   <img src={ChemInsider2} alt="chess" id="win" loading="lazy" />
                   <div className="carousel-caption">
+                    <h2 className="carousel__text-black">Placement Talk Sessions</h2>
                   </div>
                 </div>
               </div>
@@ -123,7 +139,7 @@ class Main extends Component {
             <div className="row row-30">
               <div className="col-lg-6 about__image_outer">
                 <div className="block-decorate-img wow fadeInLeft image__hover" data-wow-delay=".2s">
-                  <img src={pic} alt="about image" width="570" height="351" className='about__image'
+                  <img src={pic} alt="about img" width="570" height="351" className='about__image'
                   />
                 </div>
               </div>
@@ -188,64 +204,224 @@ class Main extends Component {
           </div>
         </section>
 
-        {/* <section className='container' >
-          <div className="row">
-            <div className="col-12 col-sm-12 col-lg-4">
-              <div className="card">
-                <img className="card-img-top" src="" alt="Event poster" />
-                <div className="card-body">
-                  <h4 className="card-title">Event Name</h4>
-                  <p className="card-text">Events Details</p>
+
+
+
+
+
+        <section className='container-fluid' >
+          <h1 className='card__outerHeading'>Card section</h1>
+          <hr />
+          <div className='members__box__wrap'>
+            <div className="row">
+
+              <div className="outer">
+                <div className="col-12 col-sm-12 col-lg-4">
+                  <div className="card members__box">
+                    <img className="card-img-top" src={img1} alt="Event poster" />
+                    <div className="card-body">
+                      <h4 className="card-title">Project: Placement</h4>
+                      <p className="card-text">
+                        <ReadMore>
+                          This two-day workshop will be based on sessions dedicated to resume building and interview preparation respectively,
+                          and we are glad to announce that Prof. Dr. Sandip Kumar Lahiri, Associate Professor, Chemical Engineering Department,
+                          NIT Durgapur, and Former Vice- President, Haldia Petrochemicals Limited, will be the speaker.
+                          Dr. Lahiri is a person with distinguished experience as a Process Engineer in the Industry,
+                          and we hope he will be able to guide the aspiring individual in you to attain your career goals.
+                        </ReadMore>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div className="col-12 col-sm-12 col-lg-4">
+                  <div className="card members__box">
+                    <img className="card-img-top" src={img2} alt="Event poster" />
+                    <div className="card-body">
+                      <h4 className="card-title">ChemDarshan</h4>
+                      <p className="card-text">
+                        <ReadMore>
+                          Getting into a prestigious petrochemical company has always been your dream as a student of chemical engineering, right?
+                          We, at the Chemical Engineering Students' Society, invite you to ChemDarshan , an interactive session,
+                          from where we hope you will get the proper guidance and work towards attaining your goals.
+                        </ReadMore>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div className="col-12 col-sm-12 col-lg-4">
+                  <div className="card members__box">
+                    <img className="card-img-top" src={img3} alt="Event poster" />
+                    <div className="card-body">
+                      <h4 className="card-title">CFD  Workshop</h4>
+                      <p className="card-text">
+                        <ReadMore>
+                          Computational fluid dynamics (CFD) is a branch of fluid mechanics that uses numerical analysis and data structures
+                          to analyze and solve problems that involve fluid flows. It is the process of mathematically modeling a physical
+                          phenomenon involving fluid flow and solving it numerically using the computational prowess. The event will be
+                          conducted by none other than Respected Dr. Abhiram Hens, Associate Professor at NIT Durgapur, Former Senior
+                          Scientist at CSIR-CMERI, Recipient of the "CSIR Young Scientist Award" in 2018. With more than 20 publications
+                          and almost 800 citations to his name, he is a scholar in himself and a teacher par excellence, and so, this is your
+                          lifetime opportunity to gain whatever you can from this brilliant mind.
+                        </ReadMore>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-12 col-sm-12 col-lg-4" style={{ marginTop: "2rem" }}>
+                  <div className="card members__box">
+                    <img className="card-img-top" src={img10} alt="Event poster" />
+                    <div className="card-body">
+                      <h4 className="card-title">Chem-E-Insider</h4>
+                      <p className="card-text">
+                        <ReadMore>
+                          A new Season and Chem-E-Insider is back in a brand new outlook to cater to your inquisitive minds with its Technical Know-How.
+                          We at Chemical Engineering Students Society, NIT Durgapur (ChESS), today, present to you the 7th article of our monthly series
+                          "Chem-E-insider" Today's topic is : "Distillation column"
+                        </ReadMore>
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-12 col-sm-12 col-lg-4">
-              <div className="card">
-                <img className="card-img-top" src="" alt="Event poster" />
-                <div className="card-body">
-                  <h4 className="card-title">Event Name</h4>
-                  <p className="card-text">Events Details</p>
+
+              <h3 className='card__outerHeading'>ChemKriti</h3>
+              <hr />
+              <p className="lead card__lead">
+                The second edition of ChemKriti has been planned for the 8th to 10th of April, 2022.
+                The theme for this year is “Engineer the process of Life.” A brief description of each of the events that we have planned
+                is discussed below.
+              </p>
+              <div className='members__box__wrap outer'>
+
+                <div className="col-12 col-sm-12 col-lg-4">
+                  <div className="card members__box">
+                    <img className="card-img-top" src={img4} alt="Event poster" />
+                    <div className="card-body">
+                      <h4 className="card-title">Chemstat</h4>
+                      <p className="card-text">
+                        <ReadMore>
+                          Show your technical and analytical prowess Faced with a problem statement and a real-life scenario participants
+                          would have to storm their minds to come up with a seemingly feasible solution, which, mind you, should sound
+                          just as innovative and effective. A 48-hour duration would be allotted to execute and compile their ideas into a
+                          PowerPoint presentation and submit the same, the quality of which would serve as their gateway to the final round.
+                          The ones who'll make it would have to present their plan in front of the judges and face the questionnaire.
+                        </ReadMore>
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div className="col-12 col-sm-12 col-lg-4">
-              <div className="card">
-                <img className="card-img-top" src="" alt="Event poster" />
-                <div className="card-body">
-                  <h4 className="card-title">Event Name</h4>
-                  <p className="card-text">Events Details</p>
+
+
+                <div className="col-12 col-sm-12 col-lg-4">
+                  <div className="card members__box">
+                    <img className="card-img-top" src={img5} alt="Event poster" />
+                    <div className="card-body">
+                      <h4 className="card-title">Chem-E-Curious</h4>
+                      <p className="card-text">
+                        <ReadMore>
+                          "Where knowledge wins and everyone learns"
+                          This is a chance for all inquizzitive chemical engineers to display their prowess.
+                          And then, enthusiastic quizzards are also welcome to make the best use of their storehouse of knowledge.
+                          This is going to be a quiz, with questions pertaining to every possible allied subjects of chemical engineering.
+                          Talk about industries, businesses, innovations, researches, to personalities, covering all general topics that might find the
+                          farthest link to the subject of chemical engineering.
+                          We can guarantee that no one will return empty handed, because participants will end up stacked with knowledge.
+                        </ReadMore>
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div className="col-12 col-sm-12 col-lg-4">
-              <div className="card">
-                <img className="card-img-top" src="" alt="Event poster" />
-                <div className="card-body">
-                  <h4 className="card-title">Event Name</h4>
-                  <p className="card-text">Events Details</p>
+
+
+                <div className="col-12 col-sm-12 col-lg-4">
+                  <div className="card members__box">
+                    <img className="card-img-top" src={img6} alt="Event poster" />
+                    <div className="card-body">
+                      <h4 className="card-title">Chemoclave</h4>
+                      <p className="card-text">
+                        <ReadMore>
+                          For those curious to know about every circumstance that goes about in the process industry, for those eager to know more about the
+                          present and future of the sector that they are most interested to build their career on, opportunities await you, and it is about taking
+                          the right step with proper guidance. Chemkriti is here to bring to you real – life experiences that notable alumni from our institution
+                          have had, as they have gone on to work in industries, valuable opinion of veterans regarding various issues which arouse interest among
+                          this generation, and of course, interesting lectures on  topics which you would not like to miss. And this time, we are going to have guests
+                          from various other domains as well. So, be ready to interact with them,
+                          know more from them, learn from them and plan your future accordingly. Here is the chance, to hear it, from those who did it.
+                        </ReadMore>
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div className="col-12 col-sm-12 col-lg-4">
-              <div className="card">
-                <img className="card-img-top" src="" alt="Event poster" />
-                <div className="card-body">
-                  <h4 className="card-title">Event Name</h4>
-                  <p className="card-text">Events Details</p>
+
+
+
+                <div className="col-12 col-sm-12 col-lg-4" style={{ marginTop: "2rem" }}>
+                  <div className="card members__box">
+                    <img className="card-img-top" src={img7} alt="Event poster" />
+                    <div className="card-body">
+                      <h4 className="card-title">CH++</h4>
+                      <p className="card-text">
+                        <ReadMore>
+                          In the words of Steve Jobs, "Everybody should learn how toprogram a computer because it teaches you how to think."
+                          Coding ain't just about different computer languages, it'sabout creativity and analysis and about logic-basedapproach to problems. It's as much a mental sport as it is apart of academia.
+                          ChESS of  NIT Durgapur presents before you the ultimatecoding challenge based on Chemical Engineering, CH++.The problem statement will be uploaded on HackerRank
+                          and participants will be required to come up with asuitable solution and provide the answer within a coupleof hours.And of course, before we forget, there'll be amazing prizesand certificates for all as well !!
+                        </ReadMore>
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div className="col-12 col-sm-12 col-lg-4">
-              <div className="card">
-                <img className="card-img-top" src="" alt="Event poster" />
-                <div className="card-body">
-                  <h4 className="card-title">Event Name</h4>
-                  <p className="card-text">Events Details</p>
+
+
+
+                <div className="col-12 col-sm-12 col-lg-4" style={{ marginTop: "2rem" }}>
+                  <div className="card members__box">
+                    <img className="card-img-top" src={img8} alt="Event poster" />
+                    <div className="card-body">
+                      <h4 className="card-title">ChemX Challange</h4>
+                      <p className="card-text">
+                        <ReadMore>
+                          "Comprehend it quick, think it quick"
+                          It is not that we are unfamiliar we the game of crosswords. Now, it is time to bring back that childhood self of yours,
+                          who used to leave everything aside and go ahead to solve that crossword in the newspaper supplement.
+                          Now, it is the time to do so as a student of chemical engineering. Prepare yourself to solve something similar,
+                          by making the best use of your skills.
+                          It is after all a form of puzzle, all about fitting the right piece into the right place. Get ready for this enthralling experience.
+                        </ReadMore>
+                      </p>
+                    </div>
+                  </div>
                 </div>
+
+
+
+                <div className="col-12 col-sm-12 col-lg-4" style={{ marginTop: "2rem" }}>
+                  <div className="card members__box">
+                    <img className="card-img-top" src={img9} alt="Event poster" />
+                    <div className="card-body">
+                      <h4 className="card-title">Chem-E-Meme</h4>
+                      <p className="card-text">
+                        <ReadMore>
+                          "Bring out the humour, everything else can wait"
+                          After too many technical and academic events, we do need something different, and Chem-E-Meme
+                          is the best event to make that difference. We are here to give the creative minds in you a brainstorming and fun experience.
+                          Venture down the deepest thoughts to get your hands on the creative side of yours with our event,
+                          Chem-E-meme which is solely based on the domain of chemical engineering.
+                        </ReadMore>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
 
 
         <section className="section bg-image-2 after__blendMode">

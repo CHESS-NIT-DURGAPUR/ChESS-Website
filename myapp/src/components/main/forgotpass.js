@@ -100,7 +100,7 @@ class Forgot extends Component {
                         this.submitform(event)
                     }} style={{ backgroundColor: "#123C69", borderRadius: "5%", alignItems: "center" }}>
                         <div>
-                            <img src={hexa} id="image" />
+                            <img src={hexa} alt="forget" id="image" />
                             <h3 style={{ color: "#EDC7B7", fontFamily: "Times New Roman" }}>CHEMICAL ENGINEERING STUDENTS SOCIETY</h3>
                             <h4 style={{ color: "#EDC7B7", fontFamily: "Times New Roman" }}>National Institute of Technology Durgapur</h4>
 

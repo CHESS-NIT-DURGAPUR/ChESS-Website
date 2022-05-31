@@ -5,7 +5,6 @@ import { adddetails } from '../actions/recordactions'
 import FormFields from '../utils/formfields';
 import FileUpload from '../utils/fileupload'
 class Details extends Component {
-
     state = {
         formSuccess: false,
         formError: false,
@@ -267,7 +266,6 @@ class Details extends Component {
                                 />
                             </div>
                         </div>
-
 
                         <div className="row">
                             <div className="each">

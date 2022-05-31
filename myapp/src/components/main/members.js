@@ -59,7 +59,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={AC} alt="Team Image" />
+                                    <img src={AC} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Arunava Chatterjee</h2>
@@ -81,7 +81,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={TTS} alt="Team Image" />
+                                    <img src={TTS} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName' >TT Sriram</h2>
@@ -91,7 +91,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={R} alt="Team Image" />
+                                    <img src={R} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName' >Ritika Das</h2>
@@ -102,7 +102,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={NK} alt="Team Image" />
+                                    <img src={NK} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Naveen Kumar</h2>
@@ -112,7 +112,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={T} alt="Team Image" />
+                                    <img src={T} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Tejaswi Shah</h2>
@@ -126,7 +126,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={AK} alt="Team Image" />
+                                    <img src={AK} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Aritra Karmakar</h2>
@@ -136,7 +136,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={RK} alt="Team Image" />
+                                    <img src={RK} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 style={{ fontSize: "15px" }} >Rakesh Kumar Sisodiya</h2>
@@ -148,7 +148,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={SDE} alt="Team Image" />
+                                    <img src={SDE} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName' >Subhadeepa Dey</h2>
@@ -167,7 +167,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={DG} alt="Team Image" />
+                                    <img src={DG} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Debjit Goswami</h2>
@@ -179,7 +179,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={S} alt="Team Image" />
+                                    <img src={S} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Sucharita Pal</h2>
@@ -191,7 +191,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={AB} alt="Team Image" />
+                                    <img src={AB} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 style={{ fontSize: "13px" }}>Boyina Venkata Akhil</h2>
@@ -203,7 +203,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={HA} alt="Team Image" />
+                                    <img src={HA} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Harshit Anand</h2>
@@ -217,7 +217,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={D} alt="Team Image" />
+                                    <img src={D} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 style={{ fontSize: "12px" }}>Darpan Shyamkumar Agarwal</h2>
@@ -229,7 +229,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={AHossain} alt="Team Image" />
+                                    <img src={AHossain} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Adil Hossain</h2>
@@ -241,7 +241,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={NK} alt="Team Image" />
+                                    <img src={NK} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Nishant Kumar</h2>
@@ -253,7 +253,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={SN} alt="Team Image" />
+                                    <img src={SN} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Saurav Nag</h2>
@@ -273,7 +273,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={ryt} alt="Team Image" />
+                                    <img src={ryt} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName' >Rhythm Aich</h2>
@@ -285,7 +285,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={SM} alt="Team Image" />
+                                    <img src={SM} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName' >Saumyajeet Mukherjee</h2>
@@ -297,7 +297,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={samn} alt="Team Image" />
+                                    <img src={samn} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Sammanoy Mukherjee</h2>
@@ -309,7 +309,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={swagata} alt="Team Image" />
+                                    <img src={swagata} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Swagata Laxmi Sengupta</h2>
@@ -323,7 +323,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={pandey} alt="Team Image" />
+                                    <img src={pandey} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Amar Kumar Pandey</h2>
@@ -335,7 +335,7 @@ class Team extends Component {
                         <div className="column  members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={samr} alt="Team Image" />
+                                    <img src={samr} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Samriddho Saha</h2>
@@ -347,7 +347,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={rao} alt="Team Image" />
+                                    <img src={rao} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>BHV Prasad</h2>
@@ -359,7 +359,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={anuj} alt="Team Image" />
+                                    <img src={anuj} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Anuj Patel</h2>
@@ -378,7 +378,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={SMitra} alt="Team Image" />
+                                    <img src={SMitra} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Soumyajeet Mitra</h2>
@@ -389,7 +389,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={SSah} alt="Team Image" />
+                                    <img src={SSah} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Sonali Sah</h2>
@@ -400,7 +400,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={Prashanth} alt="Team Image" />
+                                    <img src={Prashanth} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName' >Prashanth Kumar</h2>
@@ -411,7 +411,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={ANagar} alt="Team Image" />
+                                    <img src={ANagar} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName' >Anand Nagar</h2>
@@ -423,7 +423,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={RYadav} alt="Team Image" />
+                                    <img src={RYadav} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Rishabh Yadav</h2>
@@ -434,7 +434,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={YSinha} alt="Team Image" />
+                                    <img src={YSinha} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Yash Sinha</h2>
@@ -445,7 +445,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={AJaiswal} alt="Team Image" />
+                                    <img src={AJaiswal} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Ankit Jaiswal</h2>
@@ -456,7 +456,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={AChaudhary} alt="Team Image" />
+                                    <img src={AChaudhary} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Ayush Chaudhary</h2>
@@ -468,7 +468,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={AKrishna} alt="Team Image" />
+                                    <img src={AKrishna} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Abhinav Krishna</h2>
@@ -487,7 +487,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={ZHossain} alt="Team Image" />
+                                    <img src={ZHossain} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Zeshan Hossain Sardar</h2>
@@ -498,7 +498,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={RChowdhury} alt="Team Image" />
+                                    <img src={RChowdhury} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Riddhi Chowdhury</h2>
@@ -509,7 +509,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={SMookherjee} alt="Team Image" />
+                                    <img src={SMookherjee} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Sujaan Mookherjee</h2>
@@ -519,7 +519,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={SRajwar} alt="Team Image" />
+                                    <img src={SRajwar} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Sushanta Rajwar</h2>
@@ -532,7 +532,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={ADey} alt="Team Image" />
+                                    <img src={ADey} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Anupam Dey</h2>
@@ -543,7 +543,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={DBardhan} alt="Team Image" />
+                                    <img src={DBardhan} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Dev Bardhan Singh</h2>
@@ -554,7 +554,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={SGhosh} alt="Team Image" />
+                                    <img src={SGhosh} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Sanghita Ghosh</h2>
@@ -564,7 +564,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={DKher} alt="Team Image" />
+                                    <img src={DKher} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Devesh kher</h2>
@@ -577,7 +577,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={SAcharya} alt="Team Image" />
+                                    <img src={SAcharya} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Sayak Acharya</h2>
@@ -588,7 +588,7 @@ class Team extends Component {
                         <div className="column members__box">
                             <div className="team-5">
                                 <div className="team-img">
-                                    <img src={ANagarajan} alt="Team Image" />
+                                    <img src={ANagarajan} alt="Team Img" />
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Anagha Nagarajan</h2>

@@ -26,15 +26,15 @@ class Header extends Component {
           <hr />
           <nav className="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
             <div className="container-fluid">
-              <Link to="/" className="navbar-brand">
+              <Link to="/" className="navbar-brand user__group">
                 <img src={chess} alt="chess" />
-                <span className='user__group'>USERS' GROUP</span>
               </Link>
 
               <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span className="navbar-toggler-icon"></span>
               </button>
-              <div className="navbar-collapse collapse flex-grow-0" id="collapsibleNavbar" style={{ paddingLeft: "8rem" }}>
+              <div className="navbar-collapse collapse flex-grow-0 main__navs" id="collapsibleNavbar"
+              >
                 <ul className="navbar-nav abs-center-x">
                   <li className="nav-item ">
                     <Link className="nav-link  nav__link" to="/">

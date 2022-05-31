@@ -3,14 +3,14 @@
   transition: 0.2s all ease-out;
 }
 .outer {
-  border: 1.5px solid black;
+  border: 1.2px solid black;
   padding: 3% 4%;
   border-radius: 6rem;
   margin-top: 4%;
   margin-bottom: 5%;
 }
 .outer:hover {
-  box-shadow: 5px 5px 18px #888888;
+  box-shadow: 6px 6px 18px #888888;
 }
 h1 {
   color: #000;

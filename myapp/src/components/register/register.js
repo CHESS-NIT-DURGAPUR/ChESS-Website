@@ -240,19 +240,31 @@ class Register extends Component {
                                     />
                                 </div>
 
-                                <br></br>
+                                <br />
 
                                 <div className="row">
                                     <div className="col-lg-12 col-sm-6 col-md-6 col-xs-6" style={{ textAlign: "center" }}>
-                                        <Button variant="contained" color="primary" id="studentregister" className="button__footer" onClick={(event) => this.submitform(event)}>
+                                        <Button
+                                            variant="contained"
+                                            color="primary"
+                                            id="studentregister"
+                                            className="custom-btn btn-1"
+                                            onClick={(event) => this.submitform(event)}
+                                        >
                                             REGISTER AS A STUDENT
-                                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                                            <i className="fa fa-user-circle" aria-hidden="true"></i>
                                         </Button>
                                     </div>
                                     <br />
                                     <br />
                                     <div className="col-lg-12 col-sm-6 col-md-6 col-xs-6" style={{ textAlign: "center" }}>
-                                        <Button variant="contained" color="primary" id="alumniregister" className="button__footer" onClick={(event) => this.submitalumni(event)}>
+                                        <Button
+                                            variant="contained"
+                                            color="primary"
+                                            id="alumniregister"
+                                            className="custom-btn btn-1"
+                                            onClick={(event) => this.submitalumni(event)}
+                                        >
                                             REGISTER AS AN ALUMNI
                                             <i className="fa fa-graduation-cap" aria-hidden="true"></i>
                                         </Button>

@@ -31,7 +31,7 @@ const Facad = () => {
                     <div className="column members__box">
                         <div className="team-5">
                             <div className="team-img">
-                                <img src={PPG} alt="Team Image" />
+                                <img src={PPG} alt="Team Img" />
                             </div>
                             <div className="team-content">
                                 <h2 >Parthapratim Gupta</h2>
@@ -45,7 +45,7 @@ const Facad = () => {
                     <div className="column members__box">
                         <div className="team-5">
                             <div className="team-img">
-                                <img src={PP} alt="Team Image" />
+                                <img src={PP} alt="Team Img" />
                             </div>
                             <div className="team-content">
                                 <h2>PARIMAL PAL</h2>
@@ -60,7 +60,7 @@ const Facad = () => {
                     <div className="column members__box">
                         <div className="team-5">
                             <div className="team-img">
-                                <img src={KCG} alt="Team Image" />
+                                <img src={KCG} alt="Team Img" />
                             </div>
                             <div className="team-content">
                                 <h2>Kartik Chandra Ghanta</h2>
@@ -75,7 +75,7 @@ const Facad = () => {
                     <div className="column members__box">
                         <div className="team-5">
                             <div className="team-img">
-                                <img src={TM} alt="Team Image" />
+                                <img src={TM} alt="Team Img" />
                             </div>
                             <div className="team-content">
                                 <h2>Tamal Mandal</h2>
@@ -92,7 +92,7 @@ const Facad = () => {
                     <div className="column members__box">
                         <div className="team-5">
                             <div className="team-img">
-                                <img src={AKS} alt="Team Image" />
+                                <img src={AKS} alt="Team Img" />
                             </div>
                             <div className="team-content">
                                 <h2>Anup Kumar Sadhukhan</h2>
@@ -107,7 +107,7 @@ const Facad = () => {
                     <div className="column members__box">
                         <div className="team-5">
                             <div className="team-img">
-                                <img src={SD} alt="Team Image" />
+                                <img src={SD} alt="Team Img" />
                             </div>
                             <div className="team-content">
                                 <h2 >Susmita Dutta</h2>
@@ -122,7 +122,7 @@ const Facad = () => {
                     <div className="column members__box">
                         <div className="team-5">
                             <div className="team-img">
-                                <img src={GH} alt="Team Image" />
+                                <img src={GH} alt="Team Img" />
                             </div>
                             <div className="team-content">
                                 <h2>Gopinath Halder</h2>
@@ -137,7 +137,7 @@ const Facad = () => {
                     <div className="column members__box">
                         <div className="team-5">
                             <div className="team-img">
-                                <img src={MKM} alt="Team Image" />
+                                <img src={MKM} alt="Team Img" />
                             </div>
                             <div className="team-content">
                                 <h2>Mrinal Kanti Mondal</h2>
@@ -154,7 +154,7 @@ const Facad = () => {
                     <div className="column members__box">
                         <div className="team-5">
                             <div className="team-img">
-                                <img src={JS} alt="Team Image" />
+                                <img src={JS} alt="Team Img" />
                             </div>
                             <div className="team-content">
                                 <h2>Jaya Sikder</h2>
@@ -169,7 +169,7 @@ const Facad = () => {
                     <div className="column members__box">
                         <div className="team-5">
                             <div className="team-img">
-                                <img src={SKL} alt="Team Image" />
+                                <img src={SKL} alt="Team Img" />
                             </div>
                             <div className="team-content">
                                 <h2>Sandip Kumar Lahiri</h2>
@@ -184,7 +184,7 @@ const Facad = () => {
                     <div className="column members__box">
                         <div className="team-5">
                             <div className="team-img">
-                                <img src={SP} alt="Team Image" />
+                                <img src={SP} alt="Team Img" />
                             </div>
                             <div className="team-content">
                                 <h2>Swapan Paruya</h2>
@@ -199,7 +199,7 @@ const Facad = () => {
                     <div className="column members__box">
                         <div className="team-5">
                             <div className="team-img">
-                                <img src={BD} alt="Team Image" />
+                                <img src={BD} alt="Team Img" />
                             </div>
                             <div className="team-content">
                                 <h2>Bimal Das</h2>
@@ -216,7 +216,7 @@ const Facad = () => {
                     <div className="column members__box">
                         <div className="team-5">
                             <div className="team-img">
-                                <img src={BKM} alt="Team Image" />
+                                <img src={BKM} alt="Team Img" />
                             </div>
                             <div className="team-content">
                                 <h2>Bimal Kumar Mandal</h2>
@@ -231,7 +231,7 @@ const Facad = () => {
                     <div className="column members__box">
                         <div className="team-5">
                             <div className="team-img">
-                                <img src={RGC} alt="Team Image" />
+                                <img src={RGC} alt="Team Img" />
                             </div>
                             <div className="team-content">
                                 <h2>Rajib Ghosh Chaudhuri</h2>
@@ -246,7 +246,7 @@ const Facad = () => {
                     <div className="column members__box">
                         <div className="team-5">
                             <div className="team-img">
-                                <img src={AH} alt="Team Image" />
+                                <img src={AH} alt="Team Img" />
                             </div>
                             <div className="team-content">
                                 <h2>ABHIRAM HENS</h2>
@@ -261,7 +261,7 @@ const Facad = () => {
                     <div className="column members__box">
                         <div className="team-5">
                             <div className="team-img">
-                                <img src={AS} alt="Team Image" />
+                                <img src={AS} alt="Team Img" />
                             </div>
                             <div className="team-content">
                                 <h2>Ananta Sarkar</h2>

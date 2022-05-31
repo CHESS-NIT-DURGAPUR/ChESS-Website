@@ -99,7 +99,7 @@ class Allalumni extends Component {
 
                             <div className="row">
                                 <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-                                    <img style={{ border: "2px solid black", borderRadius: "15%" }} className="img-responsive" src={this.state.data.images[0] ? this.state.data.images[0].url : null} alt={"PHOTO"} />
+                                    <img style={{ border: "2px solid black", borderRadius: "15%" }} className="img-responsive" src={this.state.data.images[0] ? this.state.data.images[0].url : null} alt="img" />
                                 </div>
                                 <div className='col-lg-60 col-md-6 col-sm-12 col-xs-12'>
 
@@ -161,17 +161,17 @@ class Allalumni extends Component {
                             {
                                 this.state.records ?
                                     this.state.records.map((item, i) => {
-                                        if ((i + 1) == this.state.records.length) {
+                                        if ((i + 1) === this.state.records.length) {
                                             return null
                                         }
                                         console.log(i)
-                                        if (i == 0) {
+                                        if (i === 0) {
                                             console.log(this.state.records.slice(i, i + 3), i, i + 3)
                                             return (
                                                 <Gen recalumni={this.state.records.slice(i, i + 3)} change={(event, data, _id) => this.submitForm(event, data)} />
                                             )
                                         }
-                                        if (i % 3 == 0) {
+                                        if (i % 3 === 0) {
                                             if ((i + 3) >= this.state.records.length) {
                                                 var n = 3 - (i + 3) + this.state.records.length
                                                 console.log(n)

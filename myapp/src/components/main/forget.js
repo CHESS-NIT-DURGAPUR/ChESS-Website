@@ -85,8 +85,13 @@ class Forget extends Component {
 
                         <fieldset>
                             <center>
-                                <Button variant="contained" color="primary" id="reset" style={{ padding: "1rem", color: "#fff", width: "50%", fontSize: "1.5rem" }} onClick={(event) => this.submitform(event)}>
-                                    Reset Your Password    <i class="fa fa-key" aria-hidden="true"></i>
+                                <Button
+                                    variant="contained"
+                                    id="reset"
+                                    className="custom-btn btn-1"
+                                    onClick={(event) => this.submitform(event)}
+                                >
+                                    Reset Your Password   <i className="fa fa-key" aria-hidden="true"></i>
                                 </Button>
                             </center>
                         </fieldset>

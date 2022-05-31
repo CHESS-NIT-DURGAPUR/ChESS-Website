@@ -9,7 +9,7 @@ class Card extends Component {
             <div className="columns">
                 <div className="team5">
                     <div className="teamimg">
-                        <img src={this.props.images[0] ? this.props.images[0].url : null} alt="Team Image" />
+                        <img src={this.props.images[0] ? this.props.images[0].url : null} alt="Team Img" />
                     </div>
                     <div className="teamcontent">
                         <h2 style={{ fontSize: "15px" }}>{this.props.name}</h2>

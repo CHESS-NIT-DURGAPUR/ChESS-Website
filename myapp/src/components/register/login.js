@@ -143,15 +143,15 @@ class Login extends Component {
 
                                 <div className="row" >
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12" style={{ textAlign: "center" }}>
-                                        <Button variant="contained" color="primary" className="button__footer" onClick={(event) => this.submitform(event)}>
+                                        <Button variant="contained" color="primary" className="custom-btn btn-1" onClick={(event) => this.submitform(event)}>
                                             LOGIN <i className="fa fa-sign-in" aria-hidden="true"></i>
                                         </Button>
                                     </div>
                                     <br />
                                     <br />
                                     <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12" style={{ textAlign: "center" }}>
-                                        <Button variant="contained" color="primary" className="button__footer" onClick={(event) => this.resetpassword(event)}>
-                                            FORGET PASSWORD <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                                        <Button variant="contained" color="primary" className="custom-btn btn-1" onClick={(event) => this.resetpassword(event)}>
+                                            FORGET PASSWORD <i className="fa fa-unlock-alt" aria-hidden="true"></i>
                                         </Button>
                                     </div>
                                 </div>

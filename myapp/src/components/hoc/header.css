@@ -1,4 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 0.75rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff;
+  border-radius: 0.75rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0852c2e7;
+  border-radius: 0.75rem;
+}
 hr {
   border: 0.5px solid #0b55a4;
   opacity: 0.8;
@@ -26,8 +42,11 @@ hr {
 }
 .user__group {
   display: block;
-  position: relative;
-  top: -10px;
+  height: 82px;
+}
+.main__navs {
+  padding-left: 7rem;
+  padding-bottom: 1.1rem !important;
 }
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
@@ -40,6 +59,10 @@ hr {
 
 .nav-link {
   padding: 28px 10px !important;
+}
+.header__navbar {
+  height: 7.5rem;
+  background-color: #0a72d1;
 }
 @media only screen and (max-width: 970px) {
   .container__header {
@@ -64,8 +87,8 @@ hr {
   .nav__link {
     font-size: 12px;
   }
-  .user__group {
-    top: -11px;
+  .header__navbar {
+    height: 9rem;
   }
 }
 @media only screen and (max-width: 494px) {

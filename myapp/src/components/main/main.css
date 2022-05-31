@@ -26,6 +26,7 @@
   border: 1px solid rgba(0, 34, 70, 0.5) !important;
 }
 .after__blendMode {
+  margin-top: 5%;
   background-blend-mode: darken;
   border-radius: 6rem;
 }
@@ -48,4 +49,42 @@ div.image__hover {
 }
 div.image__hover:hover {
   background: url("../images/R.jfif");
+}
+.card {
+  border-radius: 1.8rem;
+}
+.card-img-top {
+  border-radius: 1.8rem;
+}
+.card__outerHeading {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.card__lead {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.carousel-indicators {
+  width: 70% !important;
+}
+.carousel-indicators li {
+  position: relative;
+  flex: 0 1 auto;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.item img {
+  opacity: 0.9;
+}
+.carousel-caption {
+  margin-bottom: 1.5rem;
+  border-radius: 5rem;
+  background-color: #ffffff;
+  padding-bottom: 2px;
+}
+.carousel__text-black {
+  color: #000;
 }

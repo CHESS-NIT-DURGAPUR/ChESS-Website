@@ -30,7 +30,7 @@ input.footer__subscribe {
   color: white;
 }
 .footer__signUp:hover {
-  font-size: 3.5rem !important;
+  font-size: 3.25rem !important;
   background-color: #fff !important;
   color: #007bff !important;
   border: 0.01px solid rgb(0 34 70) !important;
@@ -44,7 +44,14 @@ a.socialLink__a {
 }
 a.socialLink__a:hover {
   cursor: pointer;
-  font-size: 3rem;
+  font-size: 2.75rem;
+}
+.socialLink__a_quickLinks {
+  font-size: 1.5rem;
+}
+.socialLink__a_quickLinks:hover {
+  cursor: pointer;
+  color: #fff !important;
 }
 @media only screen and (max-width: 575px) {
   .footer__outer {
