@@ -210,7 +210,7 @@ class Main extends Component {
 
 
         <section className='container-fluid' >
-          <h1 className='card__outerHeading'>Card section</h1>
+          <h1 className='card__outerHeading'>Events</h1>
           <hr />
           <div className='members__box__wrap'>
             <div className="row">
