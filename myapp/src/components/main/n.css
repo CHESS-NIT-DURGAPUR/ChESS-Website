@@ -16,7 +16,7 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .sam li a {
-  color: #262626;
+  color: #fff;
   text-decoration: none;
 }
 .sam li .date {
@@ -49,9 +49,9 @@
   word-wrap: break-word;
 }
 
-/* .win {
+.win {
   height: 500px !important;
-} */
+}
 
 #win {
   height: 800px !important;
@@ -75,7 +75,7 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
   .sam li a {
-    color: #262626;
+    color: #fff;
     text-decoration: none;
   }
 }
