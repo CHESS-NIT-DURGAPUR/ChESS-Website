@@ -3,7 +3,7 @@
   transition: 0.2s all ease-out;
 }
 .outer {
-  border: 1.2px solid black;
+  border: 1px solid black;
   padding: 3% 4%;
   border-radius: 6rem;
   margin-top: 4%;
@@ -17,5 +17,5 @@ h1 {
 }
 h2.membersName {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px !important;
+  font-size: 15px !important;
 }

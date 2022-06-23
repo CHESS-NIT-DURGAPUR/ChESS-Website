@@ -26,7 +26,7 @@
   content: "";
   position: absolute;
   width: 100px;
-  border-top: 30px solid #e2574c;
+  border-top: 30px solid #0b55a4;
   border-bottom: 50px solid #e4e7e7;
   z-index: 1;
   border-radius: 5px;
@@ -49,9 +49,9 @@
   word-wrap: break-word;
 }
 
-.win {
+/* .win {
   height: 500px !important;
-}
+} */
 
 #win {
   height: 800px !important;

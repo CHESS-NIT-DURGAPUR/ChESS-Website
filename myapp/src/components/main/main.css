@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 * {
   font-family: "Montserrat", sans-serif;
 }
@@ -7,8 +8,11 @@
   font-weight: bold;
 }
 .about__image {
-  border-radius: 7rem;
+  border-radius: 7.5rem;
   object-fit: cover;
+}
+.about__image:hover {
+  opacity: 0.8;
 }
 .about__image_outer {
   padding-top: 12.5rem;
@@ -26,7 +30,6 @@
   border: 1px solid rgba(0, 34, 70, 0.5) !important;
 }
 .after__blendMode {
-  margin-top: 5%;
   background-blend-mode: darken;
   border-radius: 6rem;
 }
@@ -40,15 +43,13 @@
 .hod__text {
   text-align: center;
   font-weight: bold;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 2;
   font-size: 2rem;
 }
-div.image__hover {
-  background: url("../images/wp5330256.png");
-}
+
 div.image__hover:hover {
-  background: url("../images/R.jfif");
+  opacity: 0.8;
 }
 .card {
   border-radius: 1.8rem;
@@ -87,4 +88,9 @@ div.image__hover:hover {
 }
 .carousel__text-black {
   color: #000;
+}
+.main__img {
+  height: 400px;
+  width: 400px;
+  object-fit: fill;
 }

@@ -18,13 +18,9 @@ class Header extends Component {
     console.log(this.props.user.userData)
     return (
       <React.Fragment>
+        {/* <div className="extraSpace"></div> */}
         <div className='header'>
-          <div className="container__header">
-            <div className="heading__header1">CHEMICAL ENGINEERING STUDENTS SOCIETY</div>
-            <div className="heading__header2">NATIONAL INSTITUTE OF TECHNOLOGY DURGAPUR</div>
-          </div>
-          <hr />
-          <nav className="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+          <nav className="navbar navbar-expand-md navbar-dark bg-primary fixed-top" style={{ height: "auto" }}>
             <div className="container-fluid">
               <Link to="/" className="navbar-brand user__group">
                 <img src={chess} alt="chess" />
@@ -47,9 +43,25 @@ class Header extends Component {
                     </Link>
                   </li>
                   <li className="nav-item ">
+                    <Link className="nav-link nav__link" to="/alumni">
+                      <i className="fa fa-graduation-cap" aria-hidden="true"></i> ALUMNI
+                    </Link>
+                  </li>
+                  <li className="nav-item ">
                     <Link className="nav-link nav__link" to="/member">
                       <i className="fa fa-users" aria-hidden="true"></i> MEMBER
                     </Link>
+                  </li>
+                  <li className="nav-item dropdown">
+                    <Link className="nav-link nav__link dropdown-toggle" data-toggle="dropdown" to="/">
+                      {/* <i class="fa fa-calendar" aria-hidden="true"></i> */}
+                      EVENTS
+                    </Link>
+                    <ul className="dropdown-menu">
+                      <li><Link className='dropDown__link' to="/chemkriti2021">ChemKriti 2021</Link></li>
+                      <li><Link className='dropDown__link' to="/chemkriti2022">ChemKriti 2022</Link></li>
+                      <li><Link className='dropDown__link' to="/moreevents">More Events</Link></li>
+                    </ul>
                   </li>
                 </ul>
               </div>
