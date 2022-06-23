@@ -4,6 +4,7 @@
 }
 .footer__outer {
   background: rgb(8, 61, 84);
+  padding: 2% 5%;
 }
 .chess__logo {
   object-fit: cover;

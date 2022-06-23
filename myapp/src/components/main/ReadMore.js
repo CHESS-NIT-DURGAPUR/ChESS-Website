@@ -9,7 +9,7 @@ const ReadMore = ({ children }) => {
     };
     return (
         <React.Fragment>
-            {isReadMore ? text.slice(0, 150) : text}
+            {isReadMore ? text.slice(0, 100) : text}
             <span onClick={toggleReadMore} className="read-or-hide">
                 {isReadMore ? "...read more" : " show less"}
             </span>

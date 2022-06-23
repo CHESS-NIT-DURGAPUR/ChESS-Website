@@ -19,9 +19,14 @@ import Blog from './components/main/blog'
 import Live from './components/main/live';
 import Notific from './components/main/notification';
 import Member from './components/main/members';
+import Alumni from './components/main/Alumni';
 import Facad from './components/main/facad';
 import Auth from './components/hoc/auth'
 import Desc from './components/main/description';
+import ChemKriti2022 from './components/main/ChemKriti2022';
+import ChemKriti2021 from './components/main/ChemKriti2021';
+import MoreEvents from './components/main/MoreEvents';
+
 const Routes = () => {
     return (
         <Layout>
@@ -45,6 +50,10 @@ const Routes = () => {
                 <Route exact component={Auth(Addnews, true)} path="/addnews" />
                 <Route exact component={Auth(Notific, true)} path="/notific" />
                 <Route exact component={Auth(Member, false)} path="/member" />
+                <Route exact component={Auth(Alumni, false)} path="/alumni" />
+                <Route exact component={Auth(ChemKriti2021, false)} path="/chemkriti2021" />
+                <Route exact component={Auth(ChemKriti2022, false)} path="/chemkriti2022" />
+                <Route exact component={Auth(MoreEvents, false)} path="/moreevents" />
                 <Route component={Error} />
             </Switch>
         </Layout>

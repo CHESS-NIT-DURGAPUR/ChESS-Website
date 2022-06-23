@@ -42,13 +42,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/orgs/CHESS-NIT-DURGAPUR"
+    "url": "git+https://github.com/CHESS-NIT-DURGAPUR/ChESS-Website"
   },
   "keywords": [],
   "author": "CHESS NIT DURGAPUR",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/saumyajeet1/CHESS/issues"
+    "url": "https://github.com/CHESS-NIT-DURGAPUR/ChESS-Website/issues"
   },
-  "homepage": "https://github.com/saumyajeet1/CHESS#readme"
+  "homepage": "https://github.com/CHESS-NIT-DURGAPUR/ChESS-Website#readme"
 }

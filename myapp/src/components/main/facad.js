@@ -23,6 +23,7 @@ import KCG from '../../images/KCG.jpg'
 const Facad = () => {
     return (
         <div className="faculty__containar">
+            <div className="extraSpace" />
             <div className="section-title">
                 <h1>Faculty Members</h1>
             </div>
