@@ -1,0 +1,16 @@
+.background {
+  background-color: #000069;
+  text-align: center;
+}
+.background__heading {
+  color: #ffe079;
+}
+.background__text {
+  color: #fff;
+}
+.background__img {
+  opacity: 0.95;
+}
+.background__img:hover {
+  opacity: 1;
+}

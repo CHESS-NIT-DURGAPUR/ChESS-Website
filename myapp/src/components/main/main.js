@@ -60,7 +60,7 @@ class Main extends Component {
       <React.Fragment>
         <HeaderTitle />
         <div className="container-fluid">
-          <div className="row" id='poster'>
+          <div className="row carouselImg__outer" id='poster'>
             <div className="col-lg-12 col-md-12 col-xs-12 col-sm-12" id="win">
               <div id="myCarousel" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
@@ -72,44 +72,44 @@ class Main extends Component {
                 </ol>
                 <div className="carousel-inner">
                   <div className="item active" >
-                    <img src={cfd} alt="chess" id="win" loading="lazy" />
+                    <img className='carouselImg' src={cfd} alt="chess" id="win" loading="lazy" />
                     <div className="carousel-caption">
                       <h2 className='carousel__text-black'>Computational Fluid Dynamics(CFD)</h2>
                     </div>
                   </div>
 
                   <div className="item"  >
-                    <img src={five} alt="chess" id="win" loading="lazy" />
+                    <img className='carouselImg' src={five} alt="chess" id="win" loading="lazy" />
                     <div className="carousel-caption">
                       <h2 className='carousel__text-black'>Interactive Session</h2>
                     </div>
                   </div>
 
                   <div className="item" >
-                    <img src={six} alt="chess" id="win" loading="lazy" />
+                    <img className='carouselImg' src={six} alt="chess" id="win" loading="lazy" />
                     <div className="carousel-caption">
                       <h2 className='carousel__text-black'>Interactive Session</h2>
                     </div>
                   </div>
                   <div className="item" >
-                    <img src={ChemInsider1} alt="chess" id="win" loading="lazy" />
+                    <img className='carouselImg' src={ChemInsider1} alt="chess" id="win" loading="lazy" />
                     <div className="carousel-caption">
                       <h2 className="carousel__text-black">Distillation Column</h2>
                     </div>
                   </div>
                   <div className="item" >
-                    <img src={ChemInsider2} alt="chess" id="win" loading="lazy" />
+                    <img className='carouselImg' src={ChemInsider2} alt="chess" id="win" loading="lazy" />
                     <div className="carousel-caption">
                       <h2 className="carousel__text-black">Placement Talk Sessions</h2>
                     </div>
                   </div>
                 </div>
 
-                <a className="left carousel-control" href="#myCarousel" data-slide="prev">
+                <a className="left carousel-control carouselImg__outer" href="#myCarousel" data-slide="prev">
                   <span className="	glyphicon glyphicon-chevron-left"></span>
                   <span className="sr-only">Previous</span>
                 </a>
-                <a className="right carousel-control" href="#myCarousel" data-slide="next">
+                <a className="right carousel-control carouselImg__outer" href="#myCarousel" data-slide="next">
                   <span className="glyphicon glyphicon-chevron-right"></span>
                   <span className="sr-only">Next</span>
                 </a>

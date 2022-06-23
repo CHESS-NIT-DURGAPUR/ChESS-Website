@@ -17,6 +17,7 @@
 }
 .sam li a {
   color: #fff;
+  text-align: right;
   text-decoration: none;
 }
 .sam li .date {
@@ -29,10 +30,11 @@
   border-top: 30px solid #0b55a4;
   border-bottom: 50px solid #242424;
   z-index: 1;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 .sam li .date span {
   line-height: 5px;
+  color: #fff;
   margin-left: 10px;
   text-align: center !important;
 }
@@ -45,6 +47,7 @@
 
 .sam li p {
   font-size: 18px;
+  font-weight: bold;
   width: 300px !important;
   word-wrap: break-word;
 }
@@ -76,6 +79,7 @@
   }
   .sam li a {
     color: #fff;
+
     text-decoration: none;
   }
 }

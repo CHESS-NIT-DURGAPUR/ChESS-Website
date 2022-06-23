@@ -2,7 +2,7 @@
   margin-top: 5rem;
 }
 .members__box {
-  cursor: pointer;
+  cursor: grab;
   border-radius: 2.5rem;
 }
 .members__box__wrap:hover .members__box {
@@ -12,5 +12,5 @@
 .members__box__wrap:hover .members__box:hover {
   transform: scale(0.99);
   opacity: 1;
-  box-shadow: 0 10px 26px 0px rgba(0, 123, 255, 0.5);
+  box-shadow: 0 12px 30px 0px rgba(10, 97, 189, 0.7);
 }

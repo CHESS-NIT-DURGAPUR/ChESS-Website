@@ -1,6 +1,6 @@
 import React from 'react'
 
-function headerTitle() {
+const headerTitle = () => {
     return (
         <React.Fragment>
             {/* <div className="extraSpace"></div> */}

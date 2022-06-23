@@ -1,6 +1,8 @@
 h4.role {
-  font-size: 1.8rem !important;
+  font-size: 2rem !important;
   font-weight: bold !important;
   line-height: 1.2;
-  color: #0b55a4;
+  color: #0065d0;
+  font-style: italic;
+  /* text-shadow: ; */
 }

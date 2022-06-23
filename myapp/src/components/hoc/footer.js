@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import hexa from "../images/hexa.png"
+import logo from "../images/nitdgp.webp"
 import "../main/bootstrap.css"
 import "./footer.css"
 const Footer = () => {
@@ -9,8 +9,8 @@ const Footer = () => {
       <div className="container">
         <div className="row row-30">
           <div className="col-lg-3 wow fadeInLeft" style={{ textAlign: "center" }}>
-            <a className="brand" href="./"><img className="brand-logo-dark" src={hexa} alt="CHESS Logo" />
-              <img className="brand-logo-light chess__logo" src={hexa} alt="CHESS" />
+            <a className="brand" href="./"><img className="brand-logo-dark" src={logo} alt="CHESS Logo" />
+              <img className="brand-logo-light chess__logo" src={logo} alt="CHESS" />
             </a>
             <p className="footer-classic-description offset-top-0 footer__para">CHESS is a student's society at NIT Durgapur.</p>
           </div>
@@ -70,8 +70,8 @@ const Footer = () => {
 
       </div>
       <div className="container-fluid wow fadeInUp" data-wow-delay=".4s">
-        <div className="footer-classic-aside" style={{ padding: "1.5% 8%" }}>
-          <p className="rights footer__heading">
+        <div className="footer-classic-aside footer__heading_upper">
+          <p className="rights footer__heading_rights">
             <span>&copy; {new Date().getFullYear()}</span> All Rights Reserved.
           </p>
           <ul className="social-links">

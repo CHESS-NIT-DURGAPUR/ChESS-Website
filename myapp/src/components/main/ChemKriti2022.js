@@ -10,7 +10,8 @@ import INAUGURATION_1 from "../images/INAUGURATION_1.PNG"
 import INAUGURATION_2 from "../images/INAUGURATION_2.PNG"
 import ChemKriti2022_1 from '../images/2022_1.PNG';
 import "./main.css"
-function ChemKriti2022() {
+import "./Events.css"
+const ChemKriti2022 = () => {
     return (
         <div>
             <div className="extraSpace" />
@@ -21,6 +22,7 @@ function ChemKriti2022() {
                         <hr />
                         <p className="lead card__lead">
                             The annual Departmental fest organized by ChESS, conducted in hybrid mode in 2022.
+                            "Engineer the Process of Life"
                             The inaugural and concluding ceremonies were held physically in the Chemical Engineering Department
                             in the Main Academic Building and the rest were conducted online on Dare2Compete platform.
                         </p>
@@ -56,11 +58,11 @@ function ChemKriti2022() {
                         <div className='members__box__wrap outer'>
                             <div className='row'>
                                 <div className="col-12 col-sm-12 col-lg-4">
-                                    <div className="card members__box">
-                                        <img className="card-img-top" src={img4} alt="Event poster" />
+                                    <div className="card members__box background">
+                                        <img className="card-img-top background__img" src={img4} alt="Event poster" />
                                         <div className="card-body">
-                                            <h4 className="card-title">Chemstat</h4>
-                                            <p className="card-text">
+                                            <h4 className="card-title background__heading">Chemstat</h4>
+                                            <p className="card-text background__text">
                                                 <ReadMore>
                                                     Under the umbrella of ChemKriti, a hackathon named ChemStat was organized in which a problem statement
                                                     was provided and participants had to come up with a PowerPoint presentation demonstrating their take on
@@ -73,11 +75,11 @@ function ChemKriti2022() {
 
 
                                 <div className="col-12 col-sm-12 col-lg-4">
-                                    <div className="card members__box">
-                                        <img className="card-img-top" src={img5} alt="Event poster" />
+                                    <div className="card members__box background">
+                                        <img className="card-img-top background__img" src={img5} alt="Event poster" />
                                         <div className="card-body">
-                                            <h4 className="card-title">Chem-E-Curious</h4>
-                                            <p className="card-text">
+                                            <h4 className="card-title background__heading">Chem-E-Curious</h4>
+                                            <p className="card-text background__text">
                                                 <ReadMore>
                                                     "Where knowledge wins and everyone learns"
                                                     This is a chance for all inquizzitive chemical engineers to display their prowess.
@@ -94,11 +96,11 @@ function ChemKriti2022() {
 
 
                                 <div className="col-12 col-sm-12 col-lg-4">
-                                    <div className="card members__box">
-                                        <img className="card-img-top" src={img7} alt="Event poster" />
+                                    <div className="card members__box background">
+                                        <img className="card-img-top background__img" src={img7} alt="Event poster" />
                                         <div className="card-body">
-                                            <h4 className="card-title">CH++</h4>
-                                            <p className="card-text">
+                                            <h4 className="card-title background__heading">CH++</h4>
+                                            <p className="card-text background__text">
                                                 <ReadMore>
                                                     In the words of Steve Jobs, "Everybody should learn how toprogram a computer because it teaches you how to think."
                                                     Coding ain't just about different computer languages, it'sabout creativity and analysis and about logic-basedapproach to problems. It's as much a mental sport as it is apart of academia.
@@ -115,11 +117,11 @@ function ChemKriti2022() {
                             >
 
                                 <div className="col-12 col-sm-12 col-lg-4">
-                                    <div className="card members__box">
-                                        <img className="card-img-top" src={img8} alt="Event poster" />
+                                    <div className="card members__box background">
+                                        <img className="card-img-top background__img" src={img8} alt="Event poster" />
                                         <div className="card-body">
-                                            <h4 className="card-title">Chem-X-Challange</h4>
-                                            <p className="card-text">
+                                            <h4 className="card-title background__heading">Chem-X-Challange</h4>
+                                            <p className="card-text background__text">
                                                 <ReadMore>
                                                     Innovative Workshop based on the topic “Computational Aspects of Chemical Engineering”
                                                 </ReadMore>
@@ -130,11 +132,11 @@ function ChemKriti2022() {
 
 
                                 <div className="col-12 col-sm-12 col-lg-4">
-                                    <div className="card members__box">
-                                        <img className="card-img-top" src={img6} alt="Event poster" />
+                                    <div className="card members__box background">
+                                        <img className="card-img-top background__img" src={img6} alt="Event poster" />
                                         <div className="card-body">
-                                            <h4 className="card-title">Chem-O-Clave</h4>
-                                            <p className="card-text">
+                                            <h4 className="card-title background__heading">Chem-O-Clave</h4>
+                                            <p className="card-text background__text">
                                                 <ReadMore>
                                                     For those curious to know about every circumstance that goes about in the process industry, for those eager to know more about the
                                                     present and future of the sector that they are most interested to build their career on, opportunities await you, and it is about taking
@@ -151,11 +153,11 @@ function ChemKriti2022() {
 
 
                                 <div className="col-12 col-sm-12 col-lg-4">
-                                    <div className="card members__box">
-                                        <img className="card-img-top" src={img9} alt="Event poster" />
+                                    <div className="card members__box background">
+                                        <img className="card-img-top background__img" src={img9} alt="Event poster" />
                                         <div className="card-body">
-                                            <h4 className="card-title">Chem-E-Meme</h4>
-                                            <p className="card-text">
+                                            <h4 className="card-title background__heading">Chem-E-Meme</h4>
+                                            <p className="card-text background__text">
                                                 <ReadMore>
                                                     "Bring out the humour, everything else can wait"
                                                     After too many technical and academic events, we do need something different, and Chem-E-Meme

@@ -46,7 +46,7 @@ hr {
 }
 .main__navs {
   padding-left: 7rem;
-  padding-bottom: 1.1rem !important;
+  padding-bottom: 0.1rem !important;
 }
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
