@@ -9,6 +9,7 @@ import ASPIRE from "../images/ASPIRE.PNG"
 import ASCENSION from "../images/ASCENSION.PNG"
 import PLACEMENT from "../images/PLACEMENT.png"
 import FRESHERS from "../images/FRESHERS.PNG"
+import "./Events.css"
 function MoreEvents() {
     return (
         <div>
@@ -20,11 +21,11 @@ function MoreEvents() {
                     <div className="outer">
                         <div className="row">
                             <div className="col-12 col-sm-12 col-lg-4">
-                                <div className="card members__box">
-                                    <img className="card-img-top" src={img1} alt="Event poster" />
+                                <div className="card members__box background">
+                                    <img className="card-img-top background__img" src={img1} alt="Event poster" />
                                     <div className="card-body">
-                                        <h4 className="card-title">Project: Placement</h4>
-                                        <p className="card-text">
+                                        <h4 className="card-title background__heading">Project: Placement</h4>
+                                        <p className="card-text background__text">
                                             <ReadMore>
                                                 This two-day workshop will be based on sessions dedicated to resume building and interview preparation respectively,
                                                 and we are glad to announce that Prof. Dr. Sandip Kumar Lahiri, Associate Professor, Chemical Engineering Department,
@@ -39,11 +40,11 @@ function MoreEvents() {
 
 
                             <div className="col-12 col-sm-12 col-lg-4">
-                                <div className="card members__box">
-                                    <img className="card-img-top" src={img2} alt="Event poster" />
+                                <div className="card members__box background">
+                                    <img className="card-img-top background__img" src={img2} alt="Event poster" />
                                     <div className="card-body">
-                                        <h4 className="card-title">ChemDarshan</h4>
-                                        <p className="card-text">
+                                        <h4 className="card-title  background__heading">ChemDarshan</h4>
+                                        <p className="card-text background__text">
                                             <ReadMore>
                                                 Getting into a prestigious petrochemical company has always been your dream as a student of chemical engineering, right?
                                                 We, at the Chemical Engineering Students' Society, invite you to ChemDarshan , an interactive session,
@@ -56,11 +57,11 @@ function MoreEvents() {
 
 
                             <div className="col-12 col-sm-12 col-lg-4">
-                                <div className="card members__box">
-                                    <img className="card-img-top" src={img3} alt="Event poster" />
+                                <div className="card members__box background">
+                                    <img className="card-img-top background__img" src={img3} alt="Event poster" />
                                     <div className="card-body">
-                                        <h4 className="card-title">CFD  Workshop</h4>
-                                        <p className="card-text">
+                                        <h4 className="card-title  background__heading">CFD  Workshop</h4>
+                                        <p className="card-text background__text">
                                             <ReadMore>
                                                 Computational fluid dynamics (CFD) is a branch of fluid mechanics that uses numerical analysis and data structures
                                                 to analyze and solve problems that involve fluid flows. It is the process of mathematically modeling a physical
@@ -77,15 +78,14 @@ function MoreEvents() {
                         </div>
                         <div className="row">
                             <div className="col-12 col-sm-12 col-lg-4">
-                                <div className="card members__box">
-                                    <img className="card-img-top" src={img10} alt="Event poster" />
+                                <div className="card members__box background">
+                                    <img className="card-img-top background__img" src={img10} alt="Event poster" />
                                     <div className="card-body">
-                                        <h4 className="card-title">Chem-E-Insider</h4>
-                                        <p className="card-text">
+                                        <h4 className="card-title  background__heading">Chem-E-Insider</h4>
+                                        <p className="card-text background__text">
                                             <ReadMore>
-                                                A new Season and Chem-E-Insider is back in a brand new outlook to cater to your inquisitive minds with its Technical Know-How.
-                                                We at Chemical Engineering Students Society, NIT Durgapur (ChESS), today, present to you the 7th article of our monthly series
-                                                "Chem-E-insider" Today's topic is : "Distillation column"
+                                                A new Season and Chem-E-Insider is back in a brand new outlook to cater to your inquisitive minds
+                                                with its Technical Know-How.
                                             </ReadMore>
                                         </p>
                                     </div>
@@ -94,15 +94,18 @@ function MoreEvents() {
 
 
                             <div className="col-12 col-sm-12 col-lg-4">
-                                <div className="card members__box">
-                                    <img className="card-img-top" src={chemNiti} alt="Event poster" />
+                                <div className="card members__box background">
+                                    <img className="card-img-top background__img" src={chemNiti} alt="Event poster" />
                                     <div className="card-body">
-                                        <h4 className="card-title">CHEMNITI 2022</h4>
-                                        <p className="card-text">
+                                        <h4 className="card-title  background__heading">CHEMNITI 2022</h4>
+                                        <p className="card-text  background__text">
+                                            <h6 className="background__text">
+                                                <em>Motion For the Debate: Artificial Intelligence is a Boon for the Chemical Industry</em>
+
+                                            </h6>
                                             <ReadMore>
                                                 “Think, Ideate and Express” A Debate Competition organized by ChESS with participants from both Engineering
                                                 and non-Engineering background.
-                                                “Artificial Intelligence is a Boon for the Chemical Industry.”
                                             </ReadMore>
                                         </p>
                                     </div>
@@ -111,15 +114,12 @@ function MoreEvents() {
 
 
                             <div className="col-12 col-sm-12 col-lg-4">
-                                <div className="card members__box">
-                                    <img className="card-img-top" src={ASPIRE} alt="Event poster" />
+                                <div className="card members__box background">
+                                    <img className="card-img-top background__img" src={ASPIRE} alt="Event poster" />
                                     <div className="card-body">
-                                        <h4 className="card-title">ASPIRE</h4>
-                                        <p className="card-text">
+                                        <h4 className="card-title  background__heading">ASPIRE</h4>
+                                        <p className="card-text  background__text">
                                             <ReadMore>
-                                                Mr. Iman Ghosh Dastidar who is a
-                                                Senior Process Engineer, Bahrain Petroleum Company, Former Senior Manager at Hindustan Petroleum Corporation Limited,
-                                                Alumnus of Chemical Engineering Department, Batch of 2003.
                                                 Interactive sessions, held physically in the Department’s Auditorium in the Main Academic
                                                 Building featuring speakers across academia and industry.Note: The Institute was closed for the B.Tech students from 16th March,
                                                 2020 to 25th February, 2022 due to the Covid-19 Pandemic,
@@ -136,11 +136,11 @@ function MoreEvents() {
 
                         <div className="row">
                             <div className="col-12 col-sm-12 col-lg-4">
-                                <div className="card members__box">
-                                    <img className="card-img-top" src={ASCENSION} alt="Event poster" />
+                                <div className="card members__box background">
+                                    <img className="card-img-top background__img" src={ASCENSION} alt="Event poster" />
                                     <div className="card-body">
-                                        <h4 className="card-title">ASCENSION 2022</h4>
-                                        <p className="card-text">
+                                        <h4 className="card-title  background__heading">ASCENSION 2022</h4>
+                                        <p className="card-text background__text">
                                             <ReadMore>
                                                 The Department farewell Program for the outgoing batch of 2022
                                                 The event was conducted physically at Classroom-1 in the Department of Chemical Engineering in the Main Academic Building.
@@ -154,13 +154,13 @@ function MoreEvents() {
                             </div>
 
                             <div className="col-12 col-sm-12 col-lg-4">
-                                <div className="card members__box">
-                                    <img className="card-img-top" src={FRESHERS} alt="Event poster" />
+                                <div className="card members__box background">
+                                    <img className="card-img-top background__img" src={FRESHERS} alt="Event poster" />
                                     <div className="card-body">
-                                        <h4 className="card-title">DEPARTMENT FRESHERS’ MEET</h4>
-                                        <p className="card-text">
+                                        <h4 className="card-title background__heading">DEPARTMENT FRESHERS’ MEET</h4>
+                                        <p className="card-text background__text">
                                             <ReadMore>
-                                                It was organized for the second years' batch of the department, as an introduction programmer, where we talked about various aspects Chemical Engineering, about ChESS and its activities.
+                                                It was organized for the second years' batch of the department, as an introduction program, where we talked about various aspects of Chemical Engineering, about ChESS and its activities.
                                                 Date: 31st October, 2021
                                             </ReadMore>
                                         </p>
@@ -169,26 +169,22 @@ function MoreEvents() {
                             </div>
 
                             <div className="col-12 col-sm-12 col-lg-4">
-                                <div className="card members__box">
-                                    <img className="card-img-top" src={PLACEMENT} alt="Event poster" />
+                                <div className="card members__box background">
+                                    <img className="card-img-top background__img" src={PLACEMENT} alt="Event poster" />
                                     <div className="card-body">
-                                        <h4 className="card-title">PLACEMENT TALK SESSIONS</h4>
-                                        <p className="card-text">
+                                        <h4 className="card-title  background__heading">PLACEMENT TALK SESSIONS</h4>
+                                        <p className="card-text background__text">
                                             <ReadMore>
                                                 A new series launched by ChESS on its official YouTube channel based on Campus Placements experience
                                                 of the Alumni of Chemical Engineering Depatment, with Mr Akhil Boyina, currently placed at Linde India
                                                 (Batch of 2021) commencing the series in the month of May. It was followed by a session with
                                                 Mr. Debjit Goswami, currently placed at Deloitte USI (Batch of 2021) in June.
-                                                In Pictures: Thumbnails of both You Tube videos published on the official YT channel of ChESS, till June.
                                             </ReadMore>
                                         </p>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-
-
                     </div>
                 </div>
             </section >

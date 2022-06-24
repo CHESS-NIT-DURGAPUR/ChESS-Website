@@ -167,7 +167,7 @@ class Team extends Component {
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Ankit Jaiswal</h2>
-                                    <h4 className='role'>Event Management</h4>
+                                    <h4 className='role'>Event Management Head</h4>
                                 </div>
                             </div>
                         </div>

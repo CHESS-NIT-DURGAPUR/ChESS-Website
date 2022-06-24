@@ -6,6 +6,8 @@ import img6 from "../images/6.PNG"
 import img9 from "../images/9.PNG"
 import ChemKriti2021_1 from '../images/2021_1.PNG';
 import "./main.css"
+import "./Events.css"
+
 const ChemKriti2021 = () => {
   return (
     <div>
@@ -17,18 +19,18 @@ const ChemKriti2021 = () => {
             <hr />
             <p className="lead card__lead">
               The first edition of ChemKriti has been planned for the 9th to 11th of April, 2021.
-              The theme for this year is “Engineer the process of Life.” A brief description of each of the events that we have planned
+              The theme for this year is “Discover the Chemical Engineer in You” A brief description of each of the events that we have planned
               is discussed below.
             </p>
             <img className="rounded mx-auto d-block img-thumbnail main__img" src={ChemKriti2021_1} alt="Event poster" />
             <div className='members__box__wrap outer'>
               <div className='row'>
                 <div className="col-12 col-sm-12 col-lg-4">
-                  <div className="card members__box">
-                    <img className="card-img-top" src={img4} alt="Event poster" />
+                  <div className="card members__box background">
+                    <img className="card-img-top background__img" src={img4} alt="Event poster" />
                     <div className="card-body">
-                      <h4 className="card-title">Chemstat</h4>
-                      <p className="card-text">
+                      <h4 className="card-title background__heading">Chemstat</h4>
+                      <p className="card-text background__text">
                         <ReadMore>
                           Show your technical and analytical prowess Faced with a problem statement and a real-life scenario participants
                           would have to storm their minds to come up with a seemingly feasible solution, which, mind you, should sound
@@ -43,13 +45,13 @@ const ChemKriti2021 = () => {
 
 
                 <div className="col-12 col-sm-12 col-lg-4">
-                  <div className="card members__box">
-                    <img className="card-img-top" src={img5} alt="Event poster" />
+                  <div className="card members__box  background">
+                    <img className="card-img-top background__img" src={img5} alt="Event poster" />
                     <div className="card-body">
-                      <h4 className="card-title">Chem-Wiz</h4>
-                      <p className="card-text">
+                      <h4 className="card-title background__heading">Chem-Wiz</h4>
+                      <p className="card-text background__text">
                         <ReadMore>
-                          A quiz contest based on Chemical Engineering industries and industrial applications of Chemical Engineering
+                          A quiz contest based on Chemical Engineering industries and industrial applications of Chemical Engineering.
                         </ReadMore>
                       </p>
                     </div>
@@ -58,11 +60,11 @@ const ChemKriti2021 = () => {
 
 
                 <div className="col-12 col-sm-12 col-lg-4">
-                  <div className="card members__box">
-                    <img className="card-img-top" src={img6} alt="Event poster" />
+                  <div className="card members__box background">
+                    <img className="card-img-top background__img" src={img6} alt="Event poster" />
                     <div className="card-body">
-                      <h4 className="card-title">Chem-O-Clave</h4>
-                      <p className="card-text">
+                      <h4 className="card-title background__heading">Chem-O-Clave</h4>
+                      <p className="card-text background__text">
                         <ReadMore>
                           For those curious to know about every circumstance that goes about in the process industry, for those eager to know more about the
                           present and future of the sector that they are most interested to build their career on, opportunities await you, and it is about taking
@@ -79,11 +81,11 @@ const ChemKriti2021 = () => {
               </div>
               <div className="row" style={{ justifyContent: "center", alignItems: "center" }}>
                 <div className="col-12 col-sm-12 col-lg-4">
-                  <div className="card members__box">
-                    <img className="card-img-top" src={img9} alt="Event poster" />
+                  <div className="card members__box background">
+                    <img className="card-img-top background__img" src={img9} alt="Event poster" />
                     <div className="card-body">
-                      <h4 className="card-title">Chem-O-Vate</h4>
-                      <p className="card-text">
+                      <h4 className="card-title background__heading">Chem-O-Vate</h4>
+                      <p className="card-text background__text">
                         <ReadMore>
                           Innovative Workshop based on the topic “Computational Aspects of Chemical Engineering”
                         </ReadMore>

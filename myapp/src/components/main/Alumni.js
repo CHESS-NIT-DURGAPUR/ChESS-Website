@@ -166,7 +166,7 @@ const Alumni = () => {
                                 <img src={AB} alt="Team Img" />
                             </div>
                             <div className="team-content">
-                                <h2>Boyina Venkata Akhil</h2>
+                                <h2 className='membersName' >Boyina Venkata Akhil</h2>
                             </div>
                         </div>
                     </div>
@@ -178,7 +178,7 @@ const Alumni = () => {
                                 <img src={D} alt="Team Img" />
                             </div>
                             <div className="team-content">
-                                <h2 >Darpan Shyamkumar Agarwal</h2>
+                                <h2 className='membersName' >Darpan Shyamkumar Agarwal</h2>
 
                             </div>
 
