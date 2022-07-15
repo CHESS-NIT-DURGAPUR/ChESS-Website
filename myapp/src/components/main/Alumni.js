@@ -37,8 +37,8 @@ const Alumni = () => {
                     <h3>Batch of 2020</h3>
                 </div>
                 <div className="row">
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={TTS} alt="Team Img" />
                             </div>
@@ -48,8 +48,8 @@ const Alumni = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={R} alt="Team Img" />
                             </div>
@@ -60,8 +60,8 @@ const Alumni = () => {
 
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={NK1} alt="Team Img" />
                             </div>
@@ -71,8 +71,8 @@ const Alumni = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={T} alt="Team Img" />
                             </div>
@@ -85,8 +85,8 @@ const Alumni = () => {
                     </div>
                 </div>
                 <div className="row" style={{ justifyContent: "center" }}>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={AK} alt="Team Img" />
                             </div>
@@ -95,8 +95,8 @@ const Alumni = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={RK} alt="Team Img" />
                             </div>
@@ -107,8 +107,8 @@ const Alumni = () => {
 
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={SDE} alt="Team Img" />
                             </div>
@@ -126,8 +126,8 @@ const Alumni = () => {
                     <h3>Batch of 2021</h3>
                 </div>
                 <div className="row">
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={DG} alt="Team Img" />
                             </div>
@@ -137,8 +137,8 @@ const Alumni = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={AHossain} alt="Team Img" />
                             </div>
@@ -148,8 +148,8 @@ const Alumni = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={HA} alt="Team Img" />
                             </div>
@@ -160,8 +160,8 @@ const Alumni = () => {
 
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={AB} alt="Team Img" />
                             </div>
@@ -172,8 +172,8 @@ const Alumni = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={D} alt="Team Img" />
                             </div>
@@ -184,8 +184,8 @@ const Alumni = () => {
 
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={S} alt="Team Img" />
                             </div>
@@ -195,8 +195,8 @@ const Alumni = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={NK2} alt="Team Img" />
                             </div>
@@ -207,8 +207,8 @@ const Alumni = () => {
 
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={SN} alt="Team Img" />
                             </div>
@@ -227,8 +227,8 @@ const Alumni = () => {
                     <h3>Batch of 2022</h3>
                 </div>
                 <div className="row">
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={ryt} alt="Team Img" />
                             </div>
@@ -239,8 +239,8 @@ const Alumni = () => {
 
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={SM} alt="Team Img" />
                             </div>
@@ -251,8 +251,8 @@ const Alumni = () => {
 
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={samn} alt="Team Img" />
                             </div>
@@ -262,8 +262,8 @@ const Alumni = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={swagata} alt="Team Img" />
                             </div>
@@ -276,8 +276,8 @@ const Alumni = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={pandey} alt="Team Img" />
                             </div>
@@ -288,8 +288,8 @@ const Alumni = () => {
 
                         </div>
                     </div>
-                    <div className="column  members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={samr} alt="Team Img" />
                             </div>
@@ -300,8 +300,8 @@ const Alumni = () => {
 
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={rao} alt="Team Img" />
                             </div>
@@ -312,8 +312,8 @@ const Alumni = () => {
 
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={anuj} alt="Team Img" />
                             </div>
@@ -323,7 +323,8 @@ const Alumni = () => {
                         </div>
                     </div>
                 </div>
-            </div></div>
+            </div>
+        </div>
     )
 }
 

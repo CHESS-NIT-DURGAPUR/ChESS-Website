@@ -3,14 +3,19 @@
   transition: 0.2s all ease-out;
 }
 .outer {
-  border: 1px solid black;
+  /* border: 1px solid rgb(41, 41, 41); */
   padding: 3% 4%;
   border-radius: 6rem;
   margin-top: 4%;
   margin-bottom: 5%;
+  background-image: linear-gradient(
+    to right,
+    rgba(69, 42, 247, 0.2),
+    rgba(127, 76, 245, 0.1)
+  );
 }
 .outer:hover {
-  box-shadow: 6px 6px 18px #888888;
+  box-shadow: 0 12px 30px 0 #01003e;
 }
 h1 {
   color: #000;

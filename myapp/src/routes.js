@@ -26,6 +26,8 @@ import Desc from './components/main/description';
 import ChemKriti2022 from './components/main/ChemKriti2022';
 import ChemKriti2021 from './components/main/ChemKriti2021';
 import MoreEvents from './components/main/MoreEvents';
+import ChemEInsider from './components/main/ChemEInsider';
+import AChatWithChESS from './components/main/AChatWithChESS';
 
 const Routes = () => {
     return (
@@ -54,6 +56,8 @@ const Routes = () => {
                 <Route exact component={Auth(ChemKriti2021, false)} path="/chemkriti2021" />
                 <Route exact component={Auth(ChemKriti2022, false)} path="/chemkriti2022" />
                 <Route exact component={Auth(MoreEvents, false)} path="/moreevents" />
+                <Route exact component={Auth(ChemEInsider, false)} path="/ChemEInsider" />
+                <Route exact component={Auth(AChatWithChESS, false)} path="/AChatWithChESS" />
                 <Route component={Error} />
             </Switch>
         </Layout>

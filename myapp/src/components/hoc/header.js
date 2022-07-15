@@ -20,7 +20,7 @@ class Header extends Component {
       <React.Fragment>
         {/* <div className="extraSpace"></div> */}
         <div className='header'>
-          <nav className="navbar navbar-expand-md navbar-dark bg-primary fixed-top" style={{ height: "auto" }}>
+          <nav className="navbar navbar-expand-md navbar-dark bg-primary fixed-top nav_custom">
             <div className="container-fluid">
               <Link to="/" className="navbar-brand user__group">
                 <img src={chess} alt="chess" />
@@ -42,37 +42,95 @@ class Header extends Component {
                       <i className="fa fa-user-plus" aria-hidden="true"></i> FACULTY
                     </Link>
                   </li>
-                  <li className="nav-item ">
-                    <Link className="nav-link nav__link" to="/alumni">
-                      <i className="fa fa-graduation-cap" aria-hidden="true"></i> ALUMNI
-                    </Link>
-                  </li>
-                  <li className="nav-item ">
-                    <Link className="nav-link nav__link" to="/member">
-                      <i className="fa fa-users" aria-hidden="true"></i> MEMBER
-                    </Link>
-                  </li>
+                  {
+                    this.props.user.userData ?
+                      this.props.user.userData.isAuth ?
+                        this.props.user.userData.role === 1 ?
+                          <li className="nav-item ">
+                            <Link className="nav-link nav__link" to="/alumni">
+                              <i className="fa fa-graduation-cap" aria-hidden="true"></i> ALUMNI
+                            </Link>
+                          </li>
+                          :
+                          <li className="nav-item ">
+                            <Link className="nav-link nav__link" to="/alumni">
+                              <i className="fa fa-graduation-cap" aria-hidden="true"></i> ALUMNI
+                            </Link>
+                          </li>
+                        :
+                        <li className="nav-item ">
+                          <Link className="nav-link nav__link" to="/alumni">
+                            <i className="fa fa-graduation-cap" aria-hidden="true"></i> ALUMNI
+                          </Link>
+                        </li>
+                      : null
+                  }
+                  {
+                    this.props.user.userData ?
+                      this.props.user.userData.isAuth ?
+                        this.props.user.userData.role === 1 ?
+                          <li className="nav-item ">
+                            <Link className="nav-link nav__link" to="/member">
+                              <i className="fa fa-users" aria-hidden="true"></i> MEMBER
+                            </Link>
+                          </li>
+                          :
+                          <li className="nav-item ">
+                            <Link className="nav-link nav__link" to="/member">
+                              <i className="fa fa-users" aria-hidden="true"></i> MEMBER
+                            </Link>
+                          </li>
+                        :
+                        <li className="nav-item ">
+                          <Link className="nav-link nav__link" to="/member">
+                            <i className="fa fa-users" aria-hidden="true"></i> MEMBER
+                          </Link>
+                        </li>
+                      : null
+                  }
                   <li className="nav-item dropdown">
                     <Link className="nav-link nav__link dropdown-toggle" data-toggle="dropdown" to="/">
-                      {/* <i class="fa fa-calendar" aria-hidden="true"></i> */}
                       EVENTS
                     </Link>
                     <ul className="dropdown-menu">
-                      <li><Link className='dropDown__link' to="/chemkriti2021">ChemKriti 2021</Link></li>
-                      <li><Link className='dropDown__link' to="/chemkriti2022">ChemKriti 2022</Link></li>
-                      <li><Link className='dropDown__link' to="/moreevents">More Events</Link></li>
+                      {
+                        this.props.user.userData ?
+                          this.props.user.userData.isAuth ?
+                            this.props.user.userData.role === 1 ?
+                              <>
+                                <li><Link className='dropDown__link' to="/chemkriti2021">ChemKriti 2021</Link></li>
+                                <li><Link className='dropDown__link' to="/chemkriti2022">ChemKriti 2022</Link></li>
+                                <li><Link className='dropDown__link' to="/moreevents">More Events</Link></li>
+                              </>
+                              : <>
+                                <li><Link className='dropDown__link' to="/chemkriti2021">ChemKriti 2021</Link></li>
+                                <li><Link className='dropDown__link' to="/chemkriti2022">ChemKriti 2022</Link></li>
+                                <li><Link className='dropDown__link' to="/moreevents">More Events</Link></li>
+                              </>
+                            : <>
+                              <li><Link className='dropDown__link' to="/chemkriti2021">ChemKriti 2021</Link></li>
+                              <li><Link className='dropDown__link' to="/chemkriti2022">ChemKriti 2022</Link></li>
+                              <li><Link className='dropDown__link' to="/moreevents">More Events</Link></li>
+                            </>
+                          : null
+                      }
                     </ul>
                   </li>
                 </ul>
               </div>
               <div className="navbar-collapse collapse flex-grow-0" id="collapsibleNavbar">
                 <ul className="navbar-nav  justify-content-center mx-auto">
-                  <li className="nav-item">
-                    <Link className="nav-link nav__link" to="/register">
-                      REGISTER <i className="fa fa-user" aria-hidden="true"></i>
-
-                    </Link>
-                  </li>
+                  {this.props.user.userData ?
+                    !this.props.user.userData.isAuth ?
+                      <li className="nav-item">
+                        <Link className="nav-link nav__link" to="/register">
+                          REGISTER <i className="fa fa-user" aria-hidden="true"></i>
+                        </Link>
+                      </li>
+                      :
+                      null :
+                    null
+                  }
                   {this.props.user.userData ?
                     !this.props.user.userData.isAuth ?
                       <li className="nav-item ">
@@ -84,14 +142,14 @@ class Header extends Component {
                       :
                       <li className="nav-item active">
                         <Link className="nav-link nav__link" to="/logout" onClick={() => this.logoutuser()}>
-                          LOGOUT <i className="fa-solid fa-right-from-bracket"></i>
+                          LOGOUT <i class="fa fa-sign-out" aria-hidden="true"></i>
                         </Link>
                       </li> : null
                   }
                   {this.props.user.userData ?
 
                     this.props.user.userData.isAuth ?
-                      <li className="nav-item active">
+                      <li className="nav-item">
                         <Link className="nav-link nav__link" to="/blogs">BLOGS</Link>
                       </li>
                       :
@@ -119,7 +177,7 @@ class Header extends Component {
                       this.props.user.userData.isAuth ?
                         this.props.user.userData.role === 1 ?
 
-                          <li className="nav-item active">
+                          <li className="nav-item">
                             <Link className="nav-link nav__link" to="/allalum" >VIEW ALL ALUMNI</Link>
                           </li>
                           : null
@@ -128,7 +186,7 @@ class Header extends Component {
                   }
 
 
-                  {
+                  {/* {
                     this.props.user.userData ?
                       this.props.user.userData.isAuth ?
                         this.props.user.userData.role === 1 ?
@@ -159,7 +217,7 @@ class Header extends Component {
                       <li className="nav-item active">
                         <Link className="nav-link nav__link" to="/login" >LOGIN</Link>
                       </li> : null
-                  }
+                  } */}
                 </ul>
               </div>
             </div>

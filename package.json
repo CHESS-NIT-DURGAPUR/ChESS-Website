@@ -23,6 +23,7 @@
     "nodemailer": "^6.6.1",
     "nodemon": "^1.19.4",
     "prop-types": "^15.7.2",
+    "react-particles-js": "^3.6.0",
     "redux": "^4.1.0",
     "redux-promise": "^0.6.0",
     "redux-thunk": "^2.3.0",
