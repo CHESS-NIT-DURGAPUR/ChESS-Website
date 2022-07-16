@@ -281,17 +281,6 @@ class Team extends Component {
                         <div className="column">
                             <div className="team-5 members__box">
                                 <div className="team-img">
-                                    <img src={SGhosh} alt="Team Img" />
-                                </div>
-                                <div className="team-content">
-                                    <h2 className='membersName'>Sanghita Ghosh</h2>
-                                    <h4 className='role'>Executive Member</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="column">
-                            <div className="team-5 members__box">
-                                <div className="team-img">
                                     <img src={DKher} alt="Team Img" />
                                 </div>
                                 <div className="team-content">

@@ -3,14 +3,16 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux'
 // import Particles from 'react-particles-js';
 // import HeaderTitle from '../hoc/HeaderTitle';
-import Button from '@material-ui/core/Button';
-import five from '../../images/gre1.jpg'
-import six from '../../images/gate1.jpg'
-import cfd from '../../images/CFD.jpeg'
-import ChemInsider1 from '../../images/ChemInsider 1.jpg'
-import ChemInsider2 from '../../images/ChemInsider 2.jpg'
+// import Button from '@material-ui/core/Button';
+// import five from '../../images/gre1.jpg'
+// import six from '../../images/gate1.jpg'
+// import cfd from '../../images/CFD.jpeg'
+// import ChemInsider1 from '../../images/ChemInsider 1.jpg'
+// import ChemInsider2 from '../../images/ChemInsider 2.jpg'
 import main from '../../images/main.jpg'
 import main2 from '../../images/main2.jpg'
+import main3 from '../../images/main3.jpg'
+import main4 from '../../images/main4.jpg'
 import pic from "../images/wp5330256.png"
 import wall from "../images/Why Join Us.jpg"
 import { allnews } from '../actions/recordactions'
@@ -72,8 +74,10 @@ class Main extends Component {
                   <li data-target="#myCarousel" data-slide-to="2"></li>
                   <li data-target="#myCarousel" data-slide-to="3"></li>
                   <li data-target="#myCarousel" data-slide-to="4"></li>
-                  <li data-target="#myCarousel" data-slide-to="5"></li>
-                  <li data-target="#myCarousel" data-slide-to="6"></li>
+                  {/* <li data-target="#myCarousel" data-slide-to="5"></li>
+                  <li data-target="#myCarousel" data-slide-to="6"></li> */}
+                  {/* <li data-target="#myCarousel" data-slide-to="7"></li> */}
+                  {/* <li data-target="#myCarousel" data-slide-to="8"></li> */}
                 </ol>
                 <div className="carousel-inner">
                   <div className="item active" >
@@ -89,26 +93,38 @@ class Main extends Component {
                     </div>
                   </div>
                   <div className="item" >
+                    <img className='carouselImg' src={main3} alt="chess" id="win" loading="lazy" />
+                    <div className="carousel-caption">
+                      <h2 className="glitch" data-text="Office Bearers">Office Bearers</h2>
+                    </div>
+                  </div>
+                  <div className="item" >
+                    <img className='carouselImg' src={main4} alt="chess" id="win" loading="lazy" />
+                    <div className="carousel-caption">
+                      <h2 className="glitch" data-text="Alumni">Alumni</h2>
+                    </div>
+                  </div>
+                  {/* <div className="item" >
                     <img className='carouselImg' src={cfd} alt="chess" id="win" loading="lazy" />
                     <div className="carousel-caption">
                       <h2 className="glitch" data-text="Computational Fluid Dynamics(CFD)">Computational Fluid Dynamics(CFD)</h2>
                     </div>
-                  </div>
+                  </div> */}
 
-                  <div className="item"  >
+                  {/* <div className="item"  >
                     <img className='carouselImg' src={five} alt="chess" id="win" loading="lazy" />
                     <div className="carousel-caption">
                       <h2 className="glitch" data-text="Interactive Session">Interactive Session</h2>
                     </div>
-                  </div>
+                  </div> */}
 
-                  <div className="item" >
+                  {/* <div className="item" >
                     <img className='carouselImg' src={six} alt="chess" id="win" loading="lazy" />
                     <div className="carousel-caption">
                       <h2 className="glitch" data-text="Interactive Session">Interactive Session</h2>
                     </div>
-                  </div>
-                  <div className="item" >
+                  </div> */}
+                  {/* <div className="item" >
                     <img className='carouselImg' src={ChemInsider1} alt="chess" id="win" loading="lazy" />
                     <div className="carousel-caption">
                       <h2 className="glitch" data-text="Distillation Column">Distillation Column</h2>
@@ -119,7 +135,7 @@ class Main extends Component {
                     <div className="carousel-caption">
                       <h2 className="glitch" data-text="Placement Talk Sessions">Placement Talk Sessions</h2>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
 
                 <a className="left carousel-control carouselImg__outer" href="#myCarousel" data-slide="prev">
@@ -149,7 +165,7 @@ class Main extends Component {
               <div className="row">
                 <div className="col-xl-12 col-lg-12 col-12" style={{ textAlign: "center" }}>
                   {/* <div className="section-name wow fadeInRight about__heading">Highlights</div> */}
-                  <h4 data-text="Highlights" className="glitch text-capitalize wow fadeInLeft" data-wow-delay=".2s">
+                  <h4 data-text="Highlights" className="glitch wow fadeInLeft" data-wow-delay=".2s">
                     High<span className="text-primary">lights</span>
                   </h4>
                   <hr />

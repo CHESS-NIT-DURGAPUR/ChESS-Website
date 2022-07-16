@@ -7,7 +7,7 @@ import img9 from "../images/9.PNG"
 import ChemKriti2021_1 from '../images/2021_1.PNG';
 import "./main.css"
 import "./Events.css"
-
+import "./insider.css";
 const ChemKriti2021 = () => {
   return (
     <div>
@@ -44,7 +44,7 @@ const ChemKriti2021 = () => {
                 </div>
 
 
-                <div className="col-12 col-sm-12 col-lg-4">
+                <div className="col-12 col-sm-12 col-lg-4 gap">
                   <div className="card members__box  background">
                     <img className="card-img-top background__img" src={img5} alt="Event poster" />
                     <div className="card-body">
@@ -59,7 +59,7 @@ const ChemKriti2021 = () => {
                 </div>
 
 
-                <div className="col-12 col-sm-12 col-lg-4">
+                <div className="col-12 col-sm-12 col-lg-4 gap">
                   <div className="card members__box background">
                     <img className="card-img-top background__img" src={img6} alt="Event poster" />
                     <div className="card-body">
@@ -80,7 +80,7 @@ const ChemKriti2021 = () => {
                 </div>
               </div>
               <div className="row" style={{ justifyContent: "center", alignItems: "center" }}>
-                <div className="col-12 col-sm-12 col-lg-4">
+                <div className="col-12 col-sm-12 col-lg-4 gap">
                   <div className="card members__box background">
                     <img className="card-img-top background__img" src={img9} alt="Event poster" />
                     <div className="card-body">

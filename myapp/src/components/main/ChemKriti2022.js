@@ -11,6 +11,7 @@ import INAUGURATION_2 from "../images/INAUGURATION_2.PNG"
 import ChemKriti2022_1 from '../images/2022_1.PNG';
 import "./main.css"
 import "./Events.css"
+import "./insider.css";
 const ChemKriti2022 = () => {
     return (
         <div>
@@ -39,12 +40,12 @@ const ChemKriti2022 = () => {
                                 Refreshments were provided to attendees.
                             </p>
                             <div className='row'>
-                                <div className="col-12 col-sm-12 col-lg-6">
+                                <div className="col-12 col-sm-12 col-lg-6 gap">
                                     <div className=" members__box">
                                         <img className="rounded mx-auto d-block img-thumbnail main__img" src={INAUGURATION_1} alt="Event poster" />
                                     </div>
                                 </div>
-                                <div className="col-12 col-sm-12 col-lg-6">
+                                <div className="col-12 col-sm-12 col-lg-6 gap">
                                     <div className=" members__box">
                                         <img className="rounded mx-auto d-block img-thumbnail main__img" src={INAUGURATION_2} alt="Event poster" />
                                     </div>
@@ -74,7 +75,7 @@ const ChemKriti2022 = () => {
                                 </div>
 
 
-                                <div className="col-12 col-sm-12 col-lg-4">
+                                <div className="col-12 col-sm-12 col-lg-4 gap">
                                     <div className="card members__box background">
                                         <img className="card-img-top background__img" src={img5} alt="Event poster" />
                                         <div className="card-body">
@@ -95,7 +96,7 @@ const ChemKriti2022 = () => {
                                 </div>
 
 
-                                <div className="col-12 col-sm-12 col-lg-4">
+                                <div className="col-12 col-sm-12 col-lg-4 gap">
                                     <div className="card members__box background">
                                         <img className="card-img-top background__img" src={img7} alt="Event poster" />
                                         <div className="card-body">
@@ -131,7 +132,7 @@ const ChemKriti2022 = () => {
                                 </div>
 
 
-                                <div className="col-12 col-sm-12 col-lg-4">
+                                <div className="col-12 col-sm-12 col-lg-4 gap">
                                     <div className="card members__box background">
                                         <img className="card-img-top background__img" src={img6} alt="Event poster" />
                                         <div className="card-body">
@@ -152,7 +153,7 @@ const ChemKriti2022 = () => {
                                 </div>
 
 
-                                <div className="col-12 col-sm-12 col-lg-4">
+                                <div className="col-12 col-sm-12 col-lg-4 gap">
                                     <div className="card members__box background">
                                         <img className="card-img-top background__img" src={img9} alt="Event poster" />
                                         <div className="card-body">
