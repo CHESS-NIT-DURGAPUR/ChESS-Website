@@ -6,6 +6,7 @@ import insider4 from "../images/insider4.jpg"
 import insider5 from "../images/insider5.jpg"
 import insider6 from "../images/insider6.jpg"
 import insider7 from "../images/insider7.jpg"
+import "./insider.css";
 const ChemEInsider = () => {
     return (
         <>
@@ -37,7 +38,7 @@ const ChemEInsider = () => {
                                 </div>
 
 
-                                <div className="col-12 col-sm-12 col-lg-6">
+                                <div className="col-12 col-sm-12 col-lg-6 gap">
                                     <div className="card members__box background">
                                         <img className="card-img-top background__img" src={insider2} alt="Event poster" />
                                         <div className="card-body">
@@ -52,7 +53,7 @@ const ChemEInsider = () => {
 
 
                             <div className='row' style={{ alignItems: "center", justifyContent: "space-around" }}>
-                                <div className="col-12 col-sm-12 col-lg-6">
+                                <div className="col-12 col-sm-12 col-lg-6 gap">
                                     <div className="card members__box background">
                                         <img className="card-img-top background__img" src={insider6} alt="Event poster" />
                                         <div className="card-body">
@@ -65,7 +66,7 @@ const ChemEInsider = () => {
                                 </div>
 
 
-                                <div className="col-12 col-sm-12 col-lg-6">
+                                <div className="col-12 col-sm-12 col-lg-6 gap">
                                     <div className="card members__box background">
                                         <img className="card-img-top background__img" src={insider7} alt="Event poster" />
                                         <div className="card-body">
@@ -100,7 +101,7 @@ const ChemEInsider = () => {
                                 </div>
 
 
-                                <div className="col-12 col-sm-12 col-lg-6">
+                                <div className="col-12 col-sm-12 col-lg-6 gap">
                                     <div className="card members__box background">
                                         <img className="card-img-top background__img" src={insider4} alt="Event poster" />
                                         <div className="card-body">
@@ -112,8 +113,6 @@ const ChemEInsider = () => {
                                     </div>
                                 </div>
                             </div>
-
-
 
                             <div className='row' style={{ alignItems: "center", justifyContent: "space-around" }}>
 

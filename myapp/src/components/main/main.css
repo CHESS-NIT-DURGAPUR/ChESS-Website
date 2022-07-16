@@ -20,6 +20,12 @@
   border: none !important;
   color: white;
 }
+@media only screen and (max-width: 410px) {
+  .main__teamButton {
+    font-size: 0.75rem !important;
+  }
+}
+
 .main__teamButton:hover {
   font-weight: bold;
   background-color: #fff !important;
@@ -109,11 +115,12 @@
 }
 
 .glitch {
+  font-weight: bold;
   text-transform: uppercase;
   position: relative;
   color: #fff;
-  font-size: 4em;
-  letter-spacing: 0.5em;
+  font-size: 2em;
+  letter-spacing: 0.3em;
   animation: glitch-skew 1s infinite linear alternate-reverse;
 }
 .glitch::before {
@@ -355,5 +362,36 @@
 @media only screen and (max-width: 970px) {
   #poster {
     margin-top: 0 !important;
+  }
+  .about__image_outer {
+    padding-top: 3rem;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .highlight {
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    padding: 3.5rem;
+  }
+  .about__image_outer {
+    padding-top: 2.5rem;
+  }
+}
+@media only screen and (max-width: 410px) {
+  .glitch {
+    font-size: 1.25em;
+  }
+  .highlight {
+    background: rgba(255, 255, 255, 0.45);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    padding: 3rem;
+  }
+  .about__image_outer {
+    padding-top: 1rem;
+  }
+  .footer__heading_upper {
+    padding: 2% 15% !important;
   }
 }

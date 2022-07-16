@@ -10,6 +10,7 @@ import ASCENSION from "../images/ASCENSION.PNG"
 import PLACEMENT from "../images/PLACEMENT.png"
 import FRESHERS from "../images/FRESHERS.PNG"
 import "./Events.css"
+import "./insider.css"
 function MoreEvents() {
     return (
         <div>
@@ -39,7 +40,7 @@ function MoreEvents() {
                             </div>
 
 
-                            <div className="col-12 col-sm-12 col-lg-4">
+                            <div className="col-12 col-sm-12 col-lg-4 gap">
                                 <div className="card members__box background">
                                     <img className="card-img-top background__img" src={img2} alt="Event poster" />
                                     <div className="card-body">
@@ -56,7 +57,7 @@ function MoreEvents() {
                             </div>
 
 
-                            <div className="col-12 col-sm-12 col-lg-4">
+                            <div className="col-12 col-sm-12 col-lg-4 gap">
                                 <div className="card members__box background">
                                     <img className="card-img-top background__img" src={img3} alt="Event poster" />
                                     <div className="card-body">
@@ -93,7 +94,7 @@ function MoreEvents() {
                             </div>
 
 
-                            <div className="col-12 col-sm-12 col-lg-4">
+                            <div className="col-12 col-sm-12 col-lg-4 gap">
                                 <div className="card members__box background">
                                     <img className="card-img-top background__img" src={chemNiti} alt="Event poster" />
                                     <div className="card-body">
@@ -113,7 +114,7 @@ function MoreEvents() {
                             </div>
 
 
-                            <div className="col-12 col-sm-12 col-lg-4">
+                            <div className="col-12 col-sm-12 col-lg-4 gap">
                                 <div className="card members__box background">
                                     <img className="card-img-top background__img" src={ASPIRE} alt="Event poster" />
                                     <div className="card-body">
@@ -153,7 +154,7 @@ function MoreEvents() {
                                 </div>
                             </div>
 
-                            <div className="col-12 col-sm-12 col-lg-4">
+                            <div className="col-12 col-sm-12 col-lg-4 gap">
                                 <div className="card members__box background">
                                     <img className="card-img-top background__img" src={FRESHERS} alt="Event poster" />
                                     <div className="card-body">
@@ -168,7 +169,7 @@ function MoreEvents() {
                                 </div>
                             </div>
 
-                            <div className="col-12 col-sm-12 col-lg-4">
+                            <div className="col-12 col-sm-12 col-lg-4 gap">
                                 <div className="card members__box background">
                                     <img className="card-img-top background__img" src={PLACEMENT} alt="Event poster" />
                                     <div className="card-body">

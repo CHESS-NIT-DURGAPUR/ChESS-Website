@@ -93,7 +93,7 @@ hr {
 }
 @media only screen and (max-width: 650px) {
   #win {
-    height: 32rem !important;
+    height: 50% !important;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -102,6 +102,11 @@ hr {
   }
   .header__navbar {
     height: 9rem;
+  }
+  .dropDown__link {
+    font-weight: bold;
+    font-size: 1.6rem;
+    background-color: #79b9fd !important;
   }
 }
 @media only screen and (max-width: 494px) {
