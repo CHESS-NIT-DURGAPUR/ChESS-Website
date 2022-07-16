@@ -169,7 +169,6 @@ class Main extends Component {
                     High<span className="text-primary">lights</span>
                   </h4>
                   <hr />
-                  {/* <p style={{ fontWeight: "bold" }}>In few years we have expanded the range of events that we conduct for the students to extend their capabilities.</p> */}
                 </div>
               </div>
               <div className="row" >
