@@ -38,8 +38,8 @@ class Team extends Component {
                         <h3>PhD Representative</h3>
                     </div>
                     <div className="row" style={{ justifyContent: "center" }}>
-                        <div className="column members__box">
-                            <div className="team-5">
+                        <div className="column">
+                            <div className="team-5 members__box">
                                 <div className="team-img">
                                     <img src={AC} alt="Team Img" />
                                 </div>
@@ -56,8 +56,8 @@ class Team extends Component {
                         <h3>M.Tech Representative</h3>
                     </div>
                     <div className="row" style={{ alignItems: "center", justifyContent: "space-between" }}>
-                        <div className="column members__box">
-                            <div className="team-5">
+                        <div className="column">
+                            <div className="team-5 members__box">
                                 <div className="team-img">
                                     <img src={swagata} alt="Team Img" />
                                 </div>
@@ -66,8 +66,8 @@ class Team extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="column members__box">
-                            <div className="team-5">
+                        <div className="column">
+                            <div className="team-5 members__box">
                                 <div className="team-img">
                                     <img src={rao} alt="Team Img" />
                                 </div>
@@ -87,8 +87,8 @@ class Team extends Component {
                         <h3>Batch of 2023</h3>
                     </div>
                     <div className="row">
-                        <div className="column members__box">
-                            <div className="team-5">
+                        <div className="column">
+                            <div className="team-5 members__box">
                                 <div className="team-img">
                                     <img src={SMitra} alt="Team Img" />
                                 </div>
@@ -99,8 +99,8 @@ class Team extends Component {
                             </div>
                         </div>
 
-                        <div className="column members__box">
-                            <div className="team-5">
+                        <div className="column">
+                            <div className="team-5 members__box">
                                 <div className="team-img">
                                     <img src={SSah} alt="Team Img" />
                                 </div>
@@ -111,8 +111,8 @@ class Team extends Component {
                             </div>
                         </div>
 
-                        <div className="column members__box">
-                            <div className="team-5">
+                        <div className="column">
+                            <div className="team-5 members__box">
                                 <div className="team-img">
                                     <img src={Prashanth} alt="Team Img" />
                                 </div>
@@ -123,8 +123,8 @@ class Team extends Component {
                             </div>
                         </div>
 
-                        <div className="column members__box">
-                            <div className="team-5">
+                        <div className="column">
+                            <div className="team-5 members__box">
                                 <div className="team-img">
                                     <img src={ANagar} alt="Team Img" />
                                 </div>
@@ -136,8 +136,8 @@ class Team extends Component {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="column members__box">
-                            <div className="team-5">
+                        <div className="column">
+                            <div className="team-5 members__box">
                                 <div className="team-img">
                                     <img src={RYadav} alt="Team Img" />
                                 </div>
@@ -148,8 +148,8 @@ class Team extends Component {
                             </div>
                         </div>
 
-                        <div className="column members__box">
-                            <div className="team-5">
+                        <div className="column">
+                            <div className="team-5 members__box">
                                 <div className="team-img">
                                     <img src={YSinha} alt="Team Img" />
                                 </div>
@@ -160,8 +160,8 @@ class Team extends Component {
                             </div>
                         </div>
 
-                        <div className="column members__box">
-                            <div className="team-5">
+                        <div className="column">
+                            <div className="team-5 members__box">
                                 <div className="team-img">
                                     <img src={AJaiswal} alt="Team Img" />
                                 </div>
@@ -172,8 +172,8 @@ class Team extends Component {
                             </div>
                         </div>
 
-                        <div className="column members__box">
-                            <div className="team-5">
+                        <div className="column">
+                            <div className="team-5 members__box">
                                 <div className="team-img">
                                     <img src={AChaudhary} alt="Team Img" />
                                 </div>
@@ -185,8 +185,8 @@ class Team extends Component {
                         </div>
                     </div>
                     <div className="row" style={{ justifyContent: "center" }}>
-                        <div className="column members__box">
-                            <div className="team-5">
+                        <div className="column">
+                            <div className="team-5 members__box">
                                 <div className="team-img">
                                     <img src={AKrishna} alt="Team Img" />
                                 </div>
@@ -205,8 +205,8 @@ class Team extends Component {
                         <h3>Batch of 2024</h3>
                     </div>
                     <div className="row">
-                        <div className="column members__box">
-                            <div className="team-5">
+                        <div className="column">
+                            <div className="team-5 members__box">
                                 <div className="team-img">
                                     <img src={ZHossain} alt="Team Img" />
                                 </div>
@@ -217,8 +217,8 @@ class Team extends Component {
                             </div>
                         </div>
 
-                        <div className="column members__box">
-                            <div className="team-5">
+                        <div className="column">
+                            <div className="team-5 members__box">
                                 <div className="team-img">
                                     <img src={RChowdhury} alt="Team Img" />
                                 </div>
@@ -229,8 +229,8 @@ class Team extends Component {
                             </div>
                         </div>
 
-                        <div className="column members__box">
-                            <div className="team-5">
+                        <div className="column">
+                            <div className="team-5  members__box">
                                 <div className="team-img">
                                     <img src={SMookherjee} alt="Team Img" />
                                 </div>
@@ -240,8 +240,8 @@ class Team extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="column members__box">
-                            <div className="team-5">
+                        <div className="column">
+                            <div className="team-5 members__box">
                                 <div className="team-img">
                                     <img src={SRajwar} alt="Team Img" />
                                 </div>
@@ -254,8 +254,8 @@ class Team extends Component {
                     </div>
 
                     <div className="row">
-                        <div className="column members__box">
-                            <div className="team-5">
+                        <div className="column">
+                            <div className="team-5 members__box">
                                 <div className="team-img">
                                     <img src={ADey} alt="Team Img" />
                                 </div>
@@ -266,8 +266,8 @@ class Team extends Component {
                             </div>
                         </div>
 
-                        <div className="column members__box">
-                            <div className="team-5">
+                        <div className="column">
+                            <div className="team-5 members__box">
                                 <div className="team-img">
                                     <img src={DBardhan} alt="Team Img" />
                                 </div>
@@ -278,8 +278,8 @@ class Team extends Component {
                             </div>
                         </div>
 
-                        <div className="column members__box">
-                            <div className="team-5">
+                        <div className="column">
+                            <div className="team-5 members__box">
                                 <div className="team-img">
                                     <img src={SGhosh} alt="Team Img" />
                                 </div>
@@ -289,8 +289,8 @@ class Team extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="column members__box">
-                            <div className="team-5">
+                        <div className="column">
+                            <div className="team-5 members__box">
                                 <div className="team-img">
                                     <img src={DKher} alt="Team Img" />
                                 </div>
@@ -303,8 +303,8 @@ class Team extends Component {
                     </div>
 
                     <div className="row" style={{ justifyContent: "center" }}>
-                        <div className="column members__box">
-                            <div className="team-5">
+                        <div className="column">
+                            <div className="team-5 members__box">
                                 <div className="team-img">
                                     <img src={SAcharya} alt="Team Img" />
                                 </div>
@@ -315,8 +315,8 @@ class Team extends Component {
                             </div>
                         </div>
 
-                        <div className="column members__box">
-                            <div className="team-5">
+                        <div className="column">
+                            <div className="team-5 members__box">
                                 <div className="team-img">
                                     <img src={ANagarajan} alt="Team Img" />
                                 </div>

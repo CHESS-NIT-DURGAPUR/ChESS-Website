@@ -22,7 +22,7 @@ hr {
 }
 .nav__link {
   font-family: "Montserrat", sans-serif;
-  font-size: 15px;
+  font-size: 16px;
 }
 .container__header {
   margin: 8rem 1rem 1rem 1rem;
@@ -70,6 +70,12 @@ hr {
 }
 .extraSpace {
   height: 6rem;
+}
+.nav_custom {
+  height: auto;
+  border-radius: 0;
+  background-color: rgb(52, 34, 181) !important;
+  color: rgb(205, 228, 255);
 }
 @media only screen and (max-width: 970px) {
   .container__header {

@@ -29,8 +29,8 @@ const Facad = () => {
             </div>
             <div className='outer members__box__wrap'>
                 <div className="row">
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={PPG} alt="Team Img" />
                             </div>
@@ -43,8 +43,8 @@ const Facad = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={PP} alt="Team Img" />
                             </div>
@@ -58,8 +58,8 @@ const Facad = () => {
 
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={KCG} alt="Team Img" />
                             </div>
@@ -73,8 +73,8 @@ const Facad = () => {
 
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={TM} alt="Team Img" />
                             </div>
@@ -90,8 +90,8 @@ const Facad = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={AKS} alt="Team Img" />
                             </div>
@@ -105,8 +105,8 @@ const Facad = () => {
 
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={SD} alt="Team Img" />
                             </div>
@@ -120,8 +120,8 @@ const Facad = () => {
 
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={GH} alt="Team Img" />
                             </div>
@@ -135,8 +135,8 @@ const Facad = () => {
 
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={MKM} alt="Team Img" />
                             </div>
@@ -152,8 +152,8 @@ const Facad = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={JS} alt="Team Img" />
                             </div>
@@ -167,8 +167,8 @@ const Facad = () => {
 
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={SKL} alt="Team Img" />
                             </div>
@@ -182,8 +182,8 @@ const Facad = () => {
 
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={SP} alt="Team Img" />
                             </div>
@@ -197,8 +197,8 @@ const Facad = () => {
 
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={BD} alt="Team Img" />
                             </div>
@@ -214,8 +214,8 @@ const Facad = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={BKM} alt="Team Img" />
                             </div>
@@ -229,8 +229,8 @@ const Facad = () => {
 
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={RGC} alt="Team Img" />
                             </div>
@@ -244,8 +244,8 @@ const Facad = () => {
 
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={AH} alt="Team Img" />
                             </div>
@@ -259,8 +259,8 @@ const Facad = () => {
 
                         </div>
                     </div>
-                    <div className="column members__box">
-                        <div className="team-5">
+                    <div className="column">
+                        <div className="team-5 members__box">
                             <div className="team-img">
                                 <img src={AS} alt="Team Img" />
                             </div>

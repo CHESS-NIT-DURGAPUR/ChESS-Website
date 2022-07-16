@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux'
-import HeaderTitle from '../hoc/HeaderTitle';
+// import Particles from 'react-particles-js';
+// import HeaderTitle from '../hoc/HeaderTitle';
+import Button from '@material-ui/core/Button';
 import five from '../../images/gre1.jpg'
 import six from '../../images/gate1.jpg'
 import cfd from '../../images/CFD.jpeg'
 import ChemInsider1 from '../../images/ChemInsider 1.jpg'
 import ChemInsider2 from '../../images/ChemInsider 2.jpg'
+import main from '../../images/main.jpg'
+import main2 from '../../images/main2.jpg'
 import pic from "../images/wp5330256.png"
 import wall from "../images/Why Join Us.jpg"
 import { allnews } from '../actions/recordactions'
@@ -58,10 +62,9 @@ class Main extends Component {
   render() {
     return (
       <React.Fragment>
-        <HeaderTitle />
-        <div className="container-fluid">
+        <div className="container-fluid main__body">
           <div className="row carouselImg__outer" id='poster'>
-            <div className="col-lg-12 col-md-12 col-xs-12 col-sm-12" id="win">
+            <div className="col-lg-12 col-md-12 col-xs-12 col-sm-12 myContainer" id="win" style={{ marginTop: "9.4rem" }}>
               <div id="myCarousel" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
                   <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
@@ -69,38 +72,52 @@ class Main extends Component {
                   <li data-target="#myCarousel" data-slide-to="2"></li>
                   <li data-target="#myCarousel" data-slide-to="3"></li>
                   <li data-target="#myCarousel" data-slide-to="4"></li>
+                  <li data-target="#myCarousel" data-slide-to="5"></li>
+                  <li data-target="#myCarousel" data-slide-to="6"></li>
                 </ol>
                 <div className="carousel-inner">
                   <div className="item active" >
+                    <img className='carouselImg' src={main} alt="chess" id="win" loading="lazy" />
+                    <div className="carousel-caption">
+                      <h2 className="glitch" data-text="Faculty">Faculty</h2>
+                    </div>
+                  </div>
+                  <div className="item" >
+                    <img className='carouselImg' src={main2} alt="chess" id="win" loading="lazy" />
+                    <div className="carousel-caption">
+                      <h2 className="glitch" data-text="Members">Members</h2>
+                    </div>
+                  </div>
+                  <div className="item" >
                     <img className='carouselImg' src={cfd} alt="chess" id="win" loading="lazy" />
                     <div className="carousel-caption">
-                      <h2 className='carousel__text-black'>Computational Fluid Dynamics(CFD)</h2>
+                      <h2 className="glitch" data-text="Computational Fluid Dynamics(CFD)">Computational Fluid Dynamics(CFD)</h2>
                     </div>
                   </div>
 
                   <div className="item"  >
                     <img className='carouselImg' src={five} alt="chess" id="win" loading="lazy" />
                     <div className="carousel-caption">
-                      <h2 className='carousel__text-black'>Interactive Session</h2>
+                      <h2 className="glitch" data-text="Interactive Session">Interactive Session</h2>
                     </div>
                   </div>
 
                   <div className="item" >
                     <img className='carouselImg' src={six} alt="chess" id="win" loading="lazy" />
                     <div className="carousel-caption">
-                      <h2 className='carousel__text-black'>Interactive Session</h2>
+                      <h2 className="glitch" data-text="Interactive Session">Interactive Session</h2>
                     </div>
                   </div>
                   <div className="item" >
                     <img className='carouselImg' src={ChemInsider1} alt="chess" id="win" loading="lazy" />
                     <div className="carousel-caption">
-                      <h2 className="carousel__text-black">Distillation Column</h2>
+                      <h2 className="glitch" data-text="Distillation Column">Distillation Column</h2>
                     </div>
                   </div>
                   <div className="item" >
                     <img className='carouselImg' src={ChemInsider2} alt="chess" id="win" loading="lazy" />
                     <div className="carousel-caption">
-                      <h2 className="carousel__text-black">Placement Talk Sessions</h2>
+                      <h2 className="glitch" data-text="Placement Talk Sessions">Placement Talk Sessions</h2>
                     </div>
                   </div>
                 </div>
@@ -126,11 +143,42 @@ class Main extends Component {
             </div>
           </div>
 
+
+          <section className="section custom-section position-relative section-md highlight">
+            <div className="container">
+              <div className="row">
+                <div className="col-xl-12 col-lg-12 col-12" style={{ textAlign: "center" }}>
+                  {/* <div className="section-name wow fadeInRight about__heading">Highlights</div> */}
+                  <h4 data-text="Highlights" className="glitch text-capitalize wow fadeInLeft" data-wow-delay=".2s">
+                    High<span className="text-primary">lights</span>
+                  </h4>
+                  <hr />
+                  <p style={{ fontWeight: "bold" }}>In few years we have expanded the range of events that we conduct for the students to extend their capabilities.</p>
+                </div>
+              </div>
+              <div className="row" >
+                <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12" style={{ textAlign: "center" }}>
+                  <Link className="button-width-150 button-primary button-circle button-lg button offset-top-20 main__teamButton" to="./ChemEInsider">
+                    Chem-E-Insider <i className="fa fa-info" aria-hidden="true"></i>
+                  </Link>
+                </div>
+                <br />
+                <br />
+                <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12" style={{ textAlign: "center" }}>
+                  <Link className="button-width-150 button-primary button-circle button-lg button offset-top-20 main__teamButton" to="./AChatWithChESS">
+                    A Chat With ChESS <i className="fa fa-youtube-play" aria-hidden="true"></i>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
           <section className="section section-sm position-relative" id="about">
             <div className="container">
               <div className="row row-30">
                 <div className="col-lg-6 about__image_outer">
-                  <div className="block-decorate-img wow fadeInLeft image__hover" data-wow-delay=".2s">
+                  <div className="block-decorate-img wow fadeInLeft" data-wow-delay=".2s">
                     <img src={pic} alt="about img" width="570" height="351" className='about__image'
                     />
                   </div>
@@ -140,7 +188,7 @@ class Main extends Component {
                     <div className="section-name wow fadeInRight about__heading" data-wow-delay=".2s">About us</div>
                     <h3 className="wow fadeInLeft text-capitalize" data-wow-delay=".3s">What We<span className="text-primary"> Do</span></h3>
                     <hr />
-                    <p className="offset-xl-40 wow fadeInUp" data-wow-delay=".4s">The Chemical Engineering Student's Society (CHESS) is an independent student run society of Chemical Engineering Department of NIT Durgapur.It is solely dedicated to form a network among all the students,faculty members and alumni of the department. It promotes interaction within the department and implements academic , social and other programs of interest to its members.</p>
+                    <p className="offset-xl-40 wow fadeInUp" data-wow-delay=".2s" style={{ color: "#000", fontWeight: "bold" }}>The Chemical Engineering Student's Society (CHESS) is an independent student run society of Chemical Engineering Department of NIT Durgapur.It is solely dedicated to form a network among all the students,faculty members and alumni of the department. It promotes interaction within the department and implements academic , social and other programs of interest to its members.</p>
                     <p className="default-letter-spacing font-weight-bold text-gray-dark wow fadeInUp" data-wow-delay=".4s">
                       We are conducting several events every year for the betterment of students.
                     </p>
@@ -157,11 +205,11 @@ class Main extends Component {
           <section className="section custom-section position-relative section-md">
             <div className="container">
               <div className="row">
-                <div className="col-xl-7 col-lg-7 col-12">
+                <div className="col-xl-7 col-lg-7 col-12" >
                   <div className="section-name wow fadeInRight about__heading">Our Events</div>
                   <h3 className="text-capitalize wow fadeInLeft" data-wow-delay=".2s">Why ChESS<span className="text-primary"> Join us</span></h3>
                   <hr />
-                  <p>In few years we have expanded the range of events that we conduct for the students to extend their capabilities.</p>
+                  <p style={{ fontWeight: "bold" }}>In few years we have expanded the range of events that we conduct for the students to extend their capabilities.</p>
                   <div className="row row-15">
                     <div className="col-xl-6 wow fadeInUp" data-wow-delay=".2s">
                       <div className="box-default">
@@ -191,7 +239,7 @@ class Main extends Component {
                 </div>
               </div>
             </div>
-            <div className="image-left-side wow slideInRight" data-wow-delay=".5s">
+            <div className="image-left-side wow slideInRight">
               <img src={wall} alt="" width="400" height="200" className='about__image' />
             </div>
           </section>
