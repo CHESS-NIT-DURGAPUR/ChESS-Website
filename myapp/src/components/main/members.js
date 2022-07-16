@@ -20,7 +20,7 @@ import SMookherjee from '../../images/SMookherjee.jpg'
 import SRajwar from '../../images/SRajwar.jpg'
 import ADey from '../../images/ADey.png'
 import DBardhan from '../../images/DBardhan.jpg'
-import SGhosh from '../../images/SGhosh.png'
+// import SGhosh from '../../images/SGhosh.png'
 import DKher from '../../images/Dkher.jpg'
 import SAcharya from '../../images/SAcharya.jpg'
 import ANagarajan from '../../images/ANagarajan.jpeg'
@@ -289,9 +289,6 @@ class Team extends Component {
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div className="row" style={{ justifyContent: "center" }}>
                         <div className="column">
                             <div className="team-5 members__box">
                                 <div className="team-img">
@@ -303,7 +300,10 @@ class Team extends Component {
                                 </div>
                             </div>
                         </div>
+                    </div>
 
+
+                    <div className="row" style={{ justifyContent: "center" }}>
                         <div className="column">
                             <div className="team-5 members__box">
                                 <div className="team-img">
