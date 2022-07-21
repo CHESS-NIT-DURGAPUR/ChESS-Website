@@ -110,55 +110,58 @@ class Login extends Component {
             this.state.loading ?
                 <center> <CircularProgress thickness={7} size={100} style={{ color: 'grey' }} />  </center>
                 :
-                <div className="container">
-                    <div className='row' style={{ justifyContent: "center" }}>
-                        <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-                            <form className='form__contact' id="contact" onSubmit={(event) => {
-                                this.submitform(event)
-                            }}>
-                                <>
-                                    <h1 className="form__heading1">CHESS MEMBER'S LOGIN FORM</h1>
-                                    {
-                                        this.state.show ?
-                                            <label style={{ color: 'red', fontSize: "20px" }}>{this.state.show}</label> : null
-                                    }
-                                </>
+                <React.Fragment>
+                    <div className="extraSpace"></div>
+                    <div className="container">
+                        <div className='row' style={{ justifyContent: "center" }}>
+                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                                <form className='form__contact' id="contact" onSubmit={(event) => {
+                                    this.submitform(event)
+                                }}>
+                                    <>
+                                        <h1 className="form__heading1">CHESS MEMBER'S LOGIN FORM</h1>
+                                        {
+                                            this.state.show ?
+                                                <label style={{ color: 'red', fontSize: "20px" }}>{this.state.show}</label> : null
+                                        }
+                                    </>
 
-                                <div className="row block lblock" style={{ display: "inline" }}>
-                                    <FormFields
-                                        formdata={this.state.formdata.email}
-                                        id={'email'}
-                                        change={(event) => { this.updateform(event) }}
-                                    />
-                                </div>
+                                    <div className="row block lblock" style={{ display: "inline" }}>
+                                        <FormFields
+                                            formdata={this.state.formdata.email}
+                                            id={'email'}
+                                            change={(event) => { this.updateform(event) }}
+                                        />
+                                    </div>
 
-                                <div className="row block lblock" style={{ display: "inline" }}>
-                                    <FormFields
-                                        formdata={this.state.formdata.password}
-                                        id={'password'}
-                                        change={(event) => { this.updateform(event) }}
-                                    />
-                                </div>
-                                <br />
-
-                                <div className="row" >
-                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12" style={{ textAlign: "center" }}>
-                                        <Button variant="contained" color="primary" className="custom-btn btn-1" onClick={(event) => this.submitform(event)}>
-                                            LOGIN <i className="fa fa-sign-in" aria-hidden="true"></i>
-                                        </Button>
+                                    <div className="row block lblock" style={{ display: "inline" }}>
+                                        <FormFields
+                                            formdata={this.state.formdata.password}
+                                            id={'password'}
+                                            change={(event) => { this.updateform(event) }}
+                                        />
                                     </div>
                                     <br />
-                                    <br />
-                                    <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12" style={{ textAlign: "center" }}>
-                                        <Button variant="contained" color="primary" className="custom-btn btn-1" onClick={(event) => this.resetpassword(event)}>
-                                            FORGET PASSWORD <i className="fa fa-unlock-alt" aria-hidden="true"></i>
-                                        </Button>
+
+                                    <div className="row" >
+                                        <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12" style={{ textAlign: "center" }}>
+                                            <Button variant="contained" color="primary" className="custom-btn btn-1" onClick={(event) => this.submitform(event)}>
+                                                LOGIN <i className="fa fa-sign-in" aria-hidden="true"></i>
+                                            </Button>
+                                        </div>
+                                        <br />
+                                        <br />
+                                        <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12" style={{ textAlign: "center" }}>
+                                            <Button variant="contained" color="primary" className="custom-btn btn-1" onClick={(event) => this.resetpassword(event)}>
+                                                FORGET PASSWORD <i className="fa fa-unlock-alt" aria-hidden="true"></i>
+                                            </Button>
+                                        </div>
                                     </div>
-                                </div>
-                            </form>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </React.Fragment>
         );
     }
 }

@@ -1,9 +1,9 @@
 *::selection {
-  background: rgb(248, 253, 255);
-  color: #3644ff;
+  background: rgb(255, 255, 255);
+  color: #333fe1;
 }
 .footer__outer {
-  background: rgba(0, 27, 52, 0.95);
+  background: rgb(0, 41, 59);
   padding: 2% 5%;
 }
 .chess__logo {
@@ -61,6 +61,9 @@ a.socialLink__a:hover {
 p.footer__heading_rights {
   font-weight: normal;
   color: #fff;
+}
+.centerAlign {
+  text-align: center;
 }
 @media only screen and (max-width: 575px) {
   .footer__outer {

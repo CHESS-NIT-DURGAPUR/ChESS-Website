@@ -64,9 +64,10 @@ class Main extends Component {
   render() {
     return (
       <React.Fragment>
+        <div className="extraSpace"></div>
         <div className="container-fluid main__body">
           <div className="row carouselImg__outer" id='poster'>
-            <div className="col-lg-12 col-md-12 col-xs-12 col-sm-12 myContainer" id="win" style={{ marginTop: "9.4rem" }}>
+            <div className="col-lg-12 col-md-12 col-xs-12 col-sm-12 myContainer" id="win">
               <div id="myCarousel" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
                   <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
