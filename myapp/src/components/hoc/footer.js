@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="section footer-classic section-sm footer__outer">
       <div className="container">
         <div className="row row-30">
-          <div className="col-lg-3 wow fadeInLeft" style={{ textAlign: "center" }}>
+          <div className="col-lg-3 wow fadeInLeft centerAlign" >
             <a className="brand" href="./"><img className="brand-logo-dark" src={logo} alt="CHESS Logo" />
               <img className="brand-logo-light chess__logo" src={logo} alt="CHESS" />
             </a>

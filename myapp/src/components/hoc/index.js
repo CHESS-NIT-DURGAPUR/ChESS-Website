@@ -4,11 +4,11 @@ import Header from './header';
 
 const Layout = (props) => {
     return (
-        <div>
-            <Header/>
-             {props.children}
-             <Footer/>
-        </div>
+        <React.Fragment>
+            <Header />
+            {props.children}
+            <Footer />
+        </React.Fragment>
     );
 };
 

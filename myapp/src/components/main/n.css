@@ -52,14 +52,6 @@
   word-wrap: break-word;
 }
 
-.win {
-  height: 500px !important;
-}
-
-#win {
-  height: 67.75rem !important;
-}
-
 @media (max-width: 800px) {
   .y {
     display: block;

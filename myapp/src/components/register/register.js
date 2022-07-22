@@ -185,96 +185,99 @@ class Register extends Component {
             this.state.loading ?
                 <center> <CircularProgress thickness={7} size={10} style={{ color: 'grey' }} />  </center>
                 :
-                <div className="container">
+                <React.Fragment>
+                    <div className="extraSpace"></div>
+                    <div className="container">
 
-                    <div className="row" style={{ justifyContent: "center" }}>
+                        <div className="row" style={{ justifyContent: "center" }}>
 
-                        <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
-                            <form id="contact" className='form__contact' onSubmit={(event) => {
-                                this.submitform(event)
-                            }} >
-                                <div>
-                                    <h1 className="form__heading1">CHESS MEMBER'S REGISTRATION FORM</h1>
-                                    <h2 className="form__heading2">Please Register Yourself</h2>
-                                    {
-                                        this.state.show ?
-                                            <label style={{ color: 'red', fontSize: "20px" }}>{this.state.show}</label> : null
-                                    }
-                                </div>
-
-                                <div className="row block lblock" style={{ display: "inline" }}>
-                                    <p className="text-danger">***Please Fill The Form Carefully</p>
-                                    <FormFields
-                                        formdata={this.state.formdata.name}
-                                        id={'name'}
-                                        change={(event) => { this.updateform(event) }}
-                                    />
-                                </div>
-
-                                <div className="row block lblock" style={{ display: "inline" }}>
-                                    <FormFields
-                                        formdata={this.state.formdata.lastname}
-                                        id={'lastname'}
-                                        change={(event) => { this.updateform(event) }}
-                                    />
-                                </div>
-                                <div className="row block lblock" style={{ display: "inline" }}>
-                                    <FormFields
-                                        formdata={this.state.formdata.email}
-                                        id={'email'}
-                                        change={(event) => { this.updateform(event) }}
-                                    />
-                                </div>
-                                <div className="row block lblock" style={{ display: "inline" }}>
-                                    <FormFields
-                                        formdata={this.state.formdata.password}
-                                        id={'password'}
-                                        change={(event) => { this.updateform(event) }}
-                                    />
-                                </div>
-                                <div className="row block lblock" style={{ display: "inline" }}>
-                                    <FormFields
-                                        formdata={this.state.formdata.confirmpassword}
-                                        id={'confirmpassword'}
-                                        change={(event) => { this.updateform(event) }}
-                                    />
-                                </div>
-
-                                <br />
-
-                                <div className="row">
-                                    <div className="col-lg-12 col-sm-6 col-md-6 col-xs-6" style={{ textAlign: "center" }}>
-                                        <Button
-                                            variant="contained"
-                                            color="primary"
-                                            id="studentregister"
-                                            className="custom-btn btn-1"
-                                            onClick={(event) => this.submitform(event)}
-                                        >
-                                            REGISTER AS A STUDENT
-                                            <i className="fa fa-user-circle" aria-hidden="true"></i>
-                                        </Button>
+                            <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                                <form id="contact" className='form__contact' onSubmit={(event) => {
+                                    this.submitform(event)
+                                }} >
+                                    <div>
+                                        <h1 className="form__heading1">CHESS MEMBER'S REGISTRATION FORM</h1>
+                                        <h2 className="form__heading2">Please Register Yourself</h2>
+                                        {
+                                            this.state.show ?
+                                                <label style={{ color: 'red', fontSize: "20px" }}>{this.state.show}</label> : null
+                                        }
                                     </div>
-                                    <br />
-                                    <br />
-                                    <div className="col-lg-12 col-sm-6 col-md-6 col-xs-6" style={{ textAlign: "center" }}>
-                                        <Button
-                                            variant="contained"
-                                            color="primary"
-                                            id="alumniregister"
-                                            className="custom-btn btn-1"
-                                            onClick={(event) => this.submitalumni(event)}
-                                        >
-                                            REGISTER AS AN ALUMNI
-                                            <i className="fa fa-graduation-cap" aria-hidden="true"></i>
-                                        </Button>
+
+                                    <div className="row block lblock" style={{ display: "inline" }}>
+                                        <p className="text-danger">***Please Fill The Form Carefully</p>
+                                        <FormFields
+                                            formdata={this.state.formdata.name}
+                                            id={'name'}
+                                            change={(event) => { this.updateform(event) }}
+                                        />
                                     </div>
-                                </div>
-                            </form>
+
+                                    <div className="row block lblock" style={{ display: "inline" }}>
+                                        <FormFields
+                                            formdata={this.state.formdata.lastname}
+                                            id={'lastname'}
+                                            change={(event) => { this.updateform(event) }}
+                                        />
+                                    </div>
+                                    <div className="row block lblock" style={{ display: "inline" }}>
+                                        <FormFields
+                                            formdata={this.state.formdata.email}
+                                            id={'email'}
+                                            change={(event) => { this.updateform(event) }}
+                                        />
+                                    </div>
+                                    <div className="row block lblock" style={{ display: "inline" }}>
+                                        <FormFields
+                                            formdata={this.state.formdata.password}
+                                            id={'password'}
+                                            change={(event) => { this.updateform(event) }}
+                                        />
+                                    </div>
+                                    <div className="row block lblock" style={{ display: "inline" }}>
+                                        <FormFields
+                                            formdata={this.state.formdata.confirmpassword}
+                                            id={'confirmpassword'}
+                                            change={(event) => { this.updateform(event) }}
+                                        />
+                                    </div>
+
+                                    <br />
+
+                                    <div className="row">
+                                        <div className="col-lg-12 col-sm-6 col-md-6 col-xs-6" style={{ textAlign: "center" }}>
+                                            <Button
+                                                variant="contained"
+                                                color="primary"
+                                                id="studentregister"
+                                                className="custom-btn btn-1"
+                                                onClick={(event) => this.submitform(event)}
+                                            >
+                                                REGISTER AS A STUDENT
+                                                <i className="fa fa-user-circle" aria-hidden="true"></i>
+                                            </Button>
+                                        </div>
+                                        <br />
+                                        <br />
+                                        <div className="col-lg-12 col-sm-6 col-md-6 col-xs-6" style={{ textAlign: "center" }}>
+                                            <Button
+                                                variant="contained"
+                                                color="primary"
+                                                id="alumniregister"
+                                                className="custom-btn btn-1"
+                                                onClick={(event) => this.submitalumni(event)}
+                                            >
+                                                REGISTER AS AN ALUMNI
+                                                <i className="fa fa-graduation-cap" aria-hidden="true"></i>
+                                            </Button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
                         </div>
-
                     </div>
-                </div>
+                </React.Fragment>
 
         );
     }

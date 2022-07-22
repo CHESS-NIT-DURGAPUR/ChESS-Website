@@ -18,9 +18,8 @@ class Header extends Component {
     console.log(this.props.user.userData)
     return (
       <React.Fragment>
-        {/* <div className="extraSpace"></div> */}
         <div className='header'>
-          <nav className="navbar navbar-expand-md navbar-dark bg-primary fixed-top nav_custom">
+          <nav className="navbar navbar-expand-md navbar-dark shadow-5-strong fixed-top nav_custom">
             <div className="container-fluid">
               <Link to="/" className="navbar-brand user__group">
                 <img src={chess} alt="chess" />
@@ -28,6 +27,10 @@ class Header extends Component {
 
               <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span className="navbar-toggler-icon"></span>
+                <span className="sr-only">Toggle navigation</span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
               </button>
               <div className="navbar-collapse collapse flex-grow-0 main__navs" id="collapsibleNavbar"
               >
@@ -142,7 +145,7 @@ class Header extends Component {
                       :
                       <li className="nav-item active">
                         <Link className="nav-link nav__link" to="/logout" onClick={() => this.logoutuser()}>
-                          LOGOUT <i class="fa fa-sign-out" aria-hidden="true"></i>
+                          LOGOUT <i className="fa fa-sign-out" aria-hidden="true"></i>
                         </Link>
                       </li> : null
                   }

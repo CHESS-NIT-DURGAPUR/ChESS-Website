@@ -359,9 +359,17 @@
   padding: 4rem;
 }
 
+.win {
+  height: 500px !important;
+}
+
+#win {
+  height: 68.2rem !important;
+}
+
 @media only screen and (max-width: 970px) {
   #poster {
-    margin-top: 0 !important;
+    margin-top: 0;
   }
   .about__image_outer {
     padding-top: 3rem;
