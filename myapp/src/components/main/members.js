@@ -94,7 +94,7 @@ class Team extends Component {
                                     </div>
                                     <div className="team-content">
                                         <h2 className='membersName'>Soumyajeet Mitra</h2>
-                                        <h4 className='role'>President</h4>
+                                        <h4 className='role glitch'>President</h4>
                                     </div>
                                 </div>
                             </div>
@@ -106,7 +106,7 @@ class Team extends Component {
                                     </div>
                                     <div className="team-content">
                                         <h2 className='membersName'>Sonali Sah</h2>
-                                        <h4 className='role'>Vice President</h4>
+                                        <h4 className='role glitch'>Vice President</h4>
                                     </div>
                                 </div>
                             </div>
@@ -118,7 +118,7 @@ class Team extends Component {
                                     </div>
                                     <div className="team-content">
                                         <h2 className='membersName' >Prashanth Kumar</h2>
-                                        <h4 className='role'>General Secretary</h4>
+                                        <h4 className='role glitch'>General Secretary</h4>
                                     </div>
                                 </div>
                             </div>
@@ -130,7 +130,7 @@ class Team extends Component {
                                     </div>
                                     <div className="team-content">
                                         <h2 className='membersName' >Anand Nagar</h2>
-                                        <h4 className='role'>Convenor</h4>
+                                        <h4 className='role glitch'>Convenor</h4>
                                     </div>
                                 </div>
                             </div>
@@ -143,7 +143,7 @@ class Team extends Component {
                                     </div>
                                     <div className="team-content">
                                         <h2 className='membersName'>Rishabh Yadav</h2>
-                                        <h4 className='role'>Treasurer</h4>
+                                        <h4 className='role glitch'>Treasurer</h4>
                                     </div>
                                 </div>
                             </div>
@@ -155,7 +155,7 @@ class Team extends Component {
                                     </div>
                                     <div className="team-content">
                                         <h2 className='membersName'>Yash Sinha</h2>
-                                        <h4 className='role'>Creative Head</h4>
+                                        <h4 className='role glitch'>Creative Head</h4>
                                     </div>
                                 </div>
                             </div>
@@ -167,7 +167,7 @@ class Team extends Component {
                                     </div>
                                     <div className="team-content">
                                         <h2 className='membersName'>Ankit Jaiswal</h2>
-                                        <h4 className='role'>Event Management Head</h4>
+                                        <h4 className='role glitch'>Event Management Head</h4>
                                     </div>
                                 </div>
                             </div>
@@ -179,7 +179,7 @@ class Team extends Component {
                                     </div>
                                     <div className="team-content">
                                         <h2 className='membersName'>Ayush Chaudhary</h2>
-                                        <h4 className='role'>Sponsorship and Publicity Head</h4>
+                                        <h4 className='role glitch'>Sponsorship and Publicity Head</h4>
                                     </div>
                                 </div>
                             </div>
@@ -192,7 +192,7 @@ class Team extends Component {
                                     </div>
                                     <div className="team-content">
                                         <h2 className='membersName'>Abhinav Krishna</h2>
-                                        <h4 className='role'>Web Development Head</h4>
+                                        <h4 className='role glitch'>Web Development Head</h4>
                                     </div>
                                 </div>
                             </div>
@@ -212,7 +212,7 @@ class Team extends Component {
                                     </div>
                                     <div className="team-content">
                                         <h2 className='membersName'>Zeshan Hossain Sardar</h2>
-                                        <h4 className='role'>Executive Member</h4>
+                                        <h4 className='role glitch'>Executive Member</h4>
                                     </div>
                                 </div>
                             </div>
@@ -224,7 +224,7 @@ class Team extends Component {
                                     </div>
                                     <div className="team-content">
                                         <h2 className='membersName'>Riddhi Chowdhury</h2>
-                                        <h4 className='role'>Executive Member</h4>
+                                        <h4 className='role glitch'>Executive Member</h4>
                                     </div>
                                 </div>
                             </div>
@@ -236,7 +236,7 @@ class Team extends Component {
                                     </div>
                                     <div className="team-content">
                                         <h2 className='membersName'>Sujaan Mookherjee</h2>
-                                        <h4 className='role'>Executive Member</h4>
+                                        <h4 className='role glitch'>Executive Member</h4>
                                     </div>
                                 </div>
                             </div>
@@ -247,7 +247,7 @@ class Team extends Component {
                                     </div>
                                     <div className="team-content">
                                         <h2 className='membersName'>Sushanta Rajwar</h2>
-                                        <h4 className='role'>Executive Member</h4>
+                                        <h4 className='role glitch'>Executive Member</h4>
                                     </div>
                                 </div>
                             </div>
@@ -261,7 +261,7 @@ class Team extends Component {
                                     </div>
                                     <div className="team-content">
                                         <h2 className='membersName'>Anupam Dey</h2>
-                                        <h4 className='role'>Executive Member</h4>
+                                        <h4 className='role glitch'>Executive Member</h4>
                                     </div>
                                 </div>
                             </div>
@@ -273,7 +273,7 @@ class Team extends Component {
                                     </div>
                                     <div className="team-content">
                                         <h2 className='membersName'>Dev Bardhan Singh</h2>
-                                        <h4 className='role'>Executive Member</h4>
+                                        <h4 className='role glitch'>Executive Member</h4>
                                     </div>
                                 </div>
                             </div>
@@ -285,7 +285,7 @@ class Team extends Component {
                                     </div>
                                     <div className="team-content">
                                         <h2 className='membersName'>Devesh kher</h2>
-                                        <h4 className='role'>Executive Member</h4>
+                                        <h4 className='role glitch'>Executive Member</h4>
                                     </div>
                                 </div>
                             </div>
@@ -296,7 +296,7 @@ class Team extends Component {
                                     </div>
                                     <div className="team-content">
                                         <h2 className='membersName'>Sayak Acharya</h2>
-                                        <h4 className='role'>Executive Member</h4>
+                                        <h4 className='role glitch'>Executive Member</h4>
                                     </div>
                                 </div>
                             </div>
@@ -311,7 +311,7 @@ class Team extends Component {
                                     </div>
                                     <div className="team-content">
                                         <h2 className='membersName'>Anagha Nagarajan</h2>
-                                        <h4 className='role'>Executive Member</h4>
+                                        <h4 className='role glitch'>Executive Member</h4>
                                     </div>
                                 </div>
                             </div>
