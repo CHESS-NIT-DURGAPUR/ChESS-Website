@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap");
 * {
-  transition: 0.2s all ease-out;
+  transition: 0.15s all ease-out;
+  font-family: "Montserrat", sans-serif !important;
 }
 .outer {
-  /* border: 1px solid rgb(41, 41, 41); */
   padding: 3% 4%;
   border-radius: 6rem;
   margin-top: 4%;
@@ -15,12 +15,11 @@
   );
 }
 .outer:hover {
-  box-shadow: 0 12px 30px 0 #01003e;
+  box-shadow: 0 12px 28px 0 #3e0a6b;
 }
 h1 {
   color: #000;
 }
 h2.membersName {
-  font-family: "Montserrat", sans-serif;
   font-size: 15px !important;
 }

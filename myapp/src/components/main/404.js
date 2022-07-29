@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const Error =()=>{
-    return(
+const Error = () => {
+    return (
         <div>
             <h1>Page Not Found</h1>
         </div>

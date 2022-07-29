@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux'
+import TypeAnimation from 'react-type-animation';
 // import Particles from 'react-particles-js';
 // import HeaderTitle from '../hoc/HeaderTitle';
 // import Button from '@material-ui/core/Button';
@@ -74,7 +75,7 @@ class Main extends Component {
                   <li data-target="#myCarousel" data-slide-to="1"></li>
                   <li data-target="#myCarousel" data-slide-to="2"></li>
                   <li data-target="#myCarousel" data-slide-to="3"></li>
-                  <li data-target="#myCarousel" data-slide-to="4"></li>
+                  {/* <li data-target="#myCarousel" data-slide-to="4"></li> */}
                   {/* <li data-target="#myCarousel" data-slide-to="5"></li>
                   <li data-target="#myCarousel" data-slide-to="6"></li> */}
                   {/* <li data-target="#myCarousel" data-slide-to="7"></li> */}
@@ -84,25 +85,49 @@ class Main extends Component {
                   <div className="item active" >
                     <img className='carouselImg' src={main} alt="chess" id="win" loading="lazy" />
                     <div className="carousel-caption">
-                      <h2 className="glitch" data-text="Faculty">Faculty</h2>
+                      <TypeAnimation
+                        cursor={false}
+                        sequence={['Faculty', 3000, '']}
+                        wrapper="h2"
+                        repeat={Infinity}
+                        className="glitch"
+                      />
                     </div>
                   </div>
                   <div className="item" >
                     <img className='carouselImg' src={main2} alt="chess" id="win" loading="lazy" />
                     <div className="carousel-caption">
-                      <h2 className="glitch" data-text="Members">Members</h2>
+                      <TypeAnimation
+                        cursor={false}
+                        sequence={['Members', 3000, '']}
+                        wrapper="h2"
+                        repeat={Infinity}
+                        className="glitch"
+                      />
                     </div>
                   </div>
                   <div className="item" >
                     <img className='carouselImg' src={main3} alt="chess" id="win" loading="lazy" />
                     <div className="carousel-caption">
-                      <h2 className="glitch" data-text="Office Bearers">Office Bearers</h2>
+                      <TypeAnimation
+                        cursor={false}
+                        sequence={['Office Bearers', 3000, '']}
+                        wrapper="h2"
+                        repeat={Infinity}
+                        className="glitch"
+                      />
                     </div>
                   </div>
                   <div className="item" >
                     <img className='carouselImg' src={main4} alt="chess" id="win" loading="lazy" />
                     <div className="carousel-caption">
-                      <h2 className="glitch" data-text="Alumni">Alumni</h2>
+                      <TypeAnimation
+                        cursor={false}
+                        sequence={['Alumni', 3000, '']}
+                        wrapper="h2"
+                        repeat={Infinity}
+                        className="glitch"
+                      />
                     </div>
                   </div>
                   {/* <div className="item" >
@@ -310,9 +335,18 @@ class Main extends Component {
                   This society is aimed to provide a platform to showcase and sharpen student's talents through a variety of events and activities planned
                   throughout four years, for overall development of students personalities. We continue our effort to prepare and guide the students
                   for the various competitive exams and interviews so that they perform better and make their carrier in the selected fields.
-                  Real world problems will be blended in the curriculum and these are to be taught by experts from industry, in addition through guest lectures.
-                  Our focus is to effectively train our students as chemical engineers who can serve the society competently,
-                  collaboratively and ethically as planners, designers and operators of the environment.
+                  <TypeAnimation
+                    cursor={false}
+                    sequence={[`Real world problems will be blended in the curriculum and these are to be taught by experts from industry, in addition through guest lectures.
+                        Our focus is to effectively train our students as chemical engineers who can serve the society competently,
+                        collaboratively and ethically as planners, designers and operators of the environment.`, 2000, `Real world problems will be blended in the curriculum and these are to be taught by experts from industry, in addition through guest lectures.
+                        Our focus is to effectively train our students as chemical engineers who can serve the society competently,
+                        collaboratively and ethically as planners, designers and operators of the environment.`]}
+                    wrapper="p"
+                    repeat={2}
+                    className="offset-xl-40 wow fadeInUp text-dark hod__text"
+                  // data-wow-delay=".4s"
+                  />
                 </p>
               </div>
             </div>

@@ -45,7 +45,7 @@ const Alumni = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName' >TT Sriram</h2>
-                                    <h4 className='role'>President (2019-20)</h4>
+                                    <h4 className='role glitch'>President (2019-20)</h4>
                                 </div>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ const Alumni = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName' >Ritika Das</h2>
-                                    <h4 className='role'>Vice President (2019-20)</h4>
+                                    <h4 className='role glitch'>Vice President (2019-20)</h4>
                                 </div>
 
                             </div>
@@ -68,7 +68,7 @@ const Alumni = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Naveen Kumar</h2>
-                                    <h4 className='role'>General Secretary (2019-20)</h4>
+                                    <h4 className='role glitch'>General Secretary (2019-20)</h4>
                                 </div>
                             </div>
                         </div>
@@ -134,7 +134,7 @@ const Alumni = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Debjit Goswami</h2>
-                                    <h4 className='role'>President (2020-21)</h4>
+                                    <h4 className='role glitch'>President (2020-21)</h4>
                                 </div>
                             </div>
                         </div>
@@ -145,7 +145,7 @@ const Alumni = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Adil Hossain</h2>
-                                    <h4 className='role'>Vice President (2020-21)</h4>
+                                    <h4 className='role glitch'>Vice President (2020-21)</h4>
                                 </div>
                             </div>
                         </div>
@@ -156,7 +156,7 @@ const Alumni = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Harshit Anand</h2>
-                                    <h4 className='role'>General Secretary (2020-21)</h4>
+                                    <h4 className='role glitch'>General Secretary (2020-21)</h4>
                                 </div>
 
                             </div>
@@ -235,7 +235,7 @@ const Alumni = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName' >Rhythm Aich</h2>
-                                    <h4 className='role'>President (2021-22)</h4>
+                                    <h4 className='role glitch'>President (2021-22)</h4>
                                 </div>
 
                             </div>
@@ -247,7 +247,7 @@ const Alumni = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName' >Saumyajeet Mukherjee</h2>
-                                    <h4 className='role'>Vice President (2021-22)</h4>
+                                    <h4 className='role glitch'>Vice President (2021-22)</h4>
                                 </div>
 
                             </div>
@@ -259,7 +259,7 @@ const Alumni = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2 className='membersName'>Sammanoy Mukherjee</h2>
-                                    <h4 className='role'>General Secretary (2021-22)</h4>
+                                    <h4 className='role glitch'>General Secretary (2021-22)</h4>
                                 </div>
                             </div>
                         </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import TypeAnimation from 'react-type-animation';
 import "./teamss.css"
 import "./styleMembers.css"
 import "./important.css"
@@ -23,7 +24,7 @@ import KCG from '../../images/KCG.jpg'
 const Facad = () => {
     return (
         <React.Fragment>
-            <div className="extraSpace" style={{ backgroundColor: "rgba(0,0,0,.75)" }} />
+            <div className="extraSpace" style={{ backgroundColor: "rgba(0,0,0,.7)" }} />
             <div className="faculty__containar">
                 <div className="section-title">
                     <h1>Faculty Members</h1>
@@ -37,7 +38,12 @@ const Facad = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2 >Parthapratim Gupta</h2>
-                                    <h3>PROFESSOR</h3>
+                                    <TypeAnimation
+                                        cursor={false}
+                                        sequence={['PROFESSOR', 2000, 'PROFESSOR']}
+                                        wrapper="h3"
+                                        repeat={3}
+                                    />
                                     <i className="fa-light fa-envelope"></i>
                                     <h6>parthapratim.gupta@che.nitdgp.ac.in</h6>
                                     <h4>9434788028</h4>
@@ -51,7 +57,12 @@ const Facad = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2>PARIMAL PAL</h2>
-                                    <h3>PROFESSOR</h3>
+                                    <TypeAnimation
+                                        cursor={false}
+                                        sequence={['PROFESSOR', 2000, 'PROFESSOR']}
+                                        wrapper="h3"
+                                        repeat={3}
+                                    />
                                     <i className="fa-light fa-envelope"></i>
                                     <h6 >parimal.pal@che.nitdgp.ac.in</h6>
                                     <h4>9434788105</h4>
@@ -66,7 +77,12 @@ const Facad = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2>Kartik Chandra Ghanta</h2>
-                                    <h3>PROFESSOR</h3>
+                                    <TypeAnimation
+                                        cursor={false}
+                                        sequence={['PROFESSOR', 2000, 'PROFESSOR']}
+                                        wrapper="h3"
+                                        repeat={3}
+                                    />
                                     <i className="fa-light fa-envelope"></i>
                                     <h6>kartik.ghanta@che.nitdgp.ac.in</h6>
                                     <h4>9434788020</h4>
@@ -81,7 +97,12 @@ const Facad = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2>Tamal Mandal</h2>
-                                    <h3>PROFESSOR</h3>
+                                    <TypeAnimation
+                                        cursor={false}
+                                        sequence={['PROFESSOR', 2000, 'PROFESSOR']}
+                                        wrapper="h3"
+                                        repeat={3}
+                                    />
                                     <i className="fa-light fa-envelope"></i>
                                     <h6 >tamal.mandal@che.nitdgp.ac.in</h6>
                                     <h4>9434788078</h4>
@@ -98,7 +119,12 @@ const Facad = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2>Anup Kumar Sadhukhan</h2>
-                                    <h3>PROFESSOR</h3>
+                                    <TypeAnimation
+                                        cursor={false}
+                                        sequence={['PROFESSOR', 2000, 'PROFESSOR']}
+                                        wrapper="h3"
+                                        repeat={3}
+                                    />
                                     <i className="fa-light fa-envelope"></i>
                                     <h6 >anupkumar.sadhukhan@che.nitdgp.ac.in</h6>
                                     <h4>9434788048</h4>
@@ -113,7 +139,12 @@ const Facad = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2 >Susmita Dutta</h2>
-                                    <h3>PROFESSOR</h3>
+                                    <TypeAnimation
+                                        cursor={false}
+                                        sequence={['PROFESSOR', 2000, 'PROFESSOR']}
+                                        wrapper="h3"
+                                        repeat={3}
+                                    />
                                     <i className="fa-light fa-envelope"></i>
                                     <h6 >susmita.dutta@che.nitdgp.ac.in</h6>
                                     <h4>9434788120</h4>
@@ -128,7 +159,17 @@ const Facad = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2>Gopinath Halder</h2>
-                                    <h3>PROFESSOR</h3>
+                                    <TypeAnimation
+                                        cursor={true}
+                                        sequence={[
+                                            'FACULTY ADVISOR',
+                                            2050,
+                                            'PROFESSOR',
+                                            2000,
+                                        ]}
+                                        wrapper="h3"
+                                        repeat={Infinity}
+                                    />
                                     <i className="fa-light fa-envelope"></i>
                                     <h6>gopinath.halder@che.nitdgp.ac.in</h6>
                                     <h4>9434788189</h4>
@@ -143,7 +184,12 @@ const Facad = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2>Mrinal Kanti Mondal</h2>
-                                    <h3>ASSOCIATE PROFESSOR</h3>
+                                    <TypeAnimation
+                                        cursor={false}
+                                        sequence={['ASSOCIATE PROFESSOR', 2000, 'ASSOCIATE PROFESSOR']}
+                                        wrapper="h3"
+                                        repeat={3}
+                                    />
                                     <i className="fa-light fa-envelope"></i>
                                     <h6>mrinalkanti.mandal@che.nitdgp.ac.in</h6>
                                     <h4>9434788188</h4>
@@ -160,7 +206,17 @@ const Facad = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2>Jaya Sikder</h2>
-                                    <h3>ASSOCIATE PROFESSOR</h3>
+                                    <TypeAnimation
+                                        cursor={true}
+                                        sequence={[
+                                            'HEAD OF THE DEPARTMENT(HOD)',
+                                            2000,
+                                            'ASSOCIATE PROFESSOR',
+                                            2000,
+                                        ]}
+                                        wrapper="h3"
+                                        repeat={Infinity}
+                                    />
                                     <i className="fa-light fa-envelope"></i>
                                     <h6>jaya.sikder@che.nitdgp.ac.in</h6>
                                     <h4>9434788186</h4>
@@ -175,7 +231,12 @@ const Facad = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2>Sandip Kumar Lahiri</h2>
-                                    <h3>ASSOCIATE PROFESSOR</h3>
+                                    <TypeAnimation
+                                        cursor={false}
+                                        sequence={['ASSOCIATE PROFESSOR', 2000, 'ASSOCIATE PROFESSOR']}
+                                        wrapper="h3"
+                                        repeat={3}
+                                    />
                                     <i className="fa-light fa-envelope"></i>
                                     <h6>sandipkumar.lahiri@che.nitdgp.ac.in</h6>
                                     <h4>9007659000</h4>
@@ -190,7 +251,12 @@ const Facad = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2>Swapan Paruya</h2>
-                                    <h3>ASSISTANT PROFESSOR</h3>
+                                    <TypeAnimation
+                                        cursor={false}
+                                        sequence={['ASSOCIATE PROFESSOR', 2000, 'ASSOCIATE PROFESSOR']}
+                                        wrapper="h3"
+                                        repeat={3}
+                                    />
                                     <i className="fa-light fa-envelope"></i>
                                     <h6>swapan.paruya@che.nitdgp.ac.in</h6>
                                     <h4>9474404033</h4>
@@ -205,7 +271,12 @@ const Facad = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2>Bimal Das</h2>
-                                    <h3>ASSISTANT PROFESSOR</h3>
+                                    <TypeAnimation
+                                        cursor={false}
+                                        sequence={['ASSOCIATE PROFESSOR', 2000, 'ASSOCIATE PROFESSOR']}
+                                        wrapper="h3"
+                                        repeat={3}
+                                    />
                                     <i className="fa-light fa-envelope"></i>
                                     <h6>bimal.das@che.nitdgp.ac.in</h6>
                                     <h4>9434789023</h4>
@@ -222,7 +293,12 @@ const Facad = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2>Bimal Kumar Mandal</h2>
-                                    <h3>ASSISTANT PROFESSOR</h3>
+                                    <TypeAnimation
+                                        cursor={false}
+                                        sequence={['ASSOCIATE PROFESSOR', 2000, 'ASSOCIATE PROFESSOR']}
+                                        wrapper="h3"
+                                        repeat={3}
+                                    />
                                     <i className="fa-light fa-envelope"></i>
                                     <h6>bk.mondal@che.nitdgp.ac.in</h6>
                                     <h4>7699782330</h4>
@@ -237,7 +313,12 @@ const Facad = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2>Rajib Ghosh Chaudhuri</h2>
-                                    <h3>ASSISTANT PROFESSOR</h3>
+                                    <TypeAnimation
+                                        cursor={false}
+                                        sequence={['ASSOCIATE PROFESSOR', 2000, 'ASSOCIATE PROFESSOR']}
+                                        wrapper="h3"
+                                        repeat={3}
+                                    />
                                     <i className="fa-light fa-envelope"></i>
                                     <h6 >rajib.ghoshchaudhuri@che.nitdgp.ac.in</h6>
                                     <h4>7596854649</h4>
@@ -252,7 +333,17 @@ const Facad = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2>ABHIRAM HENS</h2>
-                                    <h3>ASSISTANT PROFESSOR</h3>
+                                    <TypeAnimation
+                                        cursor={true}
+                                        sequence={[
+                                            'FACULTY ADVISOR',
+                                            2050,
+                                            'ASSISTANT PROFESSOR',
+                                            2000,
+                                        ]}
+                                        wrapper="h3"
+                                        repeat={Infinity}
+                                    />
                                     <i className="fa-light fa-envelope"></i>
                                     <h6>abhiram.hens@che.nitdgp.ac.in</h6>
                                     <h4>9434789040</h4>
@@ -267,7 +358,12 @@ const Facad = () => {
                                 </div>
                                 <div className="team-content">
                                     <h2>Ananta Sarkar</h2>
-                                    <h3>INSPIRE FACULTY</h3>
+                                    <TypeAnimation
+                                        cursor={false}
+                                        sequence={['INSPIRE FACULTY', 2000, 'INSPIRE FACULTY']}
+                                        wrapper="h3"
+                                        repeat={3}
+                                    />
                                     <i className="fa-light fa-envelope"></i>
                                     <h6>ananta.sarkar@che.nitdgp.ac.in</h6>
                                     <h4>99206 41802</h4>
