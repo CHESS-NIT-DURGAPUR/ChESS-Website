@@ -59,7 +59,7 @@ const Facad = () => {
                                     <h2>PARIMAL PAL</h2>
                                     <TypeAnimation
                                         cursor={false}
-                                        sequence={['PROFESSOR', 2000, 'PROFESSOR']}
+                                        sequence={['PROFESSOR(HAG)', 2000, 'PROFESSOR(HAG)']}
                                         wrapper="h3"
                                         repeat={3}
                                     />
