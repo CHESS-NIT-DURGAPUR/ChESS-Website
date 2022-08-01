@@ -101,7 +101,7 @@ hr {
 }
 @media only screen and (max-width: 650px) {
   #win {
-    height: 50% !important;
+    height: 57.5rem !important;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -122,8 +122,8 @@ hr {
   }
   .user__group {
     position: relative;
-    top: 5px;
-    left: -80px;
+    top: 3px;
+    left: -20px;
   }
 }
 @media only screen and (max-width: 494px) {
