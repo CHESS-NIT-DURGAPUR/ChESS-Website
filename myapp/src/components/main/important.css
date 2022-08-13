@@ -12,5 +12,5 @@
 .members__box__wrap:hover .members__box:hover {
   transform: scale(0.99);
   opacity: 1;
-  box-shadow: 1px 12px 30px 0 rgba(37, 39, 195, 0.8);
+  box-shadow: 1px 12px 30px 0 rgba(69, 29, 215, 0.9);
 }

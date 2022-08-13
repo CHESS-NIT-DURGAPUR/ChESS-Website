@@ -15,7 +15,7 @@ import Forget from './components/main/forget'
 import Allalum from './components/main/allcards'
 import Addnews from './components/main/addnews'
 import Subject from './components/main/subject';
-import Blog from './components/main/blog'
+import Blog from './components/main/BlogNew'
 import Live from './components/main/live';
 import Notific from './components/main/notification';
 import Member from './components/main/members';

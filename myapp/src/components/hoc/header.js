@@ -1,129 +1,130 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import { Link } from 'react-router-dom';
-import { log } from "../actions/memberactions"
-import chess from '../../images/chess.webp'
+import React, { Component } from "react";
+import { connect } from "react-redux";
+import { Link } from "react-router-dom";
+import { log } from "../actions/memberactions";
+import chess from "../../images/chess.webp";
 import "./header.css";
 class Header extends Component {
-
   logoutuser = () => {
-    this.props.dispatch(log()).then((res) => {
-      console.log('logout')
-    }).catch(err =>
-      console.log(err)
-    )
-  }
+    this.props
+      .dispatch(log())
+      .then((res) => {
+        console.log("logout");
+      })
+      .catch((err) => console.log(err));
+  };
 
   render() {
-    console.log(this.props.user.userData)
+    // console.log(this.props.user.userData);
     return (
       <React.Fragment>
-        <div className='header'>
+        <div className="header">
           <nav className="navbar navbar-expand-md navbar-dark shadow-5-strong fixed-top nav_custom">
             <div className="container-fluid">
               <Link to="/" className="navbar-brand user__group">
                 <img src={chess} alt="chess" />
               </Link>
 
-              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <button
+                className="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapsibleNavbar"
+              >
                 <span className="navbar-toggler-icon"></span>
                 <span className="sr-only">Toggle navigation</span>
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
               </button>
-              <div className="navbar-collapse collapse flex-grow-0 main__navs" id="collapsibleNavbar"
+              <div
+                className="navbar-collapse collapse flex-grow-0 main__navs"
+                id="collapsibleNavbar"
               >
-                <ul className="navbar-nav abs-center-x">
-                  <li className="nav-item ">
+                <ul className="navbar-nav abs-center-x customBorder">
+                  <li className="nav-item active">
                     <Link className="nav-link  nav__link" to="/">
                       <i className="fa fa-home" aria-hidden="true"></i> HOME
                     </Link>
                   </li>
                   <li className="nav-item ">
                     <Link className="nav-link nav__link" to="/facad">
-                      <i className="fa fa-user-plus" aria-hidden="true"></i> FACULTY
+                      <i className="fa fa-user-plus" aria-hidden="true"></i>{" "}
+                      FACULTY
                     </Link>
                   </li>
-                  {
-                    this.props.user.userData ?
-                      this.props.user.userData.isAuth ?
-                        this.props.user.userData.role === 1 ?
-                          <li className="nav-item ">
-                            <Link className="nav-link nav__link" to="/alumni">
-                              <i className="fa fa-graduation-cap" aria-hidden="true"></i> ALUMNI
-                            </Link>
-                          </li>
-                          :
-                          <li className="nav-item ">
-                            <Link className="nav-link nav__link" to="/alumni">
-                              <i className="fa fa-graduation-cap" aria-hidden="true"></i> ALUMNI
-                            </Link>
-                          </li>
-                        :
-                        <li className="nav-item ">
-                          <Link className="nav-link nav__link" to="/alumni">
-                            <i className="fa fa-graduation-cap" aria-hidden="true"></i> ALUMNI
-                          </Link>
-                        </li>
-                      : null
-                  }
-                  {
-                    this.props.user.userData ?
-                      this.props.user.userData.isAuth ?
-                        this.props.user.userData.role === 1 ?
-                          <li className="nav-item ">
-                            <Link className="nav-link nav__link" to="/member">
-                              <i className="fa fa-users" aria-hidden="true"></i> MEMBER
-                            </Link>
-                          </li>
-                          :
-                          <li className="nav-item ">
-                            <Link className="nav-link nav__link" to="/member">
-                              <i className="fa fa-users" aria-hidden="true"></i> MEMBER
-                            </Link>
-                          </li>
-                        :
-                        <li className="nav-item ">
-                          <Link className="nav-link nav__link" to="/member">
-                            <i className="fa fa-users" aria-hidden="true"></i> MEMBER
-                          </Link>
-                        </li>
-                      : null
-                  }
+
+                  <li className="nav-item ">
+                    <Link className="nav-link nav__link" to="/alumni">
+                      <i
+                        className="fa fa-graduation-cap"
+                        aria-hidden="true"
+                      ></i>{" "}
+                      ALUMNI
+                    </Link>
+                  </li>
+
+                  <li className="nav-item ">
+                    <Link className="nav-link nav__link" to="/member">
+                      <i className="fa fa-users" aria-hidden="true"></i> MEMBER
+                    </Link>
+                  </li>
+
                   <li className="nav-item dropdown">
-                    <Link className="nav-link nav__link dropdown-toggle" data-toggle="dropdown" to="/">
+                    <Link
+                      className="nav-link nav__link dropdown-toggle"
+                      data-toggle="dropdown"
+                      to="/"
+                    >
                       EVENTS
                     </Link>
                     <ul className="dropdown-menu">
-                      {
-                        this.props.user.userData ?
-                          this.props.user.userData.isAuth ?
-                            this.props.user.userData.role === 1 ?
-                              <>
-                                <li><Link className='dropDown__link' to="/chemkriti2021">ChemKriti 2021</Link></li>
-                                <li><Link className='dropDown__link' to="/chemkriti2022">ChemKriti 2022</Link></li>
-                                <li><Link className='dropDown__link' to="/moreevents">More Events</Link></li>
-                              </>
-                              : <>
-                                <li><Link className='dropDown__link' to="/chemkriti2021">ChemKriti 2021</Link></li>
-                                <li><Link className='dropDown__link' to="/chemkriti2022">ChemKriti 2022</Link></li>
-                                <li><Link className='dropDown__link' to="/moreevents">More Events</Link></li>
-                              </>
-                            : <>
-                              <li><Link className='dropDown__link' to="/chemkriti2021">ChemKriti 2021</Link></li>
-                              <li><Link className='dropDown__link' to="/chemkriti2022">ChemKriti 2022</Link></li>
-                              <li><Link className='dropDown__link' to="/moreevents">More Events</Link></li>
-                            </>
-                          : null
-                      }
+                      <li>
+                        <Link className="dropDown__link" to="/chemkriti2021">
+                          ChemKriti 2021
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className="dropDown__link" to="/chemkriti2022">
+                          ChemKriti 2022
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className="dropDown__link" to="/moreevents">
+                          More Events
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+                  <li className="nav-item dropdown">
+                    <Link
+                      className="nav-link nav__link dropdown-toggle"
+                      data-toggle="dropdown"
+                      to="/"
+                    >
+                      PREVIEW
+                    </Link>
+                    <ul className="dropdown-menu">
+                      <li>
+                        <Link className="dropDown__link" to="./ChemEInsider">
+                          Chem-E-Insider
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className="dropDown__link" to="./AChatWithChESS">
+                          A Chat With ChESS
+                        </Link>
+                      </li>
                     </ul>
                   </li>
                 </ul>
               </div>
-              <div className="navbar-collapse collapse flex-grow-0" id="collapsibleNavbar">
-                <ul className="navbar-nav  justify-content-center mx-auto">
-                  {this.props.user.userData ?
+              <div
+                className="navbar-collapse collapse flex-grow-0"
+                id="collapsibleNavbar"
+              >
+                <ul className="navbar-nav justify-content-center mx-auto">
+                  {/* {this.props.user.userData ?
                     !this.props.user.userData.isAuth ?
                       <li className="nav-item">
                         <Link className="nav-link nav__link" to="/register">
@@ -133,8 +134,8 @@ class Header extends Component {
                       :
                       null :
                     null
-                  }
-                  {this.props.user.userData ?
+                  } */}
+                  {/* {this.props.user.userData ?
                     !this.props.user.userData.isAuth ?
                       <li className="nav-item ">
                         <Link className="nav-link nav__link" to="/login">
@@ -148,46 +149,31 @@ class Header extends Component {
                           LOGOUT <i className="fa fa-sign-out" aria-hidden="true"></i>
                         </Link>
                       </li> : null
-                  }
-                  {this.props.user.userData ?
+                  } */}
 
-                    this.props.user.userData.isAuth ?
-                      <li className="nav-item">
-                        <Link className="nav-link nav__link" to="/blogs">BLOGS</Link>
-                      </li>
-                      :
-                      null
-                    : null
-                  }
-                  {
-                    this.props.user.userData ?
-                      this.props.user.userData.isAuth ?
-                        this.props.user.userData.role === 1 ?
-                          <li className="nav-item">
-                            <Link className="nav-link nav__link" to="/details" >ADD ALUMNI DETAILS</Link>
-                          </li>
-                          :
-                          <li className="nav-item">
-                            <Link className="nav-link nav__link" to="/allalum" >VIEW ALL ALUMNI</Link>
-                          </li>
-                        : null
-                      : null
-                  }
+                  <li className="nav-item">
+                    <Link className="nav-link nav__link" to="/blogs">
+                      <i className="fa fa-blog"></i> BLOGS
+                    </Link>
+                  </li>
 
+                  {/* <li className="nav-item">
+                    <Link className="nav-link nav__link" to="/allalum">
+                    <i className="fa fa-plus"></i> VIEW ALL ALUMNI
+                    </Link>
+                  </li> */}
 
-                  {
-                    this.props.user.userData ?
-                      this.props.user.userData.isAuth ?
-                        this.props.user.userData.role === 1 ?
-
-                          <li className="nav-item">
-                            <Link className="nav-link nav__link" to="/allalum" >VIEW ALL ALUMNI</Link>
-                          </li>
-                          : null
-                        : null
-                      : null
-                  }
-
+                  {this.props.user.userData ? (
+                    this.props.user.userData.isAuth ? (
+                      this.props.user.userData.role === 1 ? (
+                        <li className="nav-item">
+                          <Link className="nav-link nav__link" to="/allalum">
+                            VIEW ALL ALUMNI
+                          </Link>
+                        </li>
+                      ) : null
+                    ) : null
+                  ) : null}
 
                   {/* {
                     this.props.user.userData ?
@@ -234,8 +220,7 @@ class Header extends Component {
 const mapStateToProps = (state) => {
   return {
     user: state.member,
-  }
-
-}
+  };
+};
 
 export default connect(mapStateToProps)(Header);

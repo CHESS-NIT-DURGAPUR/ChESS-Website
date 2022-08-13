@@ -22,7 +22,7 @@ const Footer = () => {
               Durgapur, West Bengal
               <span className="d-lg-block">Durgapur, India</span>
             </div>
-            <a href="mailto:chessnitd2020@gmail.com" className="d-inline-block footer__mail">chessnitd2020@gmail.com</a>
+            <a href="mailto:chessnitd2020@gmail.com" className="d-inline-block footer__mail"><i class="fa-solid fa-envelope"></i></a>
           </div>
 
 
