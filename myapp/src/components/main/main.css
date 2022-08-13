@@ -15,23 +15,23 @@
   padding-top: 12.5rem;
 }
 .main__teamButton {
-  background-color: #1242e0 !important;
+  background-color: #000 !important;
   font-size: 1.2rem !important;
   border: none !important;
   color: white;
 }
 @media only screen and (max-width: 410px) {
   .main__teamButton {
-    font-size: 0.75rem !important;
+    font-size: 0.7rem !important;
   }
 }
 
 .main__teamButton:hover {
   font-weight: bold;
   background-color: #fff !important;
-  color: #1242e0 !important;
+  color: #5834d8 !important;
   /* border: 0.1px solid #1242e0 !important; */
-  box-shadow: 0 12px 36px 0 rgba(42, 39, 96, 0.9);
+  box-shadow: 0 12px 36px 0 rgba(0, 0, 0, 0.95);
 }
 .after__blendMode {
   background-blend-mode: darken;
@@ -41,7 +41,7 @@
 .hod__opinion {
   box-shadow: 0 12px 24px 0 rgba(0, 2, 123, 0.75);
   margin-top: 10%;
-  margin-bottom: 4%;
+
   border-radius: 2.5rem 2.5rem 0.75rem 0.75rem;
   background-color: #fff;
 }
@@ -95,23 +95,24 @@
 }
 .carouselImg {
   /* border-radius: 2rem; */
-  opacity: 0.9 !important;
+  opacity: 1 !important;
   object-fit: fill;
 }
 
 .myContainer {
   width: 100% !important;
-  padding-right: 0 !important;
-  padding-left: 0 !important;
+  padding-right: 1.75rem !important;
+  padding-left: 1.75rem !important;
   margin-right: 0 !important;
   margin-left: 0 !important;
 }
 .main__body {
   background-image: linear-gradient(
     to right,
-    rgba(127, 76, 245, 0.2),
+    rgba(127, 76, 245, 0.25),
     rgba(69, 42, 247, 0.1)
   );
+  padding-bottom: 5%;
 }
 
 .glitch {
@@ -364,9 +365,12 @@
 }
 
 #win {
-  height: 68.2rem !important;
+  height: 68rem !important;
 }
+.carousel-caption h2{
+  color: #fff;
 
+}
 @media only screen and (max-width: 970px) {
   #poster {
     margin-top: 0;
@@ -383,6 +387,9 @@
   }
   .about__image_outer {
     padding-top: 2.5rem;
+  }
+  #win {
+    height: 30rem !important;
   }
 }
 @media only screen and (max-width: 410px) {
@@ -401,5 +408,8 @@
   }
   .footer__heading_upper {
     padding: 2% 15% !important;
+  }
+  #win {
+    height: 25rem !important;
   }
 }

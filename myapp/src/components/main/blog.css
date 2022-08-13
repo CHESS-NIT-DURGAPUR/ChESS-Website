@@ -1,0 +1,104 @@
+:root {
+  --background: #e39382;
+  --primary_1: #b27a43;
+  --secondary_1: #ff775b;
+}
+/* body {
+    top: 10%;
+    left: 50%;
+    position: absolute;
+    display: block;
+    transform: translate(-50%);
+    box-sizing: border-box;
+    font-family: var(--fontBody);
+    background-color: var(--background);
+    background-image: url('data:image/svg+xml,%3Csvg width="52" height="26" viewBox="0 0 52 26" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath d="M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z" /%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+  } */
+.blog {
+  background: rgba(69, 42, 247, 0.55);
+  backdrop-filter: blur(9.4px);
+  -webkit-backdrop-filter: blur(9.4px);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.blog-entry {
+  box-shadow: 0 4px 36px 0 rgba(143, 15, 175, 0.25);
+  margin-bottom: 4.5rem;
+  width: 85%;
+  height: 50%;
+  background-color: white;
+  margin-left: 10%;
+  padding-left: 150px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top-right-radius: 20rem;
+  border-bottom-right-radius: 20rem;
+}
+
+.blog-img {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  margin-top: 5rem;
+  margin-left: -27rem;
+  border-radius: 100%;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  background-size: cover;
+  border: none;
+}
+
+.blog-entry:hover .content-date {
+  opacity: 0.75;
+}
+
+.blog-entry .blog-content span {
+  display: block;
+  text-align: justify;
+}
+
+.blog-entry:hover .content-title {
+  color: var(--primary_1);
+}
+
+.content-date {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+  left: 3.3rem;
+  background: #0a41c0;
+  opacity: 0;
+  border-radius: 100%;
+}
+
+.date {
+  width: 140px;
+  color: white;
+  padding: 10px;
+  margin-top: 70px;
+  margin-left: 54px;
+  font-weight: bold;
+  font-size: 5rem;
+  text-align: center;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.content-tag {
+  width: 24%;
+  background: var(--secondary_1);
+  color: white;
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 40px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.content-text {
+  font-weight: bold;
+  margin-top: 2rem;
+}
