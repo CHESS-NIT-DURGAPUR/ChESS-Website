@@ -32,10 +32,11 @@ h2.neon {
     padding-bottom: 15px;
     width: 90%;
     height: 100%;
-  /* background-color: rgb(237, 199, 183); */
-  background-image: linear-gradient( to right, rgba(69, 42, 247, 0.2), rgba(127, 76, 245, 0.1) );
+  background-image: linear-gradient( to left, rgba(130, 24, 196, 0.5), rgba(108, 57, 226, 0.4) );
   border-top-right-radius: 25rem;
   border-bottom-right-radius: 25rem;
+  border-top-left-radius: 5rem;
+  border-bottom-left-radius: 5rem;
   margin-bottom: 1rem;
 }
 
