@@ -405,7 +405,7 @@ const Facad = () => {
                   <div className="team-content">
                     <h2>Ananta Sarkar</h2>
                     <TypeAnimation
-                      cursor={false}
+                      cursor={true}
                       sequence={["INSPIRE FACULTY", 2000, "INSPIRE FACULTY", 2000]}
                       wrapper="h3"
                       repeat={Infinity}

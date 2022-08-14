@@ -1,123 +1,176 @@
-import React from 'react';
-
+import React, { useState } from "react";
+import "./Subject.css";
 const Subject = () => {
+  const [isTrue, setisTrue] = useState(false);
+  const handleClick = () => {
+    setisTrue(true);
+  };
   return (
-    <div className="container">
-      <div id="box" style={{ backgroundColor: "#EDC7B7" }}>
-        <div className="row">
-          <h2 className="neon" style={{ fontFamily: "Gilroy", fontSize: '40px', textAlign: 'center', color: "#AC3B61" }}>COURSE MATERIALS</h2>
+    <div className="container-fluid">
+      <div className="box">
+        <h2 className="neon" onClick={handleClick}>
+          COURSE MATERIALS <i className="fa fa-angle-down"></i>
+        </h2>
+        { isTrue &&
+        <div>
+          {" "}
+          <div className="row myRow">
+            <div className="smallbox">
+              <div className="boxheading1">FM</div>
+              <div className="boxheading2">
+                <a href="https://drive.google.com/open?className=1irwRtq3cAY0169EkYUXcoX2fJjq9Wj4U" target="_blank">
+                  Fluid Mechanics
+                </a>
+              </div>
+              <div className="boxheading3">B.tech</div>
+              <div className="boxheading3">4th sem</div>
+            </div>
+            <div className="smallbox">
+              <div className="boxheading1">PC</div>
+              <div className="boxheading2">
+                <a href="https://drive.google.com/open?className=1iZP0fLS3pgOumPUaZm3XyOb1AFatq6O_" target="_blank">
+                  Process Calculations
+                </a>
+              </div>
+              <div className="boxheading3">B.tech</div>
+              <div className="boxheading3">3rd sem</div>
+            </div>
+            <div className="smallbox">
+              <div className="boxheading1">CET</div>
+              <div className="boxheading2">
+                <a href="https://drive.google.com/open?className=1VwHiIsJWDSUCjnto2GlN_SwAQkcuLIoB" target="_blank">
+                  Engineering Thermodynamics
+                </a>
+              </div>
+              <div className="boxheading3">B.tech</div>
+              <div className="boxheading3">3rd sem</div>
+            </div>
+            <div className="smallbox">
+              <div className="boxheading1">MT</div>
+              <div className="boxheading2">
+                <a href="https://drive.google.com/open?className=1NvEuyx61g3WdSObZtBomr4WiyiYmNaKr" target="_blank">
+                  Mass Transfer
+                </a>
+              </div>
+              <div className="boxheading3">B.tech</div>
+              <div className="boxheading3">3rd sem</div>
+            </div>
+          </div>
+          <div className="row myRow">
+            <div className="smallbox">
+              <div className="boxheading1">HT</div>
+              <div className="boxheading2">
+                <a href="https://drive.google.com/open?className=1VWSeHPkx_Uj3uliSd7IERrD7kfMAWjnI" target="_blank">
+                  Heat Transfer
+                </a>
+              </div>
+              <div className="boxheading3">B.tech</div>
+              <div className="boxheading3">4th sem</div>
+            </div>
+
+            <div className="smallbox">
+              <div className="boxheading1">MO</div>
+              <div className="boxheading2">
+                <a href="https://drive.google.com/open?className=1xbc_mBBttYSNQGpRrXiRRk-pjXRQIeC_" target="_blank">
+                  Mechanical Operations
+                </a>
+              </div>
+              <div className="boxheading3">B.tech</div>
+              <div className="boxheading3">4th sem</div>
+            </div>
+
+            <div className="smallbox">
+              <div className="boxheading1">CRE</div>
+              <div className="boxheading2">
+                <a href="https://drive.google.com/open?className=18irKjPEkOIeQtRL5JiFmXwh6TAFPxht3" target="_blank">
+                  Reaction Engineering
+                </a>
+              </div>
+              <div className="boxheading3">B.tech</div>
+              <div className="boxheading3">5th sem</div>
+            </div>
+
+            <div className="smallbox">
+              <div className="boxheading1">CPT</div>
+              <div className="boxheading2">
+                <a href="https://drive.google.com/open?className=1O5PxFG_pBGR49vBT19eo5KAA3aypNplr" target="_blank">
+                  Process Technology
+                </a>
+              </div>
+              <div className="boxheading3">B.tech</div>
+              <div className="boxheading3">5th sem</div>
+            </div>
+          </div>
+          <div className="row myRow">
+            <div className="smallbox">
+              <div className="boxheading1">PCI</div>
+              <div className="boxheading2">
+                <a href="https://drive.google.com/open?className=1xbc_mBBttYSNQGpRrXiRRk-pjXRQIeC_" target="_blank">
+                  Process Control And Instrumentation
+                </a>
+              </div>
+              <div className="boxheading3">B.tech</div>
+              <div className="boxheading3">5th sem</div>
+            </div>
+
+            <div className="smallbox">
+              <div className="boxheading1">TP</div>
+              <div className="boxheading2">
+                <a href="https://drive.google.com/open?className=1XwPFxbxA78zvJcdJnrcnJVCfKPkqpeMA" target="_blank">
+                  Transport Phenomena
+                </a>
+              </div>
+              <div className="boxheading3">B.tech</div>
+              <div className="boxheading3">6th sem</div>
+            </div>
+
+            <div className="smallbox">
+              <div className="boxheading1">POM</div>
+              <div className="boxheading2">
+                <a href="https://drive.google.com/open?className=1a0Mq1qaPyA9UrNYp-Zh_UcY2geyEtvo4" target="_blank">
+                  Industrial Pollution Control And Treatment
+                </a>
+              </div>
+              <div className="boxheading3">B.tech</div>
+              <div className="boxheading3">6th sem</div>
+            </div>
+
+            <div className="smallbox">
+              <div className="boxheading1">PE</div>
+              <div className="boxheading2">
+                <a href="https://drive.google.com/open?className=1qQX9tCjtynLb8xQrqakN1iAPPHn3ywbV" target="_blank">
+                  Plant Design And Economics
+                </a>
+              </div>
+              <div className="boxheading3">B.tech</div>
+              <div className="boxheading3">8th sem</div>
+            </div>
+          </div>
+          <div className="row myRow">
+            <div className="smallbox">
+              <div className="boxheading1">BHT</div>
+              <div className="boxheading2">
+                <a href="https://drive.google.com/open?className=1QWbwNAgC4tZuZ8SsmHuPEHrvEvwWJEc4" target="_blank">
+                  Boiling Heat Transfer
+                </a>
+              </div>
+              <div className="boxheading3">B.tech</div>
+              <div className="boxheading3">8th sem</div>
+            </div>
+
+            <div className="smallbox">
+              <div className="boxheading1">ESU</div>
+              <div className="boxheading2">
+                <a href="https://drive.google.com/open?className=1r5qKc4hoa2V0aM6sW1oohiuPKJpqGvko" target="_blank">
+                  Energy Sources and Utilization
+                </a>
+              </div>
+              <div className="boxheading3">B.tech</div>
+              <div className="boxheading3">8th sem</div>
+            </div>
+          </div>
         </div>
-        <div id="smallbox" style={{ backgroundColor: '#123C69' }}>
-          <div id="boxheading1" style={{ color: "#EDC787" }}>FM</div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787" }} href="https://drive.google.com/open?id=1irwRtq3cAY0169EkYUXcoX2fJjq9Wj4U">Fluid Mechanics</a></div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>B.tech</div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>4th sem</div>
-        </div>
-        <div id="smallbox" style={{ backgroundColor: '#123C69' }}>
-          <div id="boxheading1" style={{ color: "#EDC787" }}>PC</div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787" }} href="https://drive.google.com/open?id=1iZP0fLS3pgOumPUaZm3XyOb1AFatq6O_">Process Calculations</a></div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>B.tech</div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>3rd sem</div>
-        </div>
-        <div id="smallbox" style={{ backgroundColor: '#123C69' }}>
-          <div id="boxheading1" style={{ color: "#EDC787" }}>CET</div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787" }} href="https://drive.google.com/open?id=1VwHiIsJWDSUCjnto2GlN_SwAQkcuLIoB">Engineering</a></div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787" }} href="https://drive.google.com/open?id=1VwHiIsJWDSUCjnto2GlN_SwAQkcuLIoB">Thermodynamics</a></div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>B.tech</div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>3rd sem</div>
-        </div>
-        <div id="smallbox" style={{ backgroundColor: '#123C69' }}>
-          <div id="boxheading1" style={{ color: "#EDC787" }}>MT</div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787" }} href="https://drive.google.com/open?id=1NvEuyx61g3WdSObZtBomr4WiyiYmNaKr">Mass Transfer</a></div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>B.tech</div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>3rd sem</div>
-        </div>
-
-        <div id="smallbox" style={{ backgroundColor: '#123C69' }}>
-          <div id="boxheading1" style={{ color: "#EDC787" }}>HT</div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787" }} href="https://drive.google.com/open?id=1VWSeHPkx_Uj3uliSd7IERrD7kfMAWjnI">Heat Transfer</a></div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>B.tech</div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>4th sem</div>
-        </div>
-
-        <div id="smallbox" style={{ backgroundColor: '#123C69' }}>
-          <div id="boxheading1" style={{ color: "#EDC787" }}>MO</div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787" }} href="https://drive.google.com/open?id=1xbc_mBBttYSNQGpRrXiRRk-pjXRQIeC_">Mechanical</a></div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787" }} href="https://drive.google.com/open?id=1xbc_mBBttYSNQGpRrXiRRk-pjXRQIeC_">Operations</a></div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>B.tech</div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>4th sem</div>
-        </div>
-
-
-        <div id="smallbox" style={{ backgroundColor: '#123C69' }}>
-          <div id="boxheading1" style={{ color: "#EDC787" }}>CRE</div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787" }} href="https://drive.google.com/open?id=18irKjPEkOIeQtRL5JiFmXwh6TAFPxht3">Reaction</a></div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787" }} href="https://drive.google.com/open?id=18irKjPEkOIeQtRL5JiFmXwh6TAFPxht3">Engineering</a></div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>B.tech</div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>5th sem</div>
-        </div>
-
-
-        <div id="smallbox" style={{ backgroundColor: '#123C69' }}>
-          <div id="boxheading1" style={{ color: "#EDC787" }}>CPT</div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787", fontSize: '10px' }} href="https://drive.google.com/open?id=1O5PxFG_pBGR49vBT19eo5KAA3aypNplr" >Process</a></div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787", fontSize: '10px' }} href="https://drive.google.com/open?id=1O5PxFG_pBGR49vBT19eo5KAA3aypNplr" >Technology</a></div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>B.tech</div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>5th sem</div>
-        </div>
-
-        <div id="smallbox" style={{ backgroundColor: '#123C69' }}>
-          <div id="boxheading1" style={{ color: "#EDC787" }}>PCI</div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787", fontSize: '10px' }} href="https://drive.google.com/open?id=1xbc_mBBttYSNQGpRrXiRRk-pjXRQIeC_">Process Control</a></div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787", fontSize: '10px' }} href="https://drive.google.com/open?id=1xbc_mBBttYSNQGpRrXiRRk-pjXRQIeC_">And Instrumentation</a></div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>B.tech</div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>5th sem</div>
-        </div>
-
-
-        <div id="smallbox" style={{ backgroundColor: '#123C69' }}>
-          <div id="boxheading1" style={{ color: "#EDC787" }}>TP</div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787" }} href="https://drive.google.com/open?id=1XwPFxbxA78zvJcdJnrcnJVCfKPkqpeMA">Transport</a></div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787" }} href="https://drive.google.com/open?id=1XwPFxbxA78zvJcdJnrcnJVCfKPkqpeMA">Phenomena</a></div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>B.tech</div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>6th sem</div>
-        </div>
-
-        <div id="smallbox" style={{ backgroundColor: '#123C69' }}>
-          <div id="boxheading1" style={{ color: "#EDC787" }}>POM</div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787" }} href="https://drive.google.com/open?id=1a0Mq1qaPyA9UrNYp-Zh_UcY2geyEtvo4">Industrial Pollution</a></div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787" }} href="https://drive.google.com/open?id=1a0Mq1qaPyA9UrNYp-Zh_UcY2geyEtvo4">COntrol And</a></div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787" }} href="https://drive.google.com/open?id=1a0Mq1qaPyA9UrNYp-Zh_UcY2geyEtvo4">Treatment</a></div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>B.tech</div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>6th sem</div>
-        </div>
-
-
-
-        <div id="smallbox" style={{ backgroundColor: '#123C69' }}>
-          <div id="boxheading1" style={{ color: "#EDC787" }}>PE</div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787", fontSize: '10px' }} href="https://drive.google.com/open?id=1qQX9tCjtynLb8xQrqakN1iAPPHn3ywbV">Plant Design</a></div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787", fontSize: '10px' }} href="https://drive.google.com/open?id=1qQX9tCjtynLb8xQrqakN1iAPPHn3ywbV" >And Economics</a></div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>B.tech</div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>8th sem</div>
-        </div>
-
-        <div id="smallbox" style={{ backgroundColor: '#123C69' }}>
-          <div id="boxheading1" style={{ color: "#EDC787" }}>BHT</div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787" }} href="https://drive.google.com/open?id=1QWbwNAgC4tZuZ8SsmHuPEHrvEvwWJEc4">Boiling Heat</a></div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787" }} href="https://drive.google.com/open?id=1QWbwNAgC4tZuZ8SsmHuPEHrvEvwWJEc4">Transfer</a></div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>B.tech</div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>8th sem</div>
-        </div>
-
-
-        <div id="smallbox" style={{ backgroundColor: '#123C69' }}>
-          <div id="boxheading1" style={{ color: "#EDC787" }}>ESU</div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787", fontSize: '12px' }} href="https://drive.google.com/open?id=1r5qKc4hoa2V0aM6sW1oohiuPKJpqGvko" >Energy Sources</a></div>
-          <div id="boxheading2" style={{ color: "#EDC787" }}><a style={{ color: "#EDC787", fontSize: '12px' }} href="https://drive.google.com/open?id=1r5qKc4hoa2V0aM6sW1oohiuPKJpqGvko" >and Utilization</a></div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>B.tech</div>
-          <div id="boxheading3" style={{ color: "#EDC787" }}>8th sem</div>
-        </div>
+}
       </div>
     </div>
   );

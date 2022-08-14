@@ -1,6 +1,7 @@
 import React from "react";
 import ReadMore from "./ReadMore";
 import "./blog.css";
+import Subject from "./subject";
 const BlogNew = () => {
   return (
     <>
@@ -989,7 +990,10 @@ const BlogNew = () => {
             </span>
           </div>
         </div>
-      </div>
+        <div className="row">
+          <Subject />
+        </div>
+        </div>
     </>
   );
 };
