@@ -1,0 +1,82 @@
+h2.neon {
+  font-size: 40px;
+  text-align: center;
+  color: #3e2280;
+  margin: 1rem auto;
+  cursor: pointer;
+  font-weight: bold;
+}
+.smallbox{
+    margin-right: 30px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    margin-left: 1.7rem;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 25rem;
+    height: 22rem;
+    background-color: #441b7b;
+    float: none;
+    text-align: center;
+    border-radius: 5rem;
+}
+.myRow{
+    margin-left: 6rem !important;
+}
+
+.box {
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 90%;
+    height: 100%;
+  /* background-color: rgb(237, 199, 183); */
+  background-image: linear-gradient( to right, rgba(69, 42, 247, 0.2), rgba(127, 76, 245, 0.1) );
+  border-top-right-radius: 25rem;
+  border-bottom-right-radius: 25rem;
+  margin-bottom: 1rem;
+}
+
+.boxheading1 {
+    font-size: 40px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: #dfae5a;
+}
+.boxheading2 {
+    font-size: 12px;
+    margin-top: 6px;
+    margin-bottom: 4px;
+    color: #EDC787;
+}
+.boxheading2  a{
+    font-size: 1.25rem;
+    color: #f8cf5d;
+}
+.boxheading3 {
+    font-size: 12px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: #EDC787;
+}
+@media screen and (max-width: 500px) {
+    h2.neon{
+font-size: 1.25rem!important;
+    }
+    .smallbox{
+        padding: 0;
+        width: 18rem;
+        height: 15rem;
+    }
+    .boxheading1 {
+        font-size: 1.5rem;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        color: #EDC787;
+    }
+    .myRow {
+        margin-left: 9rem !important;
+    }
+}

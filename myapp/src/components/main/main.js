@@ -14,6 +14,7 @@ import main from "../../images/main.jpg";
 import main2 from "../../images/main2.jpg";
 import main3 from "../../images/main3.jpg";
 import main4 from "../../images/main4.jpg";
+import main5 from "../../images/main5.jpg";
 import pic from "../images/wp5330256.png";
 import wall from "../images/Why Join Us.jpg";
 import { allnews } from "../actions/recordactions";
@@ -86,17 +87,30 @@ class Main extends Component {
                   <li data-target="#myCarousel" data-slide-to="1"></li>
                   <li data-target="#myCarousel" data-slide-to="2"></li>
                   <li data-target="#myCarousel" data-slide-to="3"></li>
-                  {/* <li data-target="#myCarousel" data-slide-to="4"></li> */}
-                  {/* <li data-target="#myCarousel" data-slide-to="5"></li>
-                  <li data-target="#myCarousel" data-slide-to="6"></li> */}
-                  {/* <li data-target="#myCarousel" data-slide-to="7"></li> */}
-                  {/* <li data-target="#myCarousel" data-slide-to="8"></li> */}
+                  <li data-target="#myCarousel" data-slide-to="4"></li>
                 </ol>
                 <div className="carousel-inner">
                   <div className="item active">
                     <img
                       className="carouselImg"
                       src={main}
+                      alt="chess"
+                      id="win"
+                      loading="lazy"
+                    />
+                    <div className="carousel-caption">
+                      <TypeAnimation
+                        cursor={true}
+                        sequence={["Faculty", 3000, ""]}
+                        wrapper="h2"
+                        repeat={Infinity}
+                      />
+                    </div>
+                  </div>
+                  <div className="item">
+                    <img
+                      className="carouselImg"
+                      src={main5}
                       alt="chess"
                       id="win"
                       loading="lazy"
@@ -161,6 +175,7 @@ class Main extends Component {
                       />
                     </div>
                   </div>
+                 
                   {/* <div className="item" >
                     <img className='carouselImg' src={cfd} alt="chess" id="win" loading="lazy" />
                     <div className="carousel-caption">
@@ -215,11 +230,12 @@ class Main extends Component {
             </div>
           </div>
 
-          <div className="row">
+          <div className="row none">
             <div className="col-lg-12 col-md-12">
               <ul className="sam">{this.newslist()}</ul>
             </div>
           </div>
+
 
           {/* <section className="section custom-section position-relative section-md highlight">
             <div className="container">

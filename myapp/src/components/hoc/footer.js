@@ -22,7 +22,7 @@ const Footer = () => {
               Durgapur, West Bengal
               <span className="d-lg-block">Durgapur, India</span>
             </div>
-            <a href="mailto:chessnitd2020@gmail.com" className="d-inline-block footer__mail"><i class="fa-solid fa-envelope"></i></a>
+            <a href="mailto:chessnitd2020@gmail.com" className="d-inline-block footer__mail"><i className="fa-solid fa-envelope"></i></a>
           </div>
 
 
@@ -33,7 +33,7 @@ const Footer = () => {
               <li title='Home'><Link className='socialLink__a_quickLinks' to="./"><i className="fa-solid fa-house"></i></Link></li>
               <li title='Faculty'><Link className='socialLink__a_quickLinks' to="/facad"><i className="fa-solid fa-user-plus"></i></Link></li>
               <li title='Member'><Link className='socialLink__a_quickLinks' to="/member"><i className="fa-solid fa-users"></i></Link></li>
-              <li title='Blog'><Link className='socialLink__a_quickLinks' to="/register"><i className="fa-solid fa-blog"></i></Link></li>
+              <li title='Blog'><Link className='socialLink__a_quickLinks' to="/blog"><i className="fa-solid fa-blog"></i></Link></li>
             </ul>
           </div>
 
