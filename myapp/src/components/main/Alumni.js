@@ -35,7 +35,7 @@ const Alumni = () => {
                 </div>
                 <div className='outer members__box__wrap'>
                     <div className="section-title">
-                        <h3>Batch of 2020</h3>
+                        <h3>ChESS Members from Batch of 2020</h3>
                     </div>
                     <div className="row">
                         <div className="column">
@@ -124,7 +124,7 @@ const Alumni = () => {
 
                 <div className='outer members__box__wrap'>
                     <div className="section-title">
-                        <h3>Batch of 2021</h3>
+                        <h3>ChESS Members from Batch of 2021</h3>
                     </div>
                     <div className="row">
                         <div className="column">
@@ -225,7 +225,7 @@ const Alumni = () => {
 
                 <div className='outer members__box__wrap'>
                     <div className="section-title">
-                        <h3>Batch of 2022</h3>
+                        <h3>ChESS Members from Batch of 2022</h3>
                     </div>
                     <div className="row">
                         <div className="column">

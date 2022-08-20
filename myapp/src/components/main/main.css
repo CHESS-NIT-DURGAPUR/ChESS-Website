@@ -345,7 +345,8 @@
   }
 }
 .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.3);
+  margin: 2.5rem 18rem;
+  background-color: rgba(211, 151, 228, 0.45);
 }
 
 .highlight {

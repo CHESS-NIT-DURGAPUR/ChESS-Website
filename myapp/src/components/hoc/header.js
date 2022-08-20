@@ -42,7 +42,7 @@ class Header extends Component {
                 id="collapsibleNavbar"
               >
                 <ul className="navbar-nav abs-center-x customBorder">
-                  <li className="nav-item active">
+                  <li className="nav-item">
                     <Link className="nav-link  nav__link" to="/">
                       <i className="fa fa-home" aria-hidden="true"></i> HOME
                     </Link>
