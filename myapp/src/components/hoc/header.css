@@ -77,13 +77,13 @@ hr {
   background-color: rgb(255, 255, 255);
 }
 .extraSpace {
-  background-color: rgba(98, 34, 116, 0.95);
+  background-color: rgb(40, 40, 40);
   height: 8.325rem;
 }
 .nav_custom {
   height: auto;
   border-radius: 0;
-  background-color: rgba(120, 60, 137, 0.9);
+  background-color: rgba(40, 40, 40, 0.5);
   color: #ffffff;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(4px);
