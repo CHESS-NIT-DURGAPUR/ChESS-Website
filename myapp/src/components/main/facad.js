@@ -5,7 +5,6 @@ import "./styleMembers.css";
 import "./important.css";
 import "./facad.css";
 import AH from "../../images/AH.jpg";
-import AS from "../../images/AS.jpg";
 import AKS from "../../images/AKS.jpg";
 import GH from "../../images/GH.webp";
 import SD from "../../images/SD.jpg";
@@ -21,6 +20,7 @@ import TM from "../../images/TM.jpg";
 import RGC from "../../images/RGC.jpg";
 import KCG from "../../images/KCG.jpg";
 import SK from "../../images/SK.jpg";
+import MB from "../../images/MB.JPG";
 
 const Facad = () => {
   return (
@@ -44,12 +44,7 @@ const Facad = () => {
                   <h2>Parthapratim Gupta</h2>
                   <TypeAnimation
                     cursor={true}
-                    sequence={[
-                      " PROFESSOR",
-                      2050,
-                      " PROFESSOR",
-                      2000,
-                    ]}
+                    sequence={[" PROFESSOR", 2050, " PROFESSOR", 2000]}
                     wrapper="h3"
                     repeat={Infinity}
                   />
@@ -68,7 +63,7 @@ const Facad = () => {
                   <h2>PARIMAL PAL</h2>
                   <TypeAnimation
                     cursor={true}
-                    sequence={["PROFESSOR(HAG)", 2000, "PROFESSOR(HAG)", 2050]}
+                    sequence={["PROFESSOR(HAG)", 2050, "PROFESSOR(HAG)", 2000]}
                     wrapper="h3"
                     repeat={Infinity}
                   />
@@ -87,7 +82,7 @@ const Facad = () => {
                   <h2>Kartik Chandra Ghanta</h2>
                   <TypeAnimation
                     cursor={true}
-                    sequence={["PROFESSOR", 2000, "PROFESSOR", 2050]}
+                    sequence={["PROFESSOR", 2050, "PROFESSOR", 2000]}
                     wrapper="h3"
                     repeat={Infinity}
                   />
@@ -106,7 +101,7 @@ const Facad = () => {
                   <h2>Tamal Mandal</h2>
                   <TypeAnimation
                     cursor={true}
-                    sequence={["PROFESSOR", 2000, "PROFESSOR", 2050]}
+                    sequence={["PROFESSOR", 2050, "PROFESSOR", 2000]}
                     wrapper="h3"
                     repeat={Infinity}
                   />
@@ -127,7 +122,7 @@ const Facad = () => {
                   <h2>Anup Kumar Sadhukhan</h2>
                   <TypeAnimation
                     cursor={true}
-                    sequence={["PROFESSOR", 2000, "PROFESSOR", 2050]}
+                    sequence={["PROFESSOR", 2050, "PROFESSOR", 2000]}
                     wrapper="h3"
                     repeat={Infinity}
                   />
@@ -146,7 +141,7 @@ const Facad = () => {
                   <h2>Susmita Dutta</h2>
                   <TypeAnimation
                     cursor={true}
-                    sequence={["PROFESSOR", 2000, "PROFESSOR", 2050]}
+                    sequence={["PROFESSOR", 2050, "PROFESSOR", 2000]}
                     wrapper="h3"
                     repeat={Infinity}
                   />
@@ -212,7 +207,7 @@ const Facad = () => {
                     cursor={true}
                     sequence={[
                       "HEAD OF THE DEPARTMENT(HOD)",
-                      2000,
+                      2050,
                       "ASSOCIATE PROFESSOR",
                       2000,
                     ]}
@@ -397,24 +392,55 @@ const Facad = () => {
               </div>
             </div>
 
-              <div className="column">
-                <div className="team-5 members__box">
-                  <div className="team-img">
-                    <img src={AS} alt="Team Img" />
-                  </div>
-                  <div className="team-content">
-                    <h2>Ananta Sarkar</h2>
-                    <TypeAnimation
-                      cursor={true}
-                      sequence={["INSPIRE FACULTY", 2000, "INSPIRE FACULTY", 2000]}
-                      wrapper="h3"
-                      repeat={Infinity}
-                    />
-                    <i className="fa-light fa-envelope"></i>
-                    <h6>ananta.sarkar@che.nitdgp.ac.in</h6>
-                    <h4>99206 41802</h4>
-                  </div>
+            {/* <div className="column">
+              <div className="team-5 members__box">
+                <div className="team-img">
+                  <img src={AS} alt="Team Img" />
                 </div>
+                <div className="team-content">
+                  <h2>Ananta Sarkar</h2>
+                  <TypeAnimation
+                    cursor={true}
+                    sequence={[
+                      "INSPIRE FACULTY",
+                      2000,
+                      "INSPIRE FACULTY",
+                      2000,
+                    ]}
+                    wrapper="h3"
+                    repeat={Infinity}
+                  />
+                  <i className="fa-light fa-envelope"></i>
+                  <h6>ananta.sarkar@che.nitdgp.ac.in</h6>
+                  <h4>99206 41802</h4>
+                </div>
+              </div>
+            </div> */}
+            
+            <div className="column">
+              <div className="team-5 members__box">
+                <div className="team-img">
+                  <img src={MB} alt="Team Img" />
+                </div>
+                <div className="team-content">
+                  <h2>Manisha Bal</h2>
+                  <TypeAnimation
+                    cursor={true}
+                    sequence={[
+                      "ASSISTANT PROFESSOR",
+                      2050,
+                      "ASSISTANT PROFESSOR",
+                      2000,
+                    ]}
+                    wrapper="h3"
+                    repeat={Infinity}
+                  />
+                  <i className="fa-light fa-envelope"></i>
+                  <h6>manisha.bal@ch.nitdgp.ac.in</h6>
+                  <h4>8617469078</h4>
+                </div>
+              </div>
+            
             </div>
           </div>
         </div>
