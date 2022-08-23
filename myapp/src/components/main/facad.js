@@ -436,7 +436,7 @@ const Facad = () => {
                     repeat={Infinity}
                   />
                   <i className="fa-light fa-envelope"></i>
-                  <h6>manisha.bal@ch.nitdgp.ac.in</h6>
+                  <h6>manisha.bal@che.nitdgp.ac.in</h6>
                   <h4>8617469078</h4>
                 </div>
               </div>

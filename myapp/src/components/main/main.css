@@ -349,17 +349,16 @@
   background-color: rgba(211, 151, 228, 0.45);
 }
 
-.highlight {
+/* .highlight {
   background: rgba(255, 255, 255, 0.5);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(7px);
-  /* -webkit-backdrop-filter: blur(6px); */
   border: 1px solid rgba(255, 255, 255, 0.8);
   margin-bottom: 5rem;
   margin-top: 10rem;
   padding: 4rem;
-}
+} */
 
 .win {
   height: 500px !important;
@@ -393,7 +392,7 @@
     padding-top: 2.5rem;
   }
   #win {
-    height: 30rem !important;
+    height: 33em !important;
   }
 }
 @media only screen and (max-width: 410px) {
@@ -414,6 +413,6 @@
     padding: 2% 15% !important;
   }
   #win {
-    height: 25rem !important;
+    height: 27.5rem !important;
   }
 }
