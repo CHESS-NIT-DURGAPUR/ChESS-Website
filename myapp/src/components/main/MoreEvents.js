@@ -1,4 +1,4 @@
-import React  from "react";
+import React from "react";
 import ReadMore from "./ReadMore";
 import img1 from "../images/1.jpg";
 import img2 from "../images/2.jpg";
@@ -9,6 +9,9 @@ import ASPIRE from "../images/ASPIRE.PNG";
 import ASCENSION from "../images/ASCENSION.PNG";
 import PLACEMENT from "../images/PLACEMENT.png";
 import FRESHERS from "../images/FRESHERS.PNG";
+import TEACHERS from "../images/11.jpg";
+import Career from "../images/12.jpg";
+import CA from "../images/CA.jpg";
 import "./Events.css";
 import "./insider.css";
 function MoreEvents() {
@@ -256,6 +259,127 @@ function MoreEvents() {
                         followed by a session with Mr. Debjit Goswami, currently
                         placed at Deloitte USI (Batch of 2021) in June.
                       </ReadMore>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="row"
+              style={{ justifyContent: "space-around", alignItems: "center" }}
+            >
+              <div className="col-12 col-sm-12 col-lg-4">
+                <div className="card members__box background">
+                  <img
+                    className="card-img-top background__img"
+                    src={TEACHERS}
+                    alt="Event poster"
+                  />
+                  <div className="card-body">
+                    <h4 className="card-title  background__heading">
+                      Teacher's Day 2022
+                    </h4>
+                    <p className="card-text background__text">
+                      <ReadMore>
+                        Teachers play a very important role in a student’s life.
+                        As a teacher, one must bring out the best in students
+                        and inspire them to strive for greatness. Students are
+                        considered as the future of the nation and humankind,
+                        and a teacher is believed to be a credible guide for
+                        their advancement. Not only do they guide students in
+                        academics or extracurricular activities, but teachers
+                        are also responsible for shaping a child’s future,
+                        making him/her a better human being. A teacher imparts
+                        knowledge, good values, tradition, modern-day challenges
+                        and ways to resolve them within students. A good teacher
+                        is an asset to the students. Keeping this in mind,
+                        Chemical Engineering Students' Society, NIT Durgapur
+                        would like to cordially invite you all to Class Room 3
+                        in the Chemical Engineering Department of NIT Durgapur
+                        today at 6:00 PM.
+                      </ReadMore>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-sm-12 col-lg-4 gap">
+                <div className="card members__box background">
+                  <img
+                    className="card-img-top background__img"
+                    src={Career}
+                    alt="Event poster"
+                  />
+                  <div className="card-body">
+                    <h4 className="card-title background__heading">
+                      Webinar on Career Mapping
+                    </h4>
+                    <p className="card-text background__text">
+                      <ReadMore>
+                        Since the dawn of existence, we human beings have raced
+                        against time to verify the concept of the survival of
+                        the fittest. In this era of competition, we realise,
+                        more than ever, the necessity of accelerating the growth
+                        of our careers and equipping ourselves with the
+                        knowledge of modern, cutting-edge technology. Hence, we,
+                        the Chemical Engineering Students' Society, had invited
+                        Respected Dr. Sandip Kumar Lahiri, Associate Professor
+                        at NIT Durgapur, to provide a carrier guidance session
+                        for the third year B.tech and second year M.tech
+                        students. Dr. Lahiri enlightened us about different
+                        career paths that an engineering student can opt for,
+                        besides throwing some light on the different
+                        opportunities in core chemical industries and their
+                        drawbacks. He further extended his views on the skills
+                        required to excel in the IT Sector. He also enlightened
+                        us with his experiences that he has gathered over the
+                        years, working at the zenith of renowned international
+                        companies. He also shared his perception on higher
+                        studies in India and abroad besides illuminating us on
+                        the diversity of job opportunities after higher studies.
+                        We, the Chemical Engineering Students' Society on behalf
+                        of the entire Chemical Department convey our
+                        heartwarming regards and extend our wholehearted
+                        gratitude to Dr. Lahiri for lending us some of his
+                        valuable time, experience and knowledge.
+                      </ReadMore>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 col-sm-12 col-lg-4 gap">
+                <div className="card members__box background">
+                  <img
+                    className="card-img-top background__img"
+                    src={CA}
+                    alt="Event poster"
+                  />
+                  <div className="card-body">
+                    <h4 className="card-title background__heading">
+                      Campus Ambassador Program
+                    </h4>
+                    <p className="card-text background__text">
+                      <ReadMore>
+                        Want to get a glimpse of the corporate world and work in
+                        a professional setting to prepare for future career
+                        opportunities? Or probably get access to all the right
+                        contacts and work on your management and publicity
+                        skills at the same time? Then this campus ambassador is
+                        just the thing you're looking for. Chemical Engineering
+                        Students' Society of NIT Durgapur is offering an
+                        exclusive 2 months work-from-home Campus Ambassador
+                        Program where not only will you be able to develop
+                        essential skills but also will be given certificates and
+                        stipend(depending on your performance) which would serve
+                        as a valuable addition to your cv. And requirements you
+                        ask? Just good marketing and communication skills and a
+                        whole lot of enthusiasm. So what are you waiting for?
+                        Fill the form at the earliest so that you don't miss out
+                        on this golden opportunity.
+                      </ReadMore>
+                      <a className="link-light" style={{display: "block", fontWeight: "bold"}} href="https://forms.gle/xgJ6pJ5VUXqhyAEC9" target="_blank">Registration Link</a>
                     </p>
                   </div>
                 </div>
