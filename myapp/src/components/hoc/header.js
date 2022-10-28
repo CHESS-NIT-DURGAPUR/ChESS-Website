@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 import { log } from "../actions/memberactions";
-import chess from "../../images/chess.webp";
 import "./header.css";
 class Header extends Component {
   logoutuser = () => {
@@ -19,10 +18,9 @@ class Header extends Component {
     return (
       <React.Fragment>
         <div className="header">
-          <nav className="navbar navbar-expand-md navbar-dark shadow-5-strong fixed-top nav_custom">
+          <nav className="navbar navbar-expand-md navbar-dark shadow-5-strong fixed-top nav_custom navbar-expand-custom navbar-mainbg">
             <div className="container-fluid">
               <Link to="/" className="navbar-brand user__group">
-                <img src={chess} alt="chess" />
               </Link>
 
               <button
@@ -117,14 +115,19 @@ class Header extends Component {
                       </li>
                     </ul>
                   </li>
+                  <li className="nav-item">
+                    <Link className="nav-link nav__link" to="/blogs">
+                      <i className="fa fa-blog"></i> BLOGS
+                    </Link>
+                  </li>
                 </ul>
               </div>
-              <div
+              {/* <div
                 className="navbar-collapse collapse flex-grow-0"
                 id="collapsibleNavbar"
               >
-                <ul className="navbar-nav justify-content-center mx-auto">
-                  {/* {this.props.user.userData ?
+                <ul className="navbar-nav justify-content-center mx-auto"> */}
+              {/* {this.props.user.userData ?
                     !this.props.user.userData.isAuth ?
                       <li className="nav-item">
                         <Link className="nav-link nav__link" to="/register">
@@ -135,7 +138,7 @@ class Header extends Component {
                       null :
                     null
                   } */}
-                  {/* {this.props.user.userData ?
+              {/* {this.props.user.userData ?
                     !this.props.user.userData.isAuth ?
                       <li className="nav-item ">
                         <Link className="nav-link nav__link" to="/login">
@@ -151,19 +154,19 @@ class Header extends Component {
                       </li> : null
                   } */}
 
-                  <li className="nav-item">
+              {/* <li className="nav-item">
                     <Link className="nav-link nav__link" to="/blogs">
                       <i className="fa fa-blog"></i> BLOGS
                     </Link>
-                  </li>
+                  </li> */}
 
-                  {/* <li className="nav-item">
+              {/* <li className="nav-item">
                     <Link className="nav-link nav__link" to="/allalum">
                     <i className="fa fa-plus"></i> VIEW ALL ALUMNI
                     </Link>
                   </li> */}
 
-                  {this.props.user.userData ? (
+              {/* {this.props.user.userData ? (
                     this.props.user.userData.isAuth ? (
                       this.props.user.userData.role === 1 ? (
                         <li className="nav-item">
@@ -173,9 +176,9 @@ class Header extends Component {
                         </li>
                       ) : null
                     ) : null
-                  ) : null}
+                  ) : null} */}
 
-                  {/* {
+              {/* {
                     this.props.user.userData ?
                       this.props.user.userData.isAuth ?
                         this.props.user.userData.role === 1 ?
@@ -207,8 +210,8 @@ class Header extends Component {
                         <Link className="nav-link nav__link" to="/login" >LOGIN</Link>
                       </li> : null
                   } */}
-                </ul>
-              </div>
+              {/* </ul>
+              </div> */}
             </div>
           </nav>
         </div>

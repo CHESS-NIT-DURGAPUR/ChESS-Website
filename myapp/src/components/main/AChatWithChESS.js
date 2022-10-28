@@ -18,6 +18,36 @@ const AChatWithChESS = () => {
               Engineering Depatment.
             </p>
             <div className="members__box__wrap outer">
+
+              <div
+                className="row"
+                style={{ alignItems: "center", justifyContent: "space-around" }}
+              >
+                <div className="col-12 col-sm-12 col-lg-12">
+                  <div className="card members__box">
+                    {/* <img className="card-img-top background__img" src={""} alt="Event poster" /> */}
+                    <YouTube id="7DX0HTPV3Sc" />
+                    <div className="card-body">
+                      <h4 className="card-title">
+                        Reliance Industries Limited (STF), Campus Placement Talk with Mr. Souvik Ghosh (Oct. 9, 2022)
+                      </h4>
+                      <hr />
+                      <p className="card-text">
+                        <ReadMore>
+                          For the month of October, we have with us Mr. Souvik Ghosh, Alumnus
+                          of Chemical Engineering Department, NIT Durgapur (2022 Batch),
+                          currently working as a Graduate Engineer Trainee (GET) in
+                          the Special Task Force Division at Reliance Industries Limited.
+                          Watch the video to get all your doubts and queries regarding campus
+                          placement opportunities in Reliance Industries Limited, and other
+                          core companies, answered.
+                        </ReadMore>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               <div
                 className="row"
                 style={{ alignItems: "center", justifyContent: "space-around" }}
