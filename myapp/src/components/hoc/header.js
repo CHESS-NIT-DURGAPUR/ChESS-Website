@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 import { log } from "../actions/memberactions";
+// import chess from "../../images/chess.webp";
 import "./header.css";
 class Header extends Component {
   logoutuser = () => {
@@ -116,11 +117,6 @@ class Header extends Component {
                       </li>
                     </ul>
                   </li>
-                  <li className="nav-item">
-                    <Link className="nav-link nav__link" to="/blogs">
-                      <i className="fa fa-blog"></i> BLOGS
-                    </Link>
-                  </li>
                 </ul>
               </div>
               <div
@@ -155,11 +151,11 @@ class Header extends Component {
                       </li> : null
                   } */}
 
-                  {/* <li className="nav-item">
+                  <li className="nav-item">
                     <Link className="nav-link nav__link" to="/blogs">
                       <i className="fa fa-blog"></i> BLOGS
                     </Link>
-                  </li> */}
+                  </li>
 
                   {/* <li className="nav-item">
                     <Link className="nav-link nav__link" to="/allalum">
