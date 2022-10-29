@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import TypeAnimation from "react-type-animation";
+import YouTube from "react-youtube-embed";
 // import Particles from 'react-particles-js';
 // import HeaderTitle from '../hoc/HeaderTitle';
 // import Button from '@material-ui/core/Button';
@@ -32,27 +33,27 @@ class Main extends Component {
   newslist = () =>
     this.state.news
       ? this.state.news.reverse().map((item, i) => (
-          <li key={i} className="row">
-            <div className="col-lg-4 col-sm-4 col-md-4 col-xs-4">
-              <div className="date">
-                <h3>
-                  <span id="er" className="lis">
-                    {item.month}
-                  </span>
-                  <br />
-                  <span className="row" id="lis">
-                    {item.date}
-                  </span>
-                </h3>
-              </div>
+        <li key={i} className="row">
+          <div className="col-lg-4 col-sm-4 col-md-4 col-xs-4">
+            <div className="date">
+              <h3>
+                <span id="er" className="lis">
+                  {item.month}
+                </span>
+                <br />
+                <span className="row" id="lis">
+                  {item.date}
+                </span>
+              </h3>
             </div>
-            <div className="col-lg-8 col-sm-8 col-md-8 col-xs-8">
-              <Link to={item.link}>
-                <p className="lis">{item.subject}</p>
-              </Link>
-            </div>
-          </li>
-        ))
+          </div>
+          <div className="col-lg-8 col-sm-8 col-md-8 col-xs-8">
+            <Link to={item.link}>
+              <p className="lis">{item.subject}</p>
+            </Link>
+          </div>
+        </li>
+      ))
       : null;
 
   componentWillMount() {
@@ -175,7 +176,7 @@ class Main extends Component {
                       />
                     </div>
                   </div>
-                 
+
                   {/* <div className="item" >
                     <img className='carouselImg' src={cfd} alt="chess" id="win" loading="lazy" />
                     <div className="carousel-caption">
@@ -272,13 +273,7 @@ class Main extends Component {
                     className="block-decorate-img wow fadeInLeft"
                     data-wow-delay=".2s"
                   >
-                    <img
-                      src={pic}
-                      alt="about img"
-                      width="570"
-                      height="351"
-                      className="about__image"
-                    />
+                    <YouTube id="YxHAG6oSfsw" className="about__image" />
                   </div>
                 </div>
                 <div className="col-lg-6 col-12">

@@ -109,8 +109,8 @@
 .main__body {
   background-image: linear-gradient(
     to right,
-    rgba(127, 76, 245, 0.25),
-    rgba(69, 42, 247, 0.1)
+    rgba(127, 76, 245, 0.5),
+    rgba(255, 255, 255, 0.1)
   );
   padding-bottom: 5%;
 }
@@ -346,7 +346,7 @@
 }
 .carousel-caption {
   margin: 2.5rem 18rem;
-  background-color: rgba(211, 151, 228, 0.45);
+  background-color: rgba(21, 21, 21, 0.5) !important;
 }
 
 /* .highlight {
@@ -365,14 +365,13 @@
 }
 
 #win {
-  height: 68rem !important;
+  height: 72.5rem !important;
 }
-.carousel-caption h2{
+.carousel-caption h2 {
   color: #fff;
-
 }
-.none{
-  display: none!important;
+.none {
+  display: none !important;
 }
 @media only screen and (max-width: 970px) {
   #poster {
@@ -408,6 +407,7 @@
   }
   .about__image_outer {
     padding-top: 1rem;
+    padding-left: 0rem;
   }
   .footer__heading_upper {
     padding: 2% 15% !important;
