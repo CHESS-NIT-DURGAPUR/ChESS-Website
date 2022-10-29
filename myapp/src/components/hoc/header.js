@@ -18,9 +18,10 @@ class Header extends Component {
     return (
       <React.Fragment>
         <div className="header">
-          <nav className="navbar navbar-expand-md navbar-dark shadow-5-strong fixed-top nav_custom navbar-expand-custom navbar-mainbg">
+          <nav className="navbar navbar-expand-md navbar-dark shadow-5-strong fixed-top nav_custom">
             <div className="container-fluid">
               <Link to="/" className="navbar-brand user__group">
+                {/* <img src={chess} alt="chess" /> */}
               </Link>
 
               <button
@@ -122,12 +123,12 @@ class Header extends Component {
                   </li>
                 </ul>
               </div>
-              {/* <div
+              <div
                 className="navbar-collapse collapse flex-grow-0"
                 id="collapsibleNavbar"
               >
-                <ul className="navbar-nav justify-content-center mx-auto"> */}
-              {/* {this.props.user.userData ?
+                <ul className="navbar-nav justify-content-center mx-auto">
+                  {/* {this.props.user.userData ?
                     !this.props.user.userData.isAuth ?
                       <li className="nav-item">
                         <Link className="nav-link nav__link" to="/register">
@@ -138,7 +139,7 @@ class Header extends Component {
                       null :
                     null
                   } */}
-              {/* {this.props.user.userData ?
+                  {/* {this.props.user.userData ?
                     !this.props.user.userData.isAuth ?
                       <li className="nav-item ">
                         <Link className="nav-link nav__link" to="/login">
@@ -154,19 +155,19 @@ class Header extends Component {
                       </li> : null
                   } */}
 
-              {/* <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link className="nav-link nav__link" to="/blogs">
                       <i className="fa fa-blog"></i> BLOGS
                     </Link>
                   </li> */}
 
-              {/* <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link className="nav-link nav__link" to="/allalum">
                     <i className="fa fa-plus"></i> VIEW ALL ALUMNI
                     </Link>
                   </li> */}
 
-              {/* {this.props.user.userData ? (
+                  {this.props.user.userData ? (
                     this.props.user.userData.isAuth ? (
                       this.props.user.userData.role === 1 ? (
                         <li className="nav-item">
@@ -176,9 +177,9 @@ class Header extends Component {
                         </li>
                       ) : null
                     ) : null
-                  ) : null} */}
+                  ) : null}
 
-              {/* {
+                  {/* {
                     this.props.user.userData ?
                       this.props.user.userData.isAuth ?
                         this.props.user.userData.role === 1 ?
@@ -210,8 +211,8 @@ class Header extends Component {
                         <Link className="nav-link nav__link" to="/login" >LOGIN</Link>
                       </li> : null
                   } */}
-              {/* </ul>
-              </div> */}
+                </ul>
+              </div>
             </div>
           </nav>
         </div>
